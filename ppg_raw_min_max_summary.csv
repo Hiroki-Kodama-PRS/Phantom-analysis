@@ -1,0 +1,25 @@
+Depth (mm),Channel,State,Min_Value,Max_Value
+3,Red_raw,Normal,2.621618e+00,2.627209e+00
+3,Red_raw,Ischaemia,2.634444e+00,2.638884e+00
+3,Red_raw,Congestion,2.585444e+00,2.591034e+00
+9,Red_raw,Normal,2.503721e+00,2.507668e+00
+9,Red_raw,Ischaemia,2.506352e+00,2.509476e+00
+9,Red_raw,Congestion,2.501584e+00,2.504544e+00
+15,Red_raw,Normal,2.511943e+00,2.514903e+00
+15,Red_raw,Ischaemia,2.515067e+00,2.518356e+00
+15,Red_raw,Congestion,2.500597e+00,2.503557e+00
+21,Red_raw,Normal,1.904699e+00,1.907330e+00
+21,Red_raw,Ischaemia,1.905357e+00,1.907823e+00
+21,Red_raw,Congestion,1.902397e+00,1.905028e+00
+3,IR_raw,Normal,1.818537e+00,1.825608e+00
+3,IR_raw,Ischaemia,1.827088e+00,1.832185e+00
+3,IR_raw,Congestion,1.764275e+00,1.769372e+00
+9,IR_raw,Normal,2.450281e+00,2.454557e+00
+9,IR_raw,Ischaemia,2.455543e+00,2.459161e+00
+9,IR_raw,Congestion,2.447157e+00,2.451268e+00
+15,IR_raw,Normal,2.335837e+00,2.338961e+00
+15,IR_raw,Ischaemia,2.340770e+00,2.343401e+00
+15,IR_raw,Congestion,2.326958e+00,2.329753e+00
+21,IR_raw,Normal,2.424301e+00,2.426932e+00
+21,IR_raw,Ischaemia,2.428576e+00,2.430878e+00
+21,IR_raw,Congestion,2.420026e+00,2.422492e+00
