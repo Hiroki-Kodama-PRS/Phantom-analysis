@@ -1,0 +1,81 @@
+--- Debug Log Start (Slope & Morphology Features) ---
+
+--- Processing: 3mm_AGC_data1.csv (Normal) ---
+  Channel: Red, Total Windows: 31
+  Channel: Red, Extracted Pulse Features: 73 pulses.
+  Channel: IR, Total Windows: 31
+  Channel: IR, Extracted Pulse Features: 33 pulses.
+
+--- Processing: 3mm_AGC_data2.csv (Ischaemia) ---
+  Channel: Red, Total Windows: 32
+  Channel: Red, Extracted Pulse Features: 72 pulses.
+  Channel: IR, Total Windows: 32
+  Channel: IR, Extracted Pulse Features: 32 pulses.
+
+--- Processing: 3mm_AGC_data3.csv (Congestion) ---
+  Channel: Red, Total Windows: 32
+  Channel: Red, Extracted Pulse Features: 74 pulses.
+  Channel: IR, Total Windows: 32
+  Channel: IR, Extracted Pulse Features: 38 pulses.
+
+--- Processing: 9mm_AGC_data1.csv (Normal) ---
+  Channel: Red, Total Windows: 32
+  Channel: Red, Extracted Pulse Features: 72 pulses.
+  Channel: IR, Total Windows: 32
+  Channel: IR, Extracted Pulse Features: 42 pulses.
+
+--- Processing: 9mm_AGC_data2.csv (Ischaemia) ---
+  Channel: Red, Total Windows: 32
+  Channel: Red, Extracted Pulse Features: 76 pulses.
+  Channel: IR, Total Windows: 32
+  Channel: IR, Extracted Pulse Features: 66 pulses.
+
+--- Processing: 9mm_AGC_data3.csv (Congestion) ---
+  Channel: Red, Total Windows: 32
+  Channel: Red, Extracted Pulse Features: 74 pulses.
+  Channel: IR, Total Windows: 32
+  Channel: IR, Extracted Pulse Features: 45 pulses.
+
+--- Processing: 15mm_AGC_data1.csv (Normal) ---
+  Channel: Red, Total Windows: 31
+  Channel: Red, Extracted Pulse Features: 69 pulses.
+  Channel: IR, Total Windows: 31
+  Channel: IR, Extracted Pulse Features: 76 pulses.
+
+--- Processing: 15mm_AGC_data2.csv (Ischaemia) ---
+  Channel: Red, Total Windows: 31
+  Channel: Red, Extracted Pulse Features: 73 pulses.
+  Channel: IR, Total Windows: 31
+  Channel: IR, Extracted Pulse Features: 78 pulses.
+
+--- Processing: 15mm_AGC_data3.csv (Congestion) ---
+  Channel: Red, Total Windows: 31
+  Channel: Red, Extracted Pulse Features: 69 pulses.
+  Channel: IR, Total Windows: 31
+  Channel: IR, Extracted Pulse Features: 74 pulses.
+
+--- Processing: 21mm_AGC_data1.csv (Normal) ---
+  Channel: Red, Total Windows: 33
+  Channel: Red, Extracted Pulse Features: 73 pulses.
+  Channel: IR, Total Windows: 33
+  Channel: IR, Extracted Pulse Features: 72 pulses.
+
+--- Processing: 21mm_AGC_data2.csv (Ischaemia) ---
+  Channel: Red, Total Windows: 32
+  Channel: Red, Extracted Pulse Features: 70 pulses.
+  Channel: IR, Total Windows: 32
+  Channel: IR, Extracted Pulse Features: 71 pulses.
+
+--- Processing: 21mm_AGC_data3.csv (Congestion) ---
+  Channel: Red, Total Windows: 32
+  Channel: Red, Extracted Pulse Features: 71 pulses.
+  Channel: IR, Total Windows: 32
+  Channel: IR, Extracted Pulse Features: 70 pulses.
+
+--- Part 2 Complete: Total Feature Rows: 2325 ---
+Normalization Base (Amplitude, Red): Mean=1.2108e-03, Count=104
+Normalization Base (Amplitude, IR): Mean=2.6008e-03, Count=64
+
+--- Part 3 Complete: Normalized Slope Features Created ---
+Ratio Data Rows (Merged for Slope Features): 111852
+--- Part 4 Complete: AUC calculation for Slope/Morphology Features saved. ---

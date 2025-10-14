@@ -1,0 +1,88 @@
+--- Debug Log Start (Time Features BPM Norm) ---
+
+--- Processing: 3mm_AGC_data1.csv (Normal) ---
+  Channel: Red, Total Windows: 31
+  Channel: Red, Extracted Pulse Features: 73 pulses.
+  Channel: IR, Total Windows: 31
+  Channel: IR, Extracted Pulse Features: 33 pulses.
+
+--- Processing: 3mm_AGC_data2.csv (Ischaemia) ---
+  Channel: Red, Total Windows: 32
+  Channel: Red, Extracted Pulse Features: 72 pulses.
+  Channel: IR, Total Windows: 32
+  Channel: IR, Extracted Pulse Features: 32 pulses.
+
+--- Processing: 3mm_AGC_data3.csv (Congestion) ---
+  Channel: Red, Total Windows: 32
+  Channel: Red, Extracted Pulse Features: 74 pulses.
+  Channel: IR, Total Windows: 32
+  Channel: IR, Extracted Pulse Features: 38 pulses.
+
+--- Processing: 9mm_AGC_data1.csv (Normal) ---
+  Channel: Red, Total Windows: 32
+  Channel: Red, Extracted Pulse Features: 72 pulses.
+  Channel: IR, Total Windows: 32
+  Channel: IR, Extracted Pulse Features: 42 pulses.
+
+--- Processing: 9mm_AGC_data2.csv (Ischaemia) ---
+  Channel: Red, Total Windows: 32
+  Channel: Red, Extracted Pulse Features: 76 pulses.
+  Channel: IR, Total Windows: 32
+  Channel: IR, Extracted Pulse Features: 66 pulses.
+
+--- Processing: 9mm_AGC_data3.csv (Congestion) ---
+  Channel: Red, Total Windows: 32
+  Channel: Red, Extracted Pulse Features: 74 pulses.
+  Channel: IR, Total Windows: 32
+  Channel: IR, Extracted Pulse Features: 45 pulses.
+
+--- Processing: 15mm_AGC_data1.csv (Normal) ---
+  Channel: Red, Total Windows: 31
+  Channel: Red, Extracted Pulse Features: 69 pulses.
+  Channel: IR, Total Windows: 31
+  Channel: IR, Extracted Pulse Features: 76 pulses.
+
+--- Processing: 15mm_AGC_data2.csv (Ischaemia) ---
+  Channel: Red, Total Windows: 31
+  Channel: Red, Extracted Pulse Features: 73 pulses.
+  Channel: IR, Total Windows: 31
+  Channel: IR, Extracted Pulse Features: 78 pulses.
+
+--- Processing: 15mm_AGC_data3.csv (Congestion) ---
+  Channel: Red, Total Windows: 31
+  Channel: Red, Extracted Pulse Features: 69 pulses.
+  Channel: IR, Total Windows: 31
+  Channel: IR, Extracted Pulse Features: 74 pulses.
+
+--- Processing: 21mm_AGC_data1.csv (Normal) ---
+  Channel: Red, Total Windows: 33
+  Channel: Red, Extracted Pulse Features: 73 pulses.
+  Channel: IR, Total Windows: 33
+  Channel: IR, Extracted Pulse Features: 72 pulses.
+
+--- Processing: 21mm_AGC_data2.csv (Ischaemia) ---
+  Channel: Red, Total Windows: 32
+  Channel: Red, Extracted Pulse Features: 70 pulses.
+  Channel: IR, Total Windows: 32
+  Channel: IR, Extracted Pulse Features: 71 pulses.
+
+--- Processing: 21mm_AGC_data3.csv (Congestion) ---
+  Channel: Red, Total Windows: 32
+  Channel: Red, Extracted Pulse Features: 71 pulses.
+  Channel: IR, Total Windows: 32
+  Channel: IR, Extracted Pulse Features: 70 pulses.
+
+--- Part 3 Complete: BPM Normalized Time Features Created ---
+Ratio Data Rows (Merged for Time Features): 50135
+[ERROR] Red 15mm Ischaemia vs Congestion (Width_Ratio): Cutoff is inf. Samples=141
+[ERROR] IR 3mm Ischaemia vs Congestion (RiseTime): Cutoff is inf. Samples=70
+[ERROR] IR 3mm Normal vs Congestion (SystolicWidth): Cutoff is inf. Samples=71
+[ERROR] IR 3mm Ischaemia vs Congestion (SystolicWidth): Cutoff is inf. Samples=70
+[ERROR] IR 3mm Ischaemia vs Congestion (RiseTime_norm_bpm): Cutoff is inf. Samples=70
+[ERROR] IR 3mm Normal vs Ischaemia (FallTime_norm_bpm): Cutoff is inf. Samples=65
+[ERROR] IR 3mm Normal vs Congestion (SystolicWidth_norm_bpm): Cutoff is inf. Samples=71
+[ERROR] IR 3mm Ischaemia vs Congestion (SystolicWidth_norm_bpm): Cutoff is inf. Samples=70
+[ERROR] IR 9mm Ischaemia vs Congestion (SystolicWidth): Cutoff is inf. Samples=111
+[ERROR] IR 9mm Normal vs Congestion (PulseWidth_norm_bpm): Cutoff is inf. Samples=87
+[ERROR] IR 9mm Ischaemia vs Congestion (SystolicWidth_norm_bpm): Cutoff is inf. Samples=111
+--- Part 4 Complete: AUC calculation for Time Features (BPM Norm) saved. ---

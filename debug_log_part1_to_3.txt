@@ -1,0 +1,207 @@
+--- Debug Log Start ---
+
+--- Processing: 3mm_AGC_data1.csv ---
+[INFO] Estimated BPM=60.8, Window=0.99s (61200 total samples)
+  Channel: Red, Window Size: 0.99s (1974 pts), Total Windows: 31
+  Channel: Red, Extracted Pulse Features: 31 pulses.
+  Channel: IR, Window Size: 0.99s (1974 pts), Total Windows: 31
+  Channel: IR, Extracted Pulse Features: 32 pulses.
+
+--- Processing: 3mm_AGC_data2.csv ---
+[INFO] Estimated BPM=62.7, Window=0.96s (61200 total samples)
+  Channel: Red, Window Size: 0.96s (1912 pts), Total Windows: 32
+  Channel: Red, Extracted Pulse Features: 0 pulses.
+  Channel: IR, Window Size: 0.96s (1912 pts), Total Windows: 32
+  Channel: IR, Extracted Pulse Features: 31 pulses.
+
+--- Processing: 3mm_AGC_data3.csv ---
+[INFO] Estimated BPM=62.3, Window=0.96s (61600 total samples)
+  Channel: Red, Window Size: 0.96s (1925 pts), Total Windows: 32
+  Channel: Red, Extracted Pulse Features: 31 pulses.
+  Channel: IR, Window Size: 0.96s (1925 pts), Total Windows: 32
+  Channel: IR, Extracted Pulse Features: 32 pulses.
+
+--- Processing: 9mm_AGC_data1.csv ---
+[INFO] Estimated BPM=62.3, Window=0.96s (61600 total samples)
+  Channel: Red, Window Size: 0.96s (1925 pts), Total Windows: 32
+  Channel: Red, Extracted Pulse Features: 0 pulses.
+  Channel: IR, Window Size: 0.96s (1925 pts), Total Windows: 32
+  Channel: IR, Extracted Pulse Features: 14 pulses.
+
+--- Processing: 9mm_AGC_data2.csv ---
+[INFO] Estimated BPM=64.7, Window=0.93s (61201 total samples)
+  Channel: Red, Window Size: 0.93s (1855 pts), Total Windows: 32
+  Channel: Red, Extracted Pulse Features: 0 pulses.
+  Channel: IR, Window Size: 0.93s (1855 pts), Total Windows: 32
+  Channel: IR, Extracted Pulse Features: 0 pulses.
+
+--- Processing: 9mm_AGC_data3.csv ---
+[INFO] Estimated BPM=64.3, Window=0.93s (61600 total samples)
+  Channel: Red, Window Size: 0.93s (1867 pts), Total Windows: 32
+  Channel: Red, Extracted Pulse Features: 0 pulses.
+  Channel: IR, Window Size: 0.93s (1867 pts), Total Windows: 32
+  Channel: IR, Extracted Pulse Features: 0 pulses.
+
+--- Processing: 15mm_AGC_data1.csv ---
+[INFO] Estimated BPM=60.4, Window=0.99s (61600 total samples)
+  Channel: Red, Window Size: 0.99s (1987 pts), Total Windows: 31
+  Channel: Red, Extracted Pulse Features: 0 pulses.
+  Channel: IR, Window Size: 0.99s (1987 pts), Total Windows: 31
+  Channel: IR, Extracted Pulse Features: 0 pulses.
+
+--- Processing: 15mm_AGC_data2.csv ---
+[INFO] Estimated BPM=60.8, Window=0.99s (61200 total samples)
+  Channel: Red, Window Size: 0.99s (1974 pts), Total Windows: 31
+  Channel: Red, Extracted Pulse Features: 0 pulses.
+  Channel: IR, Window Size: 0.99s (1974 pts), Total Windows: 31
+  Channel: IR, Extracted Pulse Features: 0 pulses.
+
+--- Processing: 15mm_AGC_data3.csv ---
+[INFO] Estimated BPM=60.8, Window=0.99s (61200 total samples)
+  Channel: Red, Window Size: 0.99s (1974 pts), Total Windows: 31
+  Channel: Red, Extracted Pulse Features: 0 pulses.
+  Channel: IR, Window Size: 0.99s (1974 pts), Total Windows: 31
+  Channel: IR, Extracted Pulse Features: 0 pulses.
+
+--- Processing: 21mm_AGC_data1.csv ---
+[INFO] Estimated BPM=65.1, Window=0.92s (60800 total samples)
+  Channel: Red, Window Size: 0.92s (1842 pts), Total Windows: 33
+  Channel: Red, Extracted Pulse Features: 0 pulses.
+  Channel: IR, Window Size: 0.92s (1842 pts), Total Windows: 33
+  Channel: IR, Extracted Pulse Features: 0 pulses.
+
+--- Processing: 21mm_AGC_data2.csv ---
+[INFO] Estimated BPM=63.2, Window=0.95s (60800 total samples)
+  Channel: Red, Window Size: 0.95s (1900 pts), Total Windows: 32
+  Channel: Red, Extracted Pulse Features: 0 pulses.
+  Channel: IR, Window Size: 0.95s (1900 pts), Total Windows: 32
+  Channel: IR, Extracted Pulse Features: 0 pulses.
+
+--- Processing: 21mm_AGC_data3.csv ---
+[INFO] Estimated BPM=63.2, Window=0.95s (60800 total samples)
+  Channel: Red, Window Size: 0.95s (1900 pts), Total Windows: 32
+  Channel: Red, Extracted Pulse Features: 0 pulses.
+  Channel: IR, Window Size: 0.95s (1900 pts), Total Windows: 32
+  Channel: IR, Extracted Pulse Features: 0 pulses.
+
+--- Part 2 Complete: Total Feature Rows: 933 ---
+Normalization Base (Red): Mean=1.3095e-03, Count=62
+Normalization Base (IR): Mean=2.6419e-03, Count=63
+Ratio Data Rows (Merged): 0
+[ERROR] Red 3mm Ischaemia vs Congestion (Amp_norm): Cutoff is inf. Samples=95
+[WARN] Red 3mm Normal vs Ischaemia (RiseTime): Insufficient samples (31) or classes.
+[ERROR] Red 3mm Normal vs Congestion (RiseTime): Cutoff is inf. Samples=62
+[WARN] Red 3mm Ischaemia vs Congestion (RiseTime): Insufficient samples (31) or classes.
+[WARN] Red 3mm Normal vs Ischaemia (FallTime): Insufficient samples (31) or classes.
+[WARN] Red 3mm Ischaemia vs Congestion (FallTime): Insufficient samples (31) or classes.
+[WARN] Red 3mm Normal vs Ischaemia (PulseWidth): Insufficient samples (31) or classes.
+[WARN] Red 3mm Ischaemia vs Congestion (PulseWidth): Insufficient samples (31) or classes.
+[WARN] Red 3mm Normal vs Ischaemia (RiseFall_ratio): Insufficient samples (31) or classes.
+[WARN] Red 3mm Ischaemia vs Congestion (RiseFall_ratio): Insufficient samples (31) or classes.
+[WARN] Red 3mm Normal vs Ischaemia (Pulse_Area): Insufficient samples (31) or classes.
+[WARN] Red 3mm Ischaemia vs Congestion (Pulse_Area): Insufficient samples (31) or classes.
+[ERROR] Red 9mm Ischaemia vs Congestion (Amp_norm): Cutoff is inf. Samples=64
+[WARN] Red 9mm Normal vs Ischaemia (RiseTime): Insufficient samples (0) or classes.
+[WARN] Red 9mm Normal vs Congestion (RiseTime): Insufficient samples (0) or classes.
+[WARN] Red 9mm Ischaemia vs Congestion (RiseTime): Insufficient samples (0) or classes.
+[WARN] Red 9mm Normal vs Ischaemia (FallTime): Insufficient samples (0) or classes.
+[WARN] Red 9mm Normal vs Congestion (FallTime): Insufficient samples (0) or classes.
+[WARN] Red 9mm Ischaemia vs Congestion (FallTime): Insufficient samples (0) or classes.
+[WARN] Red 9mm Normal vs Ischaemia (PulseWidth): Insufficient samples (0) or classes.
+[WARN] Red 9mm Normal vs Congestion (PulseWidth): Insufficient samples (0) or classes.
+[WARN] Red 9mm Ischaemia vs Congestion (PulseWidth): Insufficient samples (0) or classes.
+[WARN] Red 9mm Normal vs Ischaemia (RiseFall_ratio): Insufficient samples (0) or classes.
+[WARN] Red 9mm Normal vs Congestion (RiseFall_ratio): Insufficient samples (0) or classes.
+[WARN] Red 9mm Ischaemia vs Congestion (RiseFall_ratio): Insufficient samples (0) or classes.
+[WARN] Red 9mm Normal vs Ischaemia (Pulse_Area): Insufficient samples (0) or classes.
+[WARN] Red 9mm Normal vs Congestion (Pulse_Area): Insufficient samples (0) or classes.
+[WARN] Red 9mm Ischaemia vs Congestion (Pulse_Area): Insufficient samples (0) or classes.
+[ERROR] Red 15mm Ischaemia vs Congestion (Amp_norm): Cutoff is inf. Samples=62
+[WARN] Red 15mm Normal vs Ischaemia (RiseTime): Insufficient samples (0) or classes.
+[WARN] Red 15mm Normal vs Congestion (RiseTime): Insufficient samples (0) or classes.
+[WARN] Red 15mm Ischaemia vs Congestion (RiseTime): Insufficient samples (0) or classes.
+[WARN] Red 15mm Normal vs Ischaemia (FallTime): Insufficient samples (0) or classes.
+[WARN] Red 15mm Normal vs Congestion (FallTime): Insufficient samples (0) or classes.
+[WARN] Red 15mm Ischaemia vs Congestion (FallTime): Insufficient samples (0) or classes.
+[WARN] Red 15mm Normal vs Ischaemia (PulseWidth): Insufficient samples (0) or classes.
+[WARN] Red 15mm Normal vs Congestion (PulseWidth): Insufficient samples (0) or classes.
+[WARN] Red 15mm Ischaemia vs Congestion (PulseWidth): Insufficient samples (0) or classes.
+[WARN] Red 15mm Normal vs Ischaemia (RiseFall_ratio): Insufficient samples (0) or classes.
+[WARN] Red 15mm Normal vs Congestion (RiseFall_ratio): Insufficient samples (0) or classes.
+[WARN] Red 15mm Ischaemia vs Congestion (RiseFall_ratio): Insufficient samples (0) or classes.
+[WARN] Red 15mm Normal vs Ischaemia (Pulse_Area): Insufficient samples (0) or classes.
+[WARN] Red 15mm Normal vs Congestion (Pulse_Area): Insufficient samples (0) or classes.
+[WARN] Red 15mm Ischaemia vs Congestion (Pulse_Area): Insufficient samples (0) or classes.
+[ERROR] Red 21mm Ischaemia vs Congestion (Amp_norm): Cutoff is inf. Samples=64
+[WARN] Red 21mm Normal vs Ischaemia (RiseTime): Insufficient samples (0) or classes.
+[WARN] Red 21mm Normal vs Congestion (RiseTime): Insufficient samples (0) or classes.
+[WARN] Red 21mm Ischaemia vs Congestion (RiseTime): Insufficient samples (0) or classes.
+[WARN] Red 21mm Normal vs Ischaemia (FallTime): Insufficient samples (0) or classes.
+[WARN] Red 21mm Normal vs Congestion (FallTime): Insufficient samples (0) or classes.
+[WARN] Red 21mm Ischaemia vs Congestion (FallTime): Insufficient samples (0) or classes.
+[WARN] Red 21mm Normal vs Ischaemia (PulseWidth): Insufficient samples (0) or classes.
+[WARN] Red 21mm Normal vs Congestion (PulseWidth): Insufficient samples (0) or classes.
+[WARN] Red 21mm Ischaemia vs Congestion (PulseWidth): Insufficient samples (0) or classes.
+[WARN] Red 21mm Normal vs Ischaemia (RiseFall_ratio): Insufficient samples (0) or classes.
+[WARN] Red 21mm Normal vs Congestion (RiseFall_ratio): Insufficient samples (0) or classes.
+[WARN] Red 21mm Ischaemia vs Congestion (RiseFall_ratio): Insufficient samples (0) or classes.
+[WARN] Red 21mm Normal vs Ischaemia (Pulse_Area): Insufficient samples (0) or classes.
+[WARN] Red 21mm Normal vs Congestion (Pulse_Area): Insufficient samples (0) or classes.
+[WARN] Red 21mm Ischaemia vs Congestion (Pulse_Area): Insufficient samples (0) or classes.
+[ERROR] IR 3mm Ischaemia vs Congestion (Amp_norm): Cutoff is inf. Samples=127
+[ERROR] IR 3mm Normal vs Congestion (RiseTime): Cutoff is inf. Samples=64
+[ERROR] IR 3mm Ischaemia vs Congestion (RiseTime): Cutoff is inf. Samples=63
+[ERROR] IR 3mm Normal vs Congestion (FallTime): Cutoff is inf. Samples=64
+[ERROR] IR 3mm Normal vs Ischaemia (PulseWidth): Cutoff is inf. Samples=63
+[ERROR] IR 3mm Normal vs Congestion (PulseWidth): Cutoff is inf. Samples=64
+[ERROR] IR 3mm Ischaemia vs Congestion (RiseFall_ratio): Cutoff is inf. Samples=63
+[ERROR] IR 3mm Ischaemia vs Congestion (Pulse_Area): Cutoff is inf. Samples=63
+[ERROR] IR 9mm Ischaemia vs Congestion (Amp_norm): Cutoff is inf. Samples=64
+[WARN] IR 9mm Normal vs Ischaemia (RiseTime): Insufficient samples (14) or classes.
+[WARN] IR 9mm Normal vs Congestion (RiseTime): Insufficient samples (14) or classes.
+[WARN] IR 9mm Ischaemia vs Congestion (RiseTime): Insufficient samples (0) or classes.
+[WARN] IR 9mm Normal vs Ischaemia (FallTime): Insufficient samples (14) or classes.
+[WARN] IR 9mm Normal vs Congestion (FallTime): Insufficient samples (14) or classes.
+[WARN] IR 9mm Ischaemia vs Congestion (FallTime): Insufficient samples (0) or classes.
+[WARN] IR 9mm Normal vs Ischaemia (PulseWidth): Insufficient samples (14) or classes.
+[WARN] IR 9mm Normal vs Congestion (PulseWidth): Insufficient samples (14) or classes.
+[WARN] IR 9mm Ischaemia vs Congestion (PulseWidth): Insufficient samples (0) or classes.
+[WARN] IR 9mm Normal vs Ischaemia (RiseFall_ratio): Insufficient samples (14) or classes.
+[WARN] IR 9mm Normal vs Congestion (RiseFall_ratio): Insufficient samples (14) or classes.
+[WARN] IR 9mm Ischaemia vs Congestion (RiseFall_ratio): Insufficient samples (0) or classes.
+[WARN] IR 9mm Normal vs Ischaemia (Pulse_Area): Insufficient samples (14) or classes.
+[WARN] IR 9mm Normal vs Congestion (Pulse_Area): Insufficient samples (14) or classes.
+[WARN] IR 9mm Ischaemia vs Congestion (Pulse_Area): Insufficient samples (0) or classes.
+[ERROR] IR 15mm Ischaemia vs Congestion (Amp_norm): Cutoff is inf. Samples=62
+[WARN] IR 15mm Normal vs Ischaemia (RiseTime): Insufficient samples (0) or classes.
+[WARN] IR 15mm Normal vs Congestion (RiseTime): Insufficient samples (0) or classes.
+[WARN] IR 15mm Ischaemia vs Congestion (RiseTime): Insufficient samples (0) or classes.
+[WARN] IR 15mm Normal vs Ischaemia (FallTime): Insufficient samples (0) or classes.
+[WARN] IR 15mm Normal vs Congestion (FallTime): Insufficient samples (0) or classes.
+[WARN] IR 15mm Ischaemia vs Congestion (FallTime): Insufficient samples (0) or classes.
+[WARN] IR 15mm Normal vs Ischaemia (PulseWidth): Insufficient samples (0) or classes.
+[WARN] IR 15mm Normal vs Congestion (PulseWidth): Insufficient samples (0) or classes.
+[WARN] IR 15mm Ischaemia vs Congestion (PulseWidth): Insufficient samples (0) or classes.
+[WARN] IR 15mm Normal vs Ischaemia (RiseFall_ratio): Insufficient samples (0) or classes.
+[WARN] IR 15mm Normal vs Congestion (RiseFall_ratio): Insufficient samples (0) or classes.
+[WARN] IR 15mm Ischaemia vs Congestion (RiseFall_ratio): Insufficient samples (0) or classes.
+[WARN] IR 15mm Normal vs Ischaemia (Pulse_Area): Insufficient samples (0) or classes.
+[WARN] IR 15mm Normal vs Congestion (Pulse_Area): Insufficient samples (0) or classes.
+[WARN] IR 15mm Ischaemia vs Congestion (Pulse_Area): Insufficient samples (0) or classes.
+[ERROR] IR 21mm Ischaemia vs Congestion (Amp_norm): Cutoff is inf. Samples=64
+[WARN] IR 21mm Normal vs Ischaemia (RiseTime): Insufficient samples (0) or classes.
+[WARN] IR 21mm Normal vs Congestion (RiseTime): Insufficient samples (0) or classes.
+[WARN] IR 21mm Ischaemia vs Congestion (RiseTime): Insufficient samples (0) or classes.
+[WARN] IR 21mm Normal vs Ischaemia (FallTime): Insufficient samples (0) or classes.
+[WARN] IR 21mm Normal vs Congestion (FallTime): Insufficient samples (0) or classes.
+[WARN] IR 21mm Ischaemia vs Congestion (FallTime): Insufficient samples (0) or classes.
+[WARN] IR 21mm Normal vs Ischaemia (PulseWidth): Insufficient samples (0) or classes.
+[WARN] IR 21mm Normal vs Congestion (PulseWidth): Insufficient samples (0) or classes.
+[WARN] IR 21mm Ischaemia vs Congestion (PulseWidth): Insufficient samples (0) or classes.
+[WARN] IR 21mm Normal vs Ischaemia (RiseFall_ratio): Insufficient samples (0) or classes.
+[WARN] IR 21mm Normal vs Congestion (RiseFall_ratio): Insufficient samples (0) or classes.
+[WARN] IR 21mm Ischaemia vs Congestion (RiseFall_ratio): Insufficient samples (0) or classes.
+[WARN] IR 21mm Normal vs Ischaemia (Pulse_Area): Insufficient samples (0) or classes.
+[WARN] IR 21mm Normal vs Congestion (Pulse_Area): Insufficient samples (0) or classes.
+[WARN] IR 21mm Ischaemia vs Congestion (Pulse_Area): Insufficient samples (0) or classes.
+--- Part 4 Complete: AUC calculation and CSV saved. ---

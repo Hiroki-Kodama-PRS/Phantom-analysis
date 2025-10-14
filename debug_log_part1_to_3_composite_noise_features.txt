@@ -1,0 +1,129 @@
+--- Debug Log Start (Composite & Noise Features) ---
+
+--- Processing: 3mm_AGC_data1.csv (Normal) ---
+  Channel: Red, SNR: 14.70 dB, ZCR: 0.0012
+  Channel: Red, Extracted Pulse Features: 73 pulses.
+  Channel: IR, SNR: 16.78 dB, ZCR: 0.0011
+  Channel: IR, Extracted Pulse Features: 33 pulses.
+
+--- Processing: 3mm_AGC_data2.csv (Ischaemia) ---
+  Channel: Red, SNR: 12.52 dB, ZCR: 0.0017
+  Channel: Red, Extracted Pulse Features: 72 pulses.
+  Channel: IR, SNR: 18.78 dB, ZCR: 0.0010
+  Channel: IR, Extracted Pulse Features: 32 pulses.
+
+--- Processing: 3mm_AGC_data3.csv (Congestion) ---
+  Channel: Red, SNR: 15.49 dB, ZCR: 0.0012
+  Channel: Red, Extracted Pulse Features: 74 pulses.
+  Channel: IR, SNR: 18.36 dB, ZCR: 0.0010
+  Channel: IR, Extracted Pulse Features: 38 pulses.
+
+--- Processing: 9mm_AGC_data1.csv (Normal) ---
+  Channel: Red, SNR: 7.60 dB, ZCR: 0.0034
+  Channel: Red, Extracted Pulse Features: 72 pulses.
+  Channel: IR, SNR: 15.18 dB, ZCR: 0.0011
+  Channel: IR, Extracted Pulse Features: 42 pulses.
+
+--- Processing: 9mm_AGC_data2.csv (Ischaemia) ---
+  Channel: Red, SNR: 5.65 dB, ZCR: 0.0044
+  Channel: Red, Extracted Pulse Features: 76 pulses.
+  Channel: IR, SNR: 16.89 dB, ZCR: 0.0011
+  Channel: IR, Extracted Pulse Features: 66 pulses.
+
+--- Processing: 9mm_AGC_data3.csv (Congestion) ---
+  Channel: Red, SNR: 7.97 dB, ZCR: 0.0029
+  Channel: Red, Extracted Pulse Features: 74 pulses.
+  Channel: IR, SNR: 17.62 dB, ZCR: 0.0011
+  Channel: IR, Extracted Pulse Features: 45 pulses.
+
+--- Processing: 15mm_AGC_data1.csv (Normal) ---
+  Channel: Red, SNR: 4.65 dB, ZCR: 0.0047
+  Channel: Red, Extracted Pulse Features: 69 pulses.
+  Channel: IR, SNR: 16.03 dB, ZCR: 0.0012
+  Channel: IR, Extracted Pulse Features: 76 pulses.
+
+--- Processing: 15mm_AGC_data2.csv (Ischaemia) ---
+  Channel: Red, SNR: 1.62 dB, ZCR: 0.0064
+  Channel: Red, Extracted Pulse Features: 73 pulses.
+  Channel: IR, SNR: 12.36 dB, ZCR: 0.0016
+  Channel: IR, Extracted Pulse Features: 78 pulses.
+
+--- Processing: 15mm_AGC_data3.csv (Congestion) ---
+  Channel: Red, SNR: 2.72 dB, ZCR: 0.0060
+  Channel: Red, Extracted Pulse Features: 69 pulses.
+  Channel: IR, SNR: 15.63 dB, ZCR: 0.0012
+  Channel: IR, Extracted Pulse Features: 74 pulses.
+
+--- Processing: 21mm_AGC_data1.csv (Normal) ---
+  Channel: Red, SNR: 4.40 dB, ZCR: 0.0056
+  Channel: Red, Extracted Pulse Features: 73 pulses.
+  Channel: IR, SNR: 12.93 dB, ZCR: 0.0016
+  Channel: IR, Extracted Pulse Features: 72 pulses.
+
+--- Processing: 21mm_AGC_data2.csv (Ischaemia) ---
+  Channel: Red, SNR: 1.83 dB, ZCR: 0.0064
+  Channel: Red, Extracted Pulse Features: 70 pulses.
+  Channel: IR, SNR: 6.56 dB, ZCR: 0.0030
+  Channel: IR, Extracted Pulse Features: 71 pulses.
+
+--- Processing: 21mm_AGC_data3.csv (Congestion) ---
+  Channel: Red, SNR: 3.74 dB, ZCR: 0.0065
+  Channel: Red, Extracted Pulse Features: 71 pulses.
+  Channel: IR, SNR: 10.94 dB, ZCR: 0.0015
+  Channel: IR, Extracted Pulse Features: 70 pulses.
+
+--- Part 2 Complete: Total Feature Rows: 1563 ---
+Normalization Base (Amplitude, Red): Mean=1.1674e-03, Count=73
+Normalization Base (Amplitude, IR): Mean=2.5606e-03, Count=33
+
+--- Part 3 Complete: Composite Features Created ---
+Ratio Data Rows (Merged for Datum Area Ratio): 50135
+[WARN] Red 3mm Normal vs Ischaemia (SNR): Insufficient samples (2) or classes.
+[WARN] Red 3mm Normal vs Congestion (SNR): Insufficient samples (2) or classes.
+[WARN] Red 3mm Ischaemia vs Congestion (SNR): Insufficient samples (2) or classes.
+[WARN] Red 3mm Normal vs Ischaemia (ZCR): Insufficient samples (2) or classes.
+[WARN] Red 3mm Normal vs Congestion (ZCR): Insufficient samples (2) or classes.
+[WARN] Red 3mm Ischaemia vs Congestion (ZCR): Insufficient samples (2) or classes.
+[WARN] Red 9mm Normal vs Ischaemia (SNR): Insufficient samples (2) or classes.
+[WARN] Red 9mm Normal vs Congestion (SNR): Insufficient samples (2) or classes.
+[WARN] Red 9mm Ischaemia vs Congestion (SNR): Insufficient samples (2) or classes.
+[WARN] Red 9mm Normal vs Ischaemia (ZCR): Insufficient samples (2) or classes.
+[WARN] Red 9mm Normal vs Congestion (ZCR): Insufficient samples (2) or classes.
+[WARN] Red 9mm Ischaemia vs Congestion (ZCR): Insufficient samples (2) or classes.
+[WARN] Red 15mm Normal vs Ischaemia (SNR): Insufficient samples (2) or classes.
+[WARN] Red 15mm Normal vs Congestion (SNR): Insufficient samples (2) or classes.
+[WARN] Red 15mm Ischaemia vs Congestion (SNR): Insufficient samples (2) or classes.
+[WARN] Red 15mm Normal vs Ischaemia (ZCR): Insufficient samples (2) or classes.
+[WARN] Red 15mm Normal vs Congestion (ZCR): Insufficient samples (2) or classes.
+[WARN] Red 15mm Ischaemia vs Congestion (ZCR): Insufficient samples (2) or classes.
+[WARN] Red 21mm Normal vs Ischaemia (SNR): Insufficient samples (2) or classes.
+[WARN] Red 21mm Normal vs Congestion (SNR): Insufficient samples (2) or classes.
+[WARN] Red 21mm Ischaemia vs Congestion (SNR): Insufficient samples (2) or classes.
+[WARN] Red 21mm Normal vs Ischaemia (ZCR): Insufficient samples (2) or classes.
+[WARN] Red 21mm Normal vs Congestion (ZCR): Insufficient samples (2) or classes.
+[WARN] Red 21mm Ischaemia vs Congestion (ZCR): Insufficient samples (2) or classes.
+[WARN] IR 3mm Normal vs Ischaemia (SNR): Insufficient samples (2) or classes.
+[WARN] IR 3mm Normal vs Congestion (SNR): Insufficient samples (2) or classes.
+[WARN] IR 3mm Ischaemia vs Congestion (SNR): Insufficient samples (2) or classes.
+[WARN] IR 3mm Normal vs Ischaemia (ZCR): Insufficient samples (2) or classes.
+[WARN] IR 3mm Normal vs Congestion (ZCR): Insufficient samples (2) or classes.
+[WARN] IR 3mm Ischaemia vs Congestion (ZCR): Insufficient samples (2) or classes.
+[WARN] IR 9mm Normal vs Ischaemia (SNR): Insufficient samples (2) or classes.
+[WARN] IR 9mm Normal vs Congestion (SNR): Insufficient samples (2) or classes.
+[WARN] IR 9mm Ischaemia vs Congestion (SNR): Insufficient samples (2) or classes.
+[WARN] IR 9mm Normal vs Ischaemia (ZCR): Insufficient samples (2) or classes.
+[WARN] IR 9mm Normal vs Congestion (ZCR): Insufficient samples (2) or classes.
+[WARN] IR 9mm Ischaemia vs Congestion (ZCR): Insufficient samples (2) or classes.
+[WARN] IR 15mm Normal vs Ischaemia (SNR): Insufficient samples (2) or classes.
+[WARN] IR 15mm Normal vs Congestion (SNR): Insufficient samples (2) or classes.
+[WARN] IR 15mm Ischaemia vs Congestion (SNR): Insufficient samples (2) or classes.
+[WARN] IR 15mm Normal vs Ischaemia (ZCR): Insufficient samples (2) or classes.
+[WARN] IR 15mm Normal vs Congestion (ZCR): Insufficient samples (2) or classes.
+[WARN] IR 15mm Ischaemia vs Congestion (ZCR): Insufficient samples (2) or classes.
+[WARN] IR 21mm Normal vs Ischaemia (SNR): Insufficient samples (2) or classes.
+[WARN] IR 21mm Normal vs Congestion (SNR): Insufficient samples (2) or classes.
+[WARN] IR 21mm Ischaemia vs Congestion (SNR): Insufficient samples (2) or classes.
+[WARN] IR 21mm Normal vs Ischaemia (ZCR): Insufficient samples (2) or classes.
+[WARN] IR 21mm Normal vs Congestion (ZCR): Insufficient samples (2) or classes.
+[WARN] IR 21mm Ischaemia vs Congestion (ZCR): Insufficient samples (2) or classes.
+--- Part 4 Complete: AUC calculation for Composite/Noise Features saved. ---
