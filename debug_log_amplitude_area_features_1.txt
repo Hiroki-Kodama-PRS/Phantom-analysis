@@ -1,0 +1,85 @@
+--- Debug Log Start (Amplitude & Area Features 1) ---
+
+--- Processing: 3mm_data1.csv (Normal) ---
+  Channel: Red, Total Windows: 32
+  Channel: Red, Extracted Pulse Features: 36 pulses.
+  Channel: IR, Total Windows: 32
+  Channel: IR, Extracted Pulse Features: 32 pulses.
+
+--- Processing: 3mm_data2.csv (Ischaemia) ---
+  Channel: Red, Total Windows: 32
+  Channel: Red, Extracted Pulse Features: 53 pulses.
+  Channel: IR, Total Windows: 32
+  Channel: IR, Extracted Pulse Features: 32 pulses.
+
+--- Processing: 3mm_data3.csv (Congestion) ---
+  Channel: Red, Total Windows: 32
+  Channel: Red, Extracted Pulse Features: 39 pulses.
+  Channel: IR, Total Windows: 32
+  Channel: IR, Extracted Pulse Features: 34 pulses.
+
+--- Processing: 9mm_data1.csv (Normal) ---
+  Channel: Red, Total Windows: 32
+  Channel: Red, Extracted Pulse Features: 60 pulses.
+  Channel: IR, Total Windows: 32
+  Channel: IR, Extracted Pulse Features: 33 pulses.
+
+--- Processing: 9mm_data2.csv (Ischaemia) ---
+  Channel: Red, Total Windows: 32
+  Channel: Red, Extracted Pulse Features: 56 pulses.
+  Channel: IR, Total Windows: 32
+  Channel: IR, Extracted Pulse Features: 39 pulses.
+
+--- Processing: 9mm_data3.csv (Congestion) ---
+  Channel: Red, Total Windows: 32
+  Channel: Red, Extracted Pulse Features: 62 pulses.
+  Channel: IR, Total Windows: 32
+  Channel: IR, Extracted Pulse Features: 33 pulses.
+
+--- Processing: 15mm_data1.csv (Normal) ---
+  Channel: Red, Total Windows: 32
+  Channel: Red, Extracted Pulse Features: 65 pulses.
+  Channel: IR, Total Windows: 32
+  Channel: IR, Extracted Pulse Features: 32 pulses.
+
+--- Processing: 15mm_data2.csv (Ischaemia) ---
+  Channel: Red, Total Windows: 31
+  Channel: Red, Extracted Pulse Features: 67 pulses.
+  Channel: IR, Total Windows: 31
+  Channel: IR, Extracted Pulse Features: 54 pulses.
+
+--- Processing: 15mm_data3.csv (Congestion) ---
+  Channel: Red, Total Windows: 32
+  Channel: Red, Extracted Pulse Features: 65 pulses.
+  Channel: IR, Total Windows: 32
+  Channel: IR, Extracted Pulse Features: 36 pulses.
+
+--- Processing: 21mm_data1.csv (Normal) ---
+  Channel: Red, Total Windows: 33
+  Channel: Red, Extracted Pulse Features: 62 pulses.
+  Channel: IR, Total Windows: 33
+  Channel: IR, Extracted Pulse Features: 53 pulses.
+
+--- Processing: 21mm_data2.csv (Ischaemia) ---
+  Channel: Red, Total Windows: 32
+  Channel: Red, Extracted Pulse Features: 68 pulses.
+  Channel: IR, Total Windows: 32
+  Channel: IR, Extracted Pulse Features: 66 pulses.
+
+--- Processing: 21mm_data3.csv (Congestion) ---
+  Channel: Red, Total Windows: 32
+  Channel: Red, Extracted Pulse Features: 62 pulses.
+  Channel: IR, Total Windows: 32
+  Channel: IR, Extracted Pulse Features: 58 pulses.
+
+--- Part 2 Complete: Total Feature Rows: 1965 ---
+Normalization Base (Amplitude, Red): Mean=2.9201e-03, Count=68
+Normalization Base (Amplitude, IR): Mean=4.5931e-03, Count=64
+Normalization Base (Pulse_Area, Red): Mean=1.3228e-03, Count=68
+Normalization Base (Pulse_Area, IR): Mean=2.0641e-03, Count=64
+Normalization Base (S_AUC, Red): Mean=3.3305e-04, Count=68
+Normalization Base (S_AUC, IR): Mean=4.5194e-04, Count=64
+Normalization Base (D_AUC, Red): Mean=9.8972e-04, Count=68
+Normalization Base (D_AUC, IR): Mean=1.6122e-03, Count=64
+Ratio Data Rows (Merged for Amplitude/Area): 80380
+--- Part 4 Complete: AUC calculation for Amplitude/Area Features 1 saved. ---

@@ -1,0 +1,25 @@
+--- Debug Log Start (Time Features BPM Norm) ---
+
+--- Processing: 3mm_data1.csv (Normal) ---
+
+--- Processing: 3mm_data2.csv (Ischaemia) ---
+
+--- Processing: 3mm_data3.csv (Congestion) ---
+
+--- Processing: 9mm_data1.csv (Normal) ---
+
+--- Processing: 9mm_data2.csv (Ischaemia) ---
+
+--- Processing: 9mm_data3.csv (Congestion) ---
+
+--- Processing: 15mm_data1.csv (Normal) ---
+
+--- Processing: 15mm_data2.csv (Ischaemia) ---
+
+--- Processing: 15mm_data3.csv (Congestion) ---
+
+--- Processing: 21mm_data1.csv (Normal) ---
+
+--- Processing: 21mm_data2.csv (Ischaemia) ---
+
+--- Processing: 21mm_data3.csv (Congestion) ---

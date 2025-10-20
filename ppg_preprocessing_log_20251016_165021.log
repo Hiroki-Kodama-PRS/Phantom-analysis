@@ -1,0 +1,430 @@
+2025-10-16 16:50:21,379 - INFO - ================================================================================
+2025-10-16 16:50:21,381 - INFO - PPG Signal Preprocessing - Starting batch processing
+2025-10-16 16:50:21,382 - INFO - ================================================================================
+2025-10-16 16:50:21,384 - INFO - PPGPreprocessor initialized with fs=2000.0 Hz
+2025-10-16 16:50:21,384 - INFO - --------------------------------------------------------------------------------
+2025-10-16 16:50:21,385 - INFO - Processing: 3mm_adjusted_data1.csv (Depth: 3mm, State: Normal)
+2025-10-16 16:50:21,385 - INFO - --------------------------------------------------------------------------------
+2025-10-16 16:50:21,451 - INFO - Loaded file: 3mm_adjusted_data1.csv (61200 rows)
+2025-10-16 16:50:21,454 - DEBUG - Columns: ['time', 'ppgA_Red_raw', 'ppgA_Red', 'ppgA_IR_raw', 'ppgA_IR', 'p1_mmhg', 'p2_mmhg']
+2025-10-16 16:50:21,455 - INFO -   Processing channel: Red
+2025-10-16 16:50:21,461 - INFO - Starting full preprocessing pipeline
+2025-10-16 16:50:21,463 - DEBUG - Input signal - Length: 61200, Mean: 2.6256, Std: 0.0015
+2025-10-16 16:50:21,464 - DEBUG - Applying bandpass filter: 0.5-10.0 Hz, order=4
+2025-10-16 16:50:21,497 - DEBUG - Bandpass filter applied successfully. Output range: [-0.0018, 0.0020]
+2025-10-16 16:50:21,498 - DEBUG - Detecting artifacts using MAD with threshold=3.5
+2025-10-16 16:50:21,507 - DEBUG - Artifacts detected: 0 points (0.00%)
+2025-10-16 16:50:21,508 - DEBUG - Removing artifacts using method='interpolation'
+2025-10-16 16:50:21,509 - DEBUG - Applying cubic spline baseline correction with smoothness=0.01
+2025-10-16 16:50:21,522 - DEBUG - Baseline correction applied. Baseline range: [-0.0015, -0.0008]
+2025-10-16 16:50:21,523 - DEBUG - Output signal - Mean: 0.0016, Std: 0.0010
+2025-10-16 16:50:21,524 - INFO - Preprocessing pipeline completed successfully
+2025-10-16 16:50:21,528 - INFO -   ✓ Red processing completed
+2025-10-16 16:50:21,528 - DEBUG -     Artifacts removed: 0 points (0.00%)
+2025-10-16 16:50:21,528 - INFO -   Processing channel: IR
+2025-10-16 16:50:21,529 - INFO - Starting full preprocessing pipeline
+2025-10-16 16:50:21,530 - DEBUG - Input signal - Length: 61200, Mean: 1.8224, Std: 0.0018
+2025-10-16 16:50:21,530 - DEBUG - Applying bandpass filter: 0.5-10.0 Hz, order=4
+2025-10-16 16:50:21,533 - DEBUG - Bandpass filter applied successfully. Output range: [-0.0024, 0.0025]
+2025-10-16 16:50:21,534 - DEBUG - Detecting artifacts using MAD with threshold=3.5
+2025-10-16 16:50:21,535 - DEBUG - Artifacts detected: 0 points (0.00%)
+2025-10-16 16:50:21,535 - DEBUG - Removing artifacts using method='interpolation'
+2025-10-16 16:50:21,536 - DEBUG - Applying cubic spline baseline correction with smoothness=0.01
+2025-10-16 16:50:21,544 - DEBUG - Baseline correction applied. Baseline range: [-0.0024, -0.0014]
+2025-10-16 16:50:21,545 - DEBUG - Output signal - Mean: 0.0024, Std: 0.0015
+2025-10-16 16:50:21,546 - INFO - Preprocessing pipeline completed successfully
+2025-10-16 16:50:21,547 - INFO -   ✓ IR processing completed
+2025-10-16 16:50:21,547 - DEBUG -     Artifacts removed: 0 points (0.00%)
+2025-10-16 16:50:22,135 - INFO - ✓ Saved to: 3mm_data1.csv
+2025-10-16 16:50:22,135 - INFO - --------------------------------------------------------------------------------
+2025-10-16 16:50:22,136 - INFO - Processing: 3mm_adjusted_data2.csv (Depth: 3mm, State: Ischaemia)
+2025-10-16 16:50:22,136 - INFO - --------------------------------------------------------------------------------
+2025-10-16 16:50:22,181 - INFO - Loaded file: 3mm_adjusted_data2.csv (61200 rows)
+2025-10-16 16:50:22,182 - DEBUG - Columns: ['time', 'ppgA_Red_raw', 'ppgA_Red', 'ppgA_IR_raw', 'ppgA_IR', 'p1_mmhg', 'p2_mmhg']
+2025-10-16 16:50:22,182 - INFO -   Processing channel: Red
+2025-10-16 16:50:22,183 - INFO - Starting full preprocessing pipeline
+2025-10-16 16:50:22,183 - DEBUG - Input signal - Length: 61200, Mean: 2.6374, Std: 0.0009
+2025-10-16 16:50:22,184 - DEBUG - Applying bandpass filter: 0.5-10.0 Hz, order=4
+2025-10-16 16:50:22,187 - DEBUG - Bandpass filter applied successfully. Output range: [-0.0009, 0.0014]
+2025-10-16 16:50:22,187 - DEBUG - Detecting artifacts using MAD with threshold=3.5
+2025-10-16 16:50:22,188 - DEBUG - Artifacts detected: 0 points (0.00%)
+2025-10-16 16:50:22,188 - DEBUG - Removing artifacts using method='interpolation'
+2025-10-16 16:50:22,189 - DEBUG - Applying cubic spline baseline correction with smoothness=0.01
+2025-10-16 16:50:22,197 - DEBUG - Baseline correction applied. Baseline range: [-0.0007, -0.0005]
+2025-10-16 16:50:22,199 - DEBUG - Output signal - Mean: 0.0009, Std: 0.0006
+2025-10-16 16:50:22,199 - INFO - Preprocessing pipeline completed successfully
+2025-10-16 16:50:22,200 - INFO -   ✓ Red processing completed
+2025-10-16 16:50:22,200 - DEBUG -     Artifacts removed: 0 points (0.00%)
+2025-10-16 16:50:22,201 - INFO -   Processing channel: IR
+2025-10-16 16:50:22,201 - INFO - Starting full preprocessing pipeline
+2025-10-16 16:50:22,202 - DEBUG - Input signal - Length: 61200, Mean: 1.8304, Std: 0.0013
+2025-10-16 16:50:22,202 - DEBUG - Applying bandpass filter: 0.5-10.0 Hz, order=4
+2025-10-16 16:50:22,205 - DEBUG - Bandpass filter applied successfully. Output range: [-0.0015, 0.0016]
+2025-10-16 16:50:22,206 - DEBUG - Detecting artifacts using MAD with threshold=3.5
+2025-10-16 16:50:22,206 - DEBUG - Artifacts detected: 0 points (0.00%)
+2025-10-16 16:50:22,207 - DEBUG - Removing artifacts using method='interpolation'
+2025-10-16 16:50:22,207 - DEBUG - Applying cubic spline baseline correction with smoothness=0.01
+2025-10-16 16:50:22,216 - DEBUG - Baseline correction applied. Baseline range: [-0.0014, -0.0011]
+2025-10-16 16:50:22,217 - DEBUG - Output signal - Mean: 0.0015, Std: 0.0010
+2025-10-16 16:50:22,217 - INFO - Preprocessing pipeline completed successfully
+2025-10-16 16:50:22,218 - INFO -   ✓ IR processing completed
+2025-10-16 16:50:22,218 - DEBUG -     Artifacts removed: 0 points (0.00%)
+2025-10-16 16:50:22,651 - INFO - ✓ Saved to: 3mm_data2.csv
+2025-10-16 16:50:22,651 - INFO - --------------------------------------------------------------------------------
+2025-10-16 16:50:22,651 - INFO - Processing: 3mm_adjusted_data3.csv (Depth: 3mm, State: Congestion)
+2025-10-16 16:50:22,652 - INFO - --------------------------------------------------------------------------------
+2025-10-16 16:50:22,687 - INFO - Loaded file: 3mm_adjusted_data3.csv (61600 rows)
+2025-10-16 16:50:22,687 - DEBUG - Columns: ['time', 'ppgA_Red_raw', 'ppgA_Red', 'ppgA_IR_raw', 'ppgA_IR', 'p1_mmhg', 'p2_mmhg']
+2025-10-16 16:50:22,687 - INFO -   Processing channel: Red
+2025-10-16 16:50:22,688 - INFO - Starting full preprocessing pipeline
+2025-10-16 16:50:22,689 - DEBUG - Input signal - Length: 61600, Mean: 2.5908, Std: 0.0022
+2025-10-16 16:50:22,689 - DEBUG - Applying bandpass filter: 0.5-10.0 Hz, order=4
+2025-10-16 16:50:22,692 - DEBUG - Bandpass filter applied successfully. Output range: [-0.0017, 0.0018]
+2025-10-16 16:50:22,692 - DEBUG - Detecting artifacts using MAD with threshold=3.5
+2025-10-16 16:50:22,693 - DEBUG - Artifacts detected: 0 points (0.00%)
+2025-10-16 16:50:22,693 - DEBUG - Removing artifacts using method='interpolation'
+2025-10-16 16:50:22,694 - DEBUG - Applying cubic spline baseline correction with smoothness=0.01
+2025-10-16 16:50:22,702 - DEBUG - Baseline correction applied. Baseline range: [-0.0014, -0.0010]
+2025-10-16 16:50:22,703 - DEBUG - Output signal - Mean: 0.0015, Std: 0.0009
+2025-10-16 16:50:22,703 - INFO - Preprocessing pipeline completed successfully
+2025-10-16 16:50:22,704 - INFO -   ✓ Red processing completed
+2025-10-16 16:50:22,704 - DEBUG -     Artifacts removed: 0 points (0.00%)
+2025-10-16 16:50:22,704 - INFO -   Processing channel: IR
+2025-10-16 16:50:22,704 - INFO - Starting full preprocessing pipeline
+2025-10-16 16:50:22,705 - DEBUG - Input signal - Length: 61600, Mean: 1.7675, Std: 0.0013
+2025-10-16 16:50:22,705 - DEBUG - Applying bandpass filter: 0.5-10.0 Hz, order=4
+2025-10-16 16:50:22,708 - DEBUG - Bandpass filter applied successfully. Output range: [-0.0016, 0.0016]
+2025-10-16 16:50:22,709 - DEBUG - Detecting artifacts using MAD with threshold=3.5
+2025-10-16 16:50:22,711 - DEBUG - Artifacts detected: 0 points (0.00%)
+2025-10-16 16:50:22,711 - DEBUG - Removing artifacts using method='interpolation'
+2025-10-16 16:50:22,711 - DEBUG - Applying cubic spline baseline correction with smoothness=0.01
+2025-10-16 16:50:22,719 - DEBUG - Baseline correction applied. Baseline range: [-0.0015, -0.0012]
+2025-10-16 16:50:22,720 - DEBUG - Output signal - Mean: 0.0016, Std: 0.0010
+2025-10-16 16:50:22,721 - INFO - Preprocessing pipeline completed successfully
+2025-10-16 16:50:22,721 - INFO -   ✓ IR processing completed
+2025-10-16 16:50:22,721 - DEBUG -     Artifacts removed: 0 points (0.00%)
+2025-10-16 16:50:23,377 - INFO - ✓ Saved to: 3mm_data3.csv
+2025-10-16 16:50:23,377 - INFO - --------------------------------------------------------------------------------
+2025-10-16 16:50:23,377 - INFO - Processing: 9mm_adjusted_data1.csv (Depth: 9mm, State: Normal)
+2025-10-16 16:50:23,377 - INFO - --------------------------------------------------------------------------------
+2025-10-16 16:50:23,414 - INFO - Loaded file: 9mm_adjusted_data1.csv (61600 rows)
+2025-10-16 16:50:23,415 - DEBUG - Columns: ['time', 'ppgA_Red_raw', 'ppgA_Red', 'ppgA_IR_raw', 'ppgA_IR', 'p1_mmhg', 'p2_mmhg']
+2025-10-16 16:50:23,415 - INFO -   Processing channel: Red
+2025-10-16 16:50:23,416 - INFO - Starting full preprocessing pipeline
+2025-10-16 16:50:23,416 - DEBUG - Input signal - Length: 61600, Mean: 2.5059, Std: 0.0006
+2025-10-16 16:50:23,417 - DEBUG - Applying bandpass filter: 0.5-10.0 Hz, order=4
+2025-10-16 16:50:23,420 - DEBUG - Bandpass filter applied successfully. Output range: [-0.0007, 0.0010]
+2025-10-16 16:50:23,420 - DEBUG - Detecting artifacts using MAD with threshold=3.5
+2025-10-16 16:50:23,421 - DEBUG - Artifacts detected: 0 points (0.00%)
+2025-10-16 16:50:23,421 - DEBUG - Removing artifacts using method='interpolation'
+2025-10-16 16:50:23,421 - DEBUG - Applying cubic spline baseline correction with smoothness=0.01
+2025-10-16 16:50:23,430 - DEBUG - Baseline correction applied. Baseline range: [-0.0003, -0.0001]
+2025-10-16 16:50:23,431 - DEBUG - Output signal - Mean: 0.0006, Std: 0.0003
+2025-10-16 16:50:23,432 - INFO - Preprocessing pipeline completed successfully
+2025-10-16 16:50:23,432 - INFO -   ✓ Red processing completed
+2025-10-16 16:50:23,432 - DEBUG -     Artifacts removed: 0 points (0.00%)
+2025-10-16 16:50:23,433 - INFO -   Processing channel: IR
+2025-10-16 16:50:23,433 - WARNING - NaN or Inf detected in IR, attempting to handle...
+2025-10-16 16:50:23,438 - INFO - Starting full preprocessing pipeline
+2025-10-16 16:50:23,439 - DEBUG - Input signal - Length: 61600, Mean: 2.4527, Std: 0.0010
+2025-10-16 16:50:23,440 - DEBUG - Applying bandpass filter: 0.5-10.0 Hz, order=4
+2025-10-16 16:50:23,443 - DEBUG - Bandpass filter applied successfully. Output range: [-0.0011, 0.0015]
+2025-10-16 16:50:23,444 - DEBUG - Detecting artifacts using MAD with threshold=3.5
+2025-10-16 16:50:23,446 - DEBUG - Artifacts detected: 0 points (0.00%)
+2025-10-16 16:50:23,446 - DEBUG - Removing artifacts using method='interpolation'
+2025-10-16 16:50:23,448 - DEBUG - Applying cubic spline baseline correction with smoothness=0.01
+2025-10-16 16:50:23,458 - DEBUG - Baseline correction applied. Baseline range: [-0.0010, -0.0008]
+2025-10-16 16:50:23,461 - DEBUG - Output signal - Mean: 0.0012, Std: 0.0008
+2025-10-16 16:50:23,463 - INFO - Preprocessing pipeline completed successfully
+2025-10-16 16:50:23,463 - INFO -   ✓ IR processing completed
+2025-10-16 16:50:23,464 - DEBUG -     Artifacts removed: 0 points (0.00%)
+2025-10-16 16:50:23,824 - INFO - ✓ Saved to: 9mm_data1.csv
+2025-10-16 16:50:23,825 - INFO - --------------------------------------------------------------------------------
+2025-10-16 16:50:23,825 - INFO - Processing: 9mm_adjusted_data2.csv (Depth: 9mm, State: Ischaemia)
+2025-10-16 16:50:23,825 - INFO - --------------------------------------------------------------------------------
+2025-10-16 16:50:23,864 - INFO - Loaded file: 9mm_adjusted_data2.csv (61201 rows)
+2025-10-16 16:50:23,864 - DEBUG - Columns: ['time', 'ppgA_Red_raw', 'ppgA_Red', 'ppgA_IR_raw', 'ppgA_IR', 'p1_mmhg', 'p2_mmhg']
+2025-10-16 16:50:23,865 - INFO -   Processing channel: Red
+2025-10-16 16:50:23,865 - INFO - Starting full preprocessing pipeline
+2025-10-16 16:50:23,866 - DEBUG - Input signal - Length: 61201, Mean: 2.5081, Std: 0.0005
+2025-10-16 16:50:23,867 - DEBUG - Applying bandpass filter: 0.5-10.0 Hz, order=4
+2025-10-16 16:50:23,870 - DEBUG - Bandpass filter applied successfully. Output range: [-0.0005, 0.0008]
+2025-10-16 16:50:23,870 - DEBUG - Detecting artifacts using MAD with threshold=3.5
+2025-10-16 16:50:23,872 - DEBUG - Artifacts detected: 0 points (0.00%)
+2025-10-16 16:50:23,872 - DEBUG - Removing artifacts using method='interpolation'
+2025-10-16 16:50:23,872 - DEBUG - Applying cubic spline baseline correction with smoothness=0.01
+2025-10-16 16:50:23,881 - DEBUG - Baseline correction applied. Baseline range: [-0.0001, -0.0001]
+2025-10-16 16:50:23,882 - DEBUG - Output signal - Mean: 0.0004, Std: 0.0002
+2025-10-16 16:50:23,882 - INFO - Preprocessing pipeline completed successfully
+2025-10-16 16:50:23,883 - INFO -   ✓ Red processing completed
+2025-10-16 16:50:23,883 - DEBUG -     Artifacts removed: 0 points (0.00%)
+2025-10-16 16:50:23,883 - INFO -   Processing channel: IR
+2025-10-16 16:50:23,884 - INFO - Starting full preprocessing pipeline
+2025-10-16 16:50:23,884 - DEBUG - Input signal - Length: 61201, Mean: 2.4574, Std: 0.0007
+2025-10-16 16:50:23,885 - DEBUG - Applying bandpass filter: 0.5-10.0 Hz, order=4
+2025-10-16 16:50:23,887 - DEBUG - Bandpass filter applied successfully. Output range: [-0.0006, 0.0011]
+2025-10-16 16:50:23,888 - DEBUG - Detecting artifacts using MAD with threshold=3.5
+2025-10-16 16:50:23,889 - DEBUG - Artifacts detected: 0 points (0.00%)
+2025-10-16 16:50:23,889 - DEBUG - Removing artifacts using method='interpolation'
+2025-10-16 16:50:23,889 - DEBUG - Applying cubic spline baseline correction with smoothness=0.01
+2025-10-16 16:50:23,898 - DEBUG - Baseline correction applied. Baseline range: [-0.0005, -0.0004]
+2025-10-16 16:50:23,899 - DEBUG - Output signal - Mean: 0.0007, Std: 0.0005
+2025-10-16 16:50:23,900 - INFO - Preprocessing pipeline completed successfully
+2025-10-16 16:50:23,900 - INFO -   ✓ IR processing completed
+2025-10-16 16:50:23,900 - DEBUG -     Artifacts removed: 0 points (0.00%)
+2025-10-16 16:50:24,335 - INFO - ✓ Saved to: 9mm_data2.csv
+2025-10-16 16:50:24,335 - INFO - --------------------------------------------------------------------------------
+2025-10-16 16:50:24,336 - INFO - Processing: 9mm_adjusted_data3.csv (Depth: 9mm, State: Congestion)
+2025-10-16 16:50:24,336 - INFO - --------------------------------------------------------------------------------
+2025-10-16 16:50:24,363 - INFO - Loaded file: 9mm_adjusted_data3.csv (61600 rows)
+2025-10-16 16:50:24,364 - DEBUG - Columns: ['time', 'ppgA_Red_raw', 'ppgA_Red', 'ppgA_IR_raw', 'ppgA_IR', 'p1_mmhg', 'p2_mmhg']
+2025-10-16 16:50:24,364 - INFO -   Processing channel: Red
+2025-10-16 16:50:24,364 - WARNING - NaN or Inf detected in Red, attempting to handle...
+2025-10-16 16:50:24,365 - INFO - Starting full preprocessing pipeline
+2025-10-16 16:50:24,366 - DEBUG - Input signal - Length: 61600, Mean: 2.5034, Std: 0.0006
+2025-10-16 16:50:24,366 - DEBUG - Applying bandpass filter: 0.5-10.0 Hz, order=4
+2025-10-16 16:50:24,369 - DEBUG - Bandpass filter applied successfully. Output range: [-0.0006, 0.0011]
+2025-10-16 16:50:24,369 - DEBUG - Detecting artifacts using MAD with threshold=3.5
+2025-10-16 16:50:24,370 - DEBUG - Artifacts detected: 0 points (0.00%)
+2025-10-16 16:50:24,370 - DEBUG - Removing artifacts using method='interpolation'
+2025-10-16 16:50:24,371 - DEBUG - Applying cubic spline baseline correction with smoothness=0.01
+2025-10-16 16:50:24,380 - DEBUG - Baseline correction applied. Baseline range: [-0.0004, -0.0003]
+2025-10-16 16:50:24,381 - DEBUG - Output signal - Mean: 0.0006, Std: 0.0003
+2025-10-16 16:50:24,382 - INFO - Preprocessing pipeline completed successfully
+2025-10-16 16:50:24,382 - INFO -   ✓ Red processing completed
+2025-10-16 16:50:24,382 - DEBUG -     Artifacts removed: 0 points (0.00%)
+2025-10-16 16:50:24,383 - INFO -   Processing channel: IR
+2025-10-16 16:50:24,383 - INFO - Starting full preprocessing pipeline
+2025-10-16 16:50:24,384 - DEBUG - Input signal - Length: 61600, Mean: 2.4489, Std: 0.0010
+2025-10-16 16:50:24,384 - DEBUG - Applying bandpass filter: 0.5-10.0 Hz, order=4
+2025-10-16 16:50:24,387 - DEBUG - Bandpass filter applied successfully. Output range: [-0.0012, 0.0014]
+2025-10-16 16:50:24,387 - DEBUG - Detecting artifacts using MAD with threshold=3.5
+2025-10-16 16:50:24,388 - DEBUG - Artifacts detected: 0 points (0.00%)
+2025-10-16 16:50:24,388 - DEBUG - Removing artifacts using method='interpolation'
+2025-10-16 16:50:24,389 - DEBUG - Applying cubic spline baseline correction with smoothness=0.01
+2025-10-16 16:50:24,398 - DEBUG - Baseline correction applied. Baseline range: [-0.0010, -0.0006]
+2025-10-16 16:50:24,399 - DEBUG - Output signal - Mean: 0.0011, Std: 0.0007
+2025-10-16 16:50:24,399 - INFO - Preprocessing pipeline completed successfully
+2025-10-16 16:50:24,400 - INFO -   ✓ IR processing completed
+2025-10-16 16:50:24,400 - DEBUG -     Artifacts removed: 0 points (0.00%)
+2025-10-16 16:50:24,773 - INFO - ✓ Saved to: 9mm_data3.csv
+2025-10-16 16:50:24,773 - INFO - --------------------------------------------------------------------------------
+2025-10-16 16:50:24,774 - INFO - Processing: 15mm_adjusted_data1.csv (Depth: 15mm, State: Normal)
+2025-10-16 16:50:24,774 - INFO - --------------------------------------------------------------------------------
+2025-10-16 16:50:24,821 - INFO - Loaded file: 15mm_adjusted_data1.csv (61600 rows)
+2025-10-16 16:50:24,821 - DEBUG - Columns: ['time', 'ppgA_Red_raw', 'ppgA_Red', 'ppgA_IR_raw', 'ppgA_IR', 'p1_mmhg', 'p2_mmhg']
+2025-10-16 16:50:24,821 - INFO -   Processing channel: Red
+2025-10-16 16:50:24,822 - INFO - Starting full preprocessing pipeline
+2025-10-16 16:50:24,823 - DEBUG - Input signal - Length: 61600, Mean: 2.5132, Std: 0.0005
+2025-10-16 16:50:24,823 - DEBUG - Applying bandpass filter: 0.5-10.0 Hz, order=4
+2025-10-16 16:50:24,827 - DEBUG - Bandpass filter applied successfully. Output range: [-0.0004, 0.0008]
+2025-10-16 16:50:24,827 - DEBUG - Detecting artifacts using MAD with threshold=3.5
+2025-10-16 16:50:24,828 - DEBUG - Artifacts detected: 0 points (0.00%)
+2025-10-16 16:50:24,828 - DEBUG - Removing artifacts using method='interpolation'
+2025-10-16 16:50:24,829 - DEBUG - Applying cubic spline baseline correction with smoothness=0.01
+2025-10-16 16:50:24,837 - DEBUG - Baseline correction applied. Baseline range: [-0.0002, -0.0000]
+2025-10-16 16:50:24,838 - DEBUG - Output signal - Mean: 0.0003, Std: 0.0002
+2025-10-16 16:50:24,838 - INFO - Preprocessing pipeline completed successfully
+2025-10-16 16:50:24,839 - INFO -   ✓ Red processing completed
+2025-10-16 16:50:24,839 - DEBUG -     Artifacts removed: 0 points (0.00%)
+2025-10-16 16:50:24,839 - INFO -   Processing channel: IR
+2025-10-16 16:50:24,840 - INFO - Starting full preprocessing pipeline
+2025-10-16 16:50:24,840 - DEBUG - Input signal - Length: 61600, Mean: 2.3377, Std: 0.0006
+2025-10-16 16:50:24,840 - DEBUG - Applying bandpass filter: 0.5-10.0 Hz, order=4
+2025-10-16 16:50:24,844 - DEBUG - Bandpass filter applied successfully. Output range: [-0.0004, 0.0008]
+2025-10-16 16:50:24,845 - DEBUG - Detecting artifacts using MAD with threshold=3.5
+2025-10-16 16:50:24,845 - DEBUG - Artifacts detected: 0 points (0.00%)
+2025-10-16 16:50:24,846 - DEBUG - Removing artifacts using method='interpolation'
+2025-10-16 16:50:24,846 - DEBUG - Applying cubic spline baseline correction with smoothness=0.01
+2025-10-16 16:50:24,855 - DEBUG - Baseline correction applied. Baseline range: [-0.0003, -0.0002]
+2025-10-16 16:50:24,856 - DEBUG - Output signal - Mean: 0.0005, Std: 0.0003
+2025-10-16 16:50:24,856 - INFO - Preprocessing pipeline completed successfully
+2025-10-16 16:50:24,857 - INFO -   ✓ IR processing completed
+2025-10-16 16:50:24,857 - DEBUG -     Artifacts removed: 0 points (0.00%)
+2025-10-16 16:50:25,318 - INFO - ✓ Saved to: 15mm_data1.csv
+2025-10-16 16:50:25,319 - INFO - --------------------------------------------------------------------------------
+2025-10-16 16:50:25,319 - INFO - Processing: 15mm_adjusted_data2.csv (Depth: 15mm, State: Ischaemia)
+2025-10-16 16:50:25,319 - INFO - --------------------------------------------------------------------------------
+2025-10-16 16:50:25,369 - INFO - Loaded file: 15mm_adjusted_data2.csv (61200 rows)
+2025-10-16 16:50:25,370 - DEBUG - Columns: ['time', 'ppgA_Red_raw', 'ppgA_Red', 'ppgA_IR_raw', 'ppgA_IR', 'p1_mmhg', 'p2_mmhg']
+2025-10-16 16:50:25,370 - INFO -   Processing channel: Red
+2025-10-16 16:50:25,371 - INFO - Starting full preprocessing pipeline
+2025-10-16 16:50:25,372 - DEBUG - Input signal - Length: 61200, Mean: 2.5167, Std: 0.0005
+2025-10-16 16:50:25,372 - DEBUG - Applying bandpass filter: 0.5-10.0 Hz, order=4
+2025-10-16 16:50:25,376 - DEBUG - Bandpass filter applied successfully. Output range: [-0.0003, 0.0007]
+2025-10-16 16:50:25,376 - DEBUG - Detecting artifacts using MAD with threshold=3.5
+2025-10-16 16:50:25,377 - DEBUG - Artifacts detected: 88 points (0.14%)
+2025-10-16 16:50:25,377 - DEBUG - Removing artifacts using method='interpolation'
+2025-10-16 16:50:25,378 - DEBUG - Interpolated 88 artifact points
+2025-10-16 16:50:25,378 - DEBUG - Applying cubic spline baseline correction with smoothness=0.01
+2025-10-16 16:50:25,387 - DEBUG - Baseline correction applied. Baseline range: [-0.0001, 0.0000]
+2025-10-16 16:50:25,388 - DEBUG - Output signal - Mean: 0.0003, Std: 0.0002
+2025-10-16 16:50:25,389 - INFO - Preprocessing pipeline completed successfully
+2025-10-16 16:50:25,389 - INFO -   ✓ Red processing completed
+2025-10-16 16:50:25,389 - DEBUG -     Artifacts removed: 88 points (0.14%)
+2025-10-16 16:50:25,389 - INFO -   Processing channel: IR
+2025-10-16 16:50:25,390 - INFO - Starting full preprocessing pipeline
+2025-10-16 16:50:25,391 - DEBUG - Input signal - Length: 61200, Mean: 2.3423, Std: 0.0005
+2025-10-16 16:50:25,391 - DEBUG - Applying bandpass filter: 0.5-10.0 Hz, order=4
+2025-10-16 16:50:25,394 - DEBUG - Bandpass filter applied successfully. Output range: [-0.0001, 0.0005]
+2025-10-16 16:50:25,394 - DEBUG - Detecting artifacts using MAD with threshold=3.5
+2025-10-16 16:50:25,395 - DEBUG - Artifacts detected: 0 points (0.00%)
+2025-10-16 16:50:25,395 - DEBUG - Removing artifacts using method='interpolation'
+2025-10-16 16:50:25,396 - DEBUG - Applying cubic spline baseline correction with smoothness=0.01
+2025-10-16 16:50:25,404 - DEBUG - Baseline correction applied. Baseline range: [-0.0001, -0.0000]
+2025-10-16 16:50:25,405 - DEBUG - Output signal - Mean: 0.0003, Std: 0.0002
+2025-10-16 16:50:25,405 - INFO - Preprocessing pipeline completed successfully
+2025-10-16 16:50:25,406 - INFO -   ✓ IR processing completed
+2025-10-16 16:50:25,406 - DEBUG -     Artifacts removed: 0 points (0.00%)
+2025-10-16 16:50:25,877 - INFO - ✓ Saved to: 15mm_data2.csv
+2025-10-16 16:50:25,877 - INFO - --------------------------------------------------------------------------------
+2025-10-16 16:50:25,877 - INFO - Processing: 15mm_adjusted_data3.csv (Depth: 15mm, State: Congestion)
+2025-10-16 16:50:25,878 - INFO - --------------------------------------------------------------------------------
+2025-10-16 16:50:25,914 - INFO - Loaded file: 15mm_adjusted_data3.csv (61200 rows)
+2025-10-16 16:50:25,914 - DEBUG - Columns: ['time', 'ppgA_Red_raw', 'ppgA_Red', 'ppgA_IR_raw', 'ppgA_IR', 'p1_mmhg', 'p2_mmhg']
+2025-10-16 16:50:25,915 - INFO -   Processing channel: Red
+2025-10-16 16:50:25,915 - INFO - Starting full preprocessing pipeline
+2025-10-16 16:50:25,916 - DEBUG - Input signal - Length: 61200, Mean: 2.5025, Std: 0.0006
+2025-10-16 16:50:25,917 - DEBUG - Applying bandpass filter: 0.5-10.0 Hz, order=4
+2025-10-16 16:50:25,920 - DEBUG - Bandpass filter applied successfully. Output range: [-0.0004, 0.0009]
+2025-10-16 16:50:25,920 - DEBUG - Detecting artifacts using MAD with threshold=3.5
+2025-10-16 16:50:25,921 - DEBUG - Artifacts detected: 0 points (0.00%)
+2025-10-16 16:50:25,921 - DEBUG - Removing artifacts using method='interpolation'
+2025-10-16 16:50:25,922 - DEBUG - Applying cubic spline baseline correction with smoothness=0.01
+2025-10-16 16:50:25,931 - DEBUG - Baseline correction applied. Baseline range: [-0.0001, -0.0001]
+2025-10-16 16:50:25,932 - DEBUG - Output signal - Mean: 0.0003, Std: 0.0002
+2025-10-16 16:50:25,932 - INFO - Preprocessing pipeline completed successfully
+2025-10-16 16:50:25,933 - INFO -   ✓ Red processing completed
+2025-10-16 16:50:25,933 - DEBUG -     Artifacts removed: 0 points (0.00%)
+2025-10-16 16:50:25,933 - INFO -   Processing channel: IR
+2025-10-16 16:50:25,933 - INFO - Starting full preprocessing pipeline
+2025-10-16 16:50:25,934 - DEBUG - Input signal - Length: 61200, Mean: 2.3288, Std: 0.0006
+2025-10-16 16:50:25,934 - DEBUG - Applying bandpass filter: 0.5-10.0 Hz, order=4
+2025-10-16 16:50:25,937 - DEBUG - Bandpass filter applied successfully. Output range: [-0.0003, 0.0007]
+2025-10-16 16:50:25,937 - DEBUG - Detecting artifacts using MAD with threshold=3.5
+2025-10-16 16:50:25,938 - DEBUG - Artifacts detected: 0 points (0.00%)
+2025-10-16 16:50:25,938 - DEBUG - Removing artifacts using method='interpolation'
+2025-10-16 16:50:25,939 - DEBUG - Applying cubic spline baseline correction with smoothness=0.01
+2025-10-16 16:50:25,948 - DEBUG - Baseline correction applied. Baseline range: [-0.0002, -0.0001]
+2025-10-16 16:50:25,949 - DEBUG - Output signal - Mean: 0.0004, Std: 0.0003
+2025-10-16 16:50:25,950 - INFO - Preprocessing pipeline completed successfully
+2025-10-16 16:50:25,950 - INFO -   ✓ IR processing completed
+2025-10-16 16:50:25,950 - DEBUG -     Artifacts removed: 0 points (0.00%)
+2025-10-16 16:50:26,422 - INFO - ✓ Saved to: 15mm_data3.csv
+2025-10-16 16:50:26,423 - INFO - --------------------------------------------------------------------------------
+2025-10-16 16:50:26,424 - INFO - Processing: 21mm_adjusted_data1.csv (Depth: 21mm, State: Normal)
+2025-10-16 16:50:26,424 - INFO - --------------------------------------------------------------------------------
+2025-10-16 16:50:26,467 - INFO - Loaded file: 21mm_adjusted_data1.csv (60800 rows)
+2025-10-16 16:50:26,467 - DEBUG - Columns: ['time', 'ppgA_Red_raw', 'ppgA_Red', 'ppgA_IR_raw', 'ppgA_IR', 'p1_mmhg', 'p2_mmhg']
+2025-10-16 16:50:26,467 - INFO -   Processing channel: Red
+2025-10-16 16:50:26,468 - INFO - Starting full preprocessing pipeline
+2025-10-16 16:50:26,469 - DEBUG - Input signal - Length: 60800, Mean: 1.9060, Std: 0.0004
+2025-10-16 16:50:26,469 - DEBUG - Applying bandpass filter: 0.5-10.0 Hz, order=4
+2025-10-16 16:50:26,473 - DEBUG - Bandpass filter applied successfully. Output range: [-0.0002, 0.0007]
+2025-10-16 16:50:26,473 - DEBUG - Detecting artifacts using MAD with threshold=3.5
+2025-10-16 16:50:26,474 - DEBUG - Artifacts detected: 0 points (0.00%)
+2025-10-16 16:50:26,474 - DEBUG - Removing artifacts using method='interpolation'
+2025-10-16 16:50:26,475 - DEBUG - Applying cubic spline baseline correction with smoothness=0.01
+2025-10-16 16:50:26,484 - DEBUG - Baseline correction applied. Baseline range: [-0.0001, 0.0000]
+2025-10-16 16:50:26,485 - DEBUG - Output signal - Mean: 0.0003, Std: 0.0002
+2025-10-16 16:50:26,485 - INFO - Preprocessing pipeline completed successfully
+2025-10-16 16:50:26,486 - INFO -   ✓ Red processing completed
+2025-10-16 16:50:26,486 - DEBUG -     Artifacts removed: 0 points (0.00%)
+2025-10-16 16:50:26,486 - INFO -   Processing channel: IR
+2025-10-16 16:50:26,487 - INFO - Starting full preprocessing pipeline
+2025-10-16 16:50:26,487 - DEBUG - Input signal - Length: 60800, Mean: 2.4259, Std: 0.0006
+2025-10-16 16:50:26,488 - DEBUG - Applying bandpass filter: 0.5-10.0 Hz, order=4
+2025-10-16 16:50:26,491 - DEBUG - Bandpass filter applied successfully. Output range: [-0.0001, 0.0007]
+2025-10-16 16:50:26,491 - DEBUG - Detecting artifacts using MAD with threshold=3.5
+2025-10-16 16:50:26,492 - DEBUG - Artifacts detected: 0 points (0.00%)
+2025-10-16 16:50:26,492 - DEBUG - Removing artifacts using method='interpolation'
+2025-10-16 16:50:26,493 - DEBUG - Applying cubic spline baseline correction with smoothness=0.01
+2025-10-16 16:50:26,503 - DEBUG - Baseline correction applied. Baseline range: [-0.0001, -0.0001]
+2025-10-16 16:50:26,503 - DEBUG - Output signal - Mean: 0.0003, Std: 0.0002
+2025-10-16 16:50:26,504 - INFO - Preprocessing pipeline completed successfully
+2025-10-16 16:50:26,505 - INFO -   ✓ IR processing completed
+2025-10-16 16:50:26,505 - DEBUG -     Artifacts removed: 0 points (0.00%)
+2025-10-16 16:50:27,008 - INFO - ✓ Saved to: 21mm_data1.csv
+2025-10-16 16:50:27,008 - INFO - --------------------------------------------------------------------------------
+2025-10-16 16:50:27,009 - INFO - Processing: 21mm_adjusted_data2.csv (Depth: 21mm, State: Ischaemia)
+2025-10-16 16:50:27,009 - INFO - --------------------------------------------------------------------------------
+2025-10-16 16:50:27,045 - INFO - Loaded file: 21mm_adjusted_data2.csv (60800 rows)
+2025-10-16 16:50:27,046 - DEBUG - Columns: ['time', 'ppgA_Red_raw', 'ppgA_Red', 'ppgA_IR_raw', 'ppgA_IR', 'p1_mmhg', 'p2_mmhg']
+2025-10-16 16:50:27,046 - INFO -   Processing channel: Red
+2025-10-16 16:50:27,047 - INFO - Starting full preprocessing pipeline
+2025-10-16 16:50:27,048 - DEBUG - Input signal - Length: 60800, Mean: 1.9069, Std: 0.0004
+2025-10-16 16:50:27,048 - DEBUG - Applying bandpass filter: 0.5-10.0 Hz, order=4
+2025-10-16 16:50:27,051 - DEBUG - Bandpass filter applied successfully. Output range: [-0.0003, 0.0005]
+2025-10-16 16:50:27,052 - DEBUG - Detecting artifacts using MAD with threshold=3.5
+2025-10-16 16:50:27,053 - DEBUG - Artifacts detected: 119 points (0.20%)
+2025-10-16 16:50:27,053 - DEBUG - Removing artifacts using method='interpolation'
+2025-10-16 16:50:27,053 - DEBUG - Interpolated 119 artifact points
+2025-10-16 16:50:27,054 - DEBUG - Applying cubic spline baseline correction with smoothness=0.01
+2025-10-16 16:50:27,063 - DEBUG - Baseline correction applied. Baseline range: [-0.0000, 0.0001]
+2025-10-16 16:50:27,064 - DEBUG - Output signal - Mean: 0.0002, Std: 0.0001
+2025-10-16 16:50:27,064 - INFO - Preprocessing pipeline completed successfully
+2025-10-16 16:50:27,065 - INFO -   ✓ Red processing completed
+2025-10-16 16:50:27,065 - DEBUG -     Artifacts removed: 119 points (0.20%)
+2025-10-16 16:50:27,066 - INFO -   Processing channel: IR
+2025-10-16 16:50:27,067 - INFO - Starting full preprocessing pipeline
+2025-10-16 16:50:27,067 - DEBUG - Input signal - Length: 60800, Mean: 2.4303, Std: 0.0008
+2025-10-16 16:50:27,068 - DEBUG - Applying bandpass filter: 0.5-10.0 Hz, order=4
+2025-10-16 16:50:27,070 - DEBUG - Bandpass filter applied successfully. Output range: [0.0000, 0.0005]
+2025-10-16 16:50:27,071 - DEBUG - Detecting artifacts using MAD with threshold=3.5
+2025-10-16 16:50:27,072 - DEBUG - Artifacts detected: 0 points (0.00%)
+2025-10-16 16:50:27,072 - DEBUG - Removing artifacts using method='interpolation'
+2025-10-16 16:50:27,072 - DEBUG - Applying cubic spline baseline correction with smoothness=0.01
+2025-10-16 16:50:27,083 - DEBUG - Baseline correction applied. Baseline range: [0.0001, 0.0001]
+2025-10-16 16:50:27,084 - DEBUG - Output signal - Mean: 0.0002, Std: 0.0001
+2025-10-16 16:50:27,085 - INFO - Preprocessing pipeline completed successfully
+2025-10-16 16:50:27,085 - INFO -   ✓ IR processing completed
+2025-10-16 16:50:27,086 - DEBUG -     Artifacts removed: 0 points (0.00%)
+2025-10-16 16:50:27,565 - INFO - ✓ Saved to: 21mm_data2.csv
+2025-10-16 16:50:27,565 - INFO - --------------------------------------------------------------------------------
+2025-10-16 16:50:27,566 - INFO - Processing: 21mm_adjusted_data3.csv (Depth: 21mm, State: Congestion)
+2025-10-16 16:50:27,566 - INFO - --------------------------------------------------------------------------------
+2025-10-16 16:50:27,598 - INFO - Loaded file: 21mm_adjusted_data3.csv (60800 rows)
+2025-10-16 16:50:27,598 - DEBUG - Columns: ['time', 'ppgA_Red_raw', 'ppgA_Red', 'ppgA_IR_raw', 'ppgA_IR', 'p1_mmhg', 'p2_mmhg']
+2025-10-16 16:50:27,599 - INFO -   Processing channel: Red
+2025-10-16 16:50:27,600 - INFO - Starting full preprocessing pipeline
+2025-10-16 16:50:27,600 - DEBUG - Input signal - Length: 60800, Mean: 1.9038, Std: 0.0004
+2025-10-16 16:50:27,601 - DEBUG - Applying bandpass filter: 0.5-10.0 Hz, order=4
+2025-10-16 16:50:27,604 - DEBUG - Bandpass filter applied successfully. Output range: [-0.0003, 0.0006]
+2025-10-16 16:50:27,604 - DEBUG - Detecting artifacts using MAD with threshold=3.5
+2025-10-16 16:50:27,605 - DEBUG - Artifacts detected: 0 points (0.00%)
+2025-10-16 16:50:27,606 - DEBUG - Removing artifacts using method='interpolation'
+2025-10-16 16:50:27,606 - DEBUG - Applying cubic spline baseline correction with smoothness=0.01
+2025-10-16 16:50:27,615 - DEBUG - Baseline correction applied. Baseline range: [-0.0001, -0.0000]
+2025-10-16 16:50:27,616 - DEBUG - Output signal - Mean: 0.0003, Std: 0.0001
+2025-10-16 16:50:27,616 - INFO - Preprocessing pipeline completed successfully
+2025-10-16 16:50:27,617 - INFO -   ✓ Red processing completed
+2025-10-16 16:50:27,617 - DEBUG -     Artifacts removed: 0 points (0.00%)
+2025-10-16 16:50:27,617 - INFO -   Processing channel: IR
+2025-10-16 16:50:27,618 - INFO - Starting full preprocessing pipeline
+2025-10-16 16:50:27,618 - DEBUG - Input signal - Length: 60800, Mean: 2.4215, Std: 0.0005
+2025-10-16 16:50:27,619 - DEBUG - Applying bandpass filter: 0.5-10.0 Hz, order=4
+2025-10-16 16:50:27,622 - DEBUG - Bandpass filter applied successfully. Output range: [-0.0005, 0.0006]
+2025-10-16 16:50:27,622 - DEBUG - Detecting artifacts using MAD with threshold=3.5
+2025-10-16 16:50:27,623 - DEBUG - Artifacts detected: 0 points (0.00%)
+2025-10-16 16:50:27,623 - DEBUG - Removing artifacts using method='interpolation'
+2025-10-16 16:50:27,624 - DEBUG - Applying cubic spline baseline correction with smoothness=0.01
+2025-10-16 16:50:27,633 - DEBUG - Baseline correction applied. Baseline range: [-0.0002, 0.0001]
+2025-10-16 16:50:27,634 - DEBUG - Output signal - Mean: 0.0003, Std: 0.0002
+2025-10-16 16:50:27,635 - INFO - Preprocessing pipeline completed successfully
+2025-10-16 16:50:27,635 - INFO -   ✓ IR processing completed
+2025-10-16 16:50:27,636 - DEBUG -     Artifacts removed: 0 points (0.00%)
+2025-10-16 16:50:28,166 - INFO - ✓ Saved to: 21mm_data3.csv
+2025-10-16 16:50:28,166 - INFO - ================================================================================
+2025-10-16 16:50:28,166 - INFO - PROCESSING SUMMARY
+2025-10-16 16:50:28,167 - INFO - ================================================================================
+2025-10-16 16:50:28,167 - INFO - Total files: 12
+2025-10-16 16:50:28,167 - INFO - Successful: 12
+2025-10-16 16:50:28,167 - INFO - Failed: 0
+2025-10-16 16:50:28,168 - INFO - Success rate: 100.0%
+2025-10-16 16:50:28,168 - INFO - ================================================================================
+2025-10-16 16:50:28,168 - INFO - Log file saved: ppg_preprocessing_log_20251016_165021.log
+2025-10-16 16:50:28,168 - INFO - ================================================================================
+2025-10-16 17:03:57,499 - DEBUG - locator: <matplotlib.ticker.FixedLocator object at 0x12923eed0>
+2025-10-16 18:29:03,855 - DEBUG - locator: <matplotlib.ticker.FixedLocator object at 0x15dbaeb10>
+2025-10-16 18:30:10,724 - DEBUG - locator: <matplotlib.ticker.FixedLocator object at 0x15dc9a6f0>
+2025-10-16 18:30:42,324 - DEBUG - locator: <matplotlib.ticker.FixedLocator object at 0x15ddae330>

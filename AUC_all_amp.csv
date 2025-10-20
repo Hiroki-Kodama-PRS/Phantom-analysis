@@ -1,0 +1,25 @@
+﻿Channel,Depth,Feature,Pair,AUC_bootstrap_mean,CI_lower,CI_upper,n_sAmplitudeles
+Red,3,Amplitude,Normal vs Ischaemia,0.960350823,0.913262987,1,153
+Red,3,Amplitude,Normal vs Congestion,0.683094028,0.600393375,0.76720149,139
+Red,3,Amplitude,Ischaemia vs Congestion,0.000549056,0,0.001990167,156
+Red,9,Amplitude,Normal vs Ischaemia,0.77309478,0.683761819,0.833503814,180
+Red,9,Amplitude,Normal vs Congestion,0.382265246,0.313332421,0.459722945,186
+Red,9,Amplitude,Ischaemia vs Congestion,0.153072326,0.09831003,0.234015635,182
+Red,15,Amplitude,Normal vs Ischaemia,0.693415556,0.608204336,0.763758312,195
+Red,15,Amplitude,Normal vs Congestion,0.492105249,0.415981165,0.572076472,194
+Red,15,Amplitude,Ischaemia vs Congestion,0.319098431,0.252391192,0.394755171,195
+Red,21,Amplitude,Normal vs Ischaemia,0.636796615,0.564558903,0.707758347,195
+Red,21,Amplitude,Normal vs Congestion,0.510605905,0.442966102,0.587795284,189
+Red,21,Amplitude,Ischaemia vs Congestion,0.371218348,0.301613291,0.446073823,194
+IR,3,Amplitude,Normal vs Ischaemia,0.967763421,0.910043988,1,128
+IR,3,Amplitude,Normal vs Congestion,0.968362537,0.925222677,1,130
+IR,3,Amplitude,Ischaemia vs Congestion,0.704538332,0.609748222,0.792634172,130
+IR,9,Amplitude,Normal vs Ischaemia,0.983968024,0.945429293,1,136
+IR,9,Amplitude,Normal vs Congestion,0.95949,0.917053204,0.994797497,130
+IR,9,Amplitude,Ischaemia vs Congestion,0,0,0,136
+IR,15,Amplitude,Normal vs Ischaemia,1,1,1,149
+IR,15,Amplitude,Normal vs Congestion,0.994805446,0.986483465,1,132
+IR,15,Amplitude,Ischaemia vs Congestion,0.012089987,0.002656866,0.026297578,153
+IR,21,Amplitude,Normal vs Ischaemia,0.96353171,0.925767917,0.993592672,184
+IR,21,Amplitude,Normal vs Congestion,0.630620286,0.533440482,0.709247885,176
+IR,21,Amplitude,Ischaemia vs Congestion,0.030390789,0.004060348,0.069709561,188
