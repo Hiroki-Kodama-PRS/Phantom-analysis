@@ -1,0 +1,34 @@
+Feature Annotations for Grouped Categories (n>1)
+================================================================================
+
+3mm_Ischaemia:
+  - Time IR: Diastolic_Width, Fall_Time
+  - Intensity Red: AC_Component, Amplitude, PI
+  - Intensity IR: AC_Component, Amplitude, PI
+  - Area Red: AUC, D_AUC, Max_Start_Datum_Diff
+  - Area IR: AUC, D_AUC, End_Datum_Area, Max_Start_Datum_Diff, S_AUC, Start_Datum_Area
+
+9mm_Ischaemia:
+  - Intensity IR: AC_Component, Amplitude
+  - Area IR: AUC, D_AUC, End_Datum_Area, S_AUC, Start_Datum_Area
+  - Time IR: Diastolic_Width, Fall_Time
+
+15mm_Ischaemia:
+  - Intensity IR: AC_Component, Amplitude, PI
+  - Area IR: D_AUC, Max_Start_Datum_Diff, Start_Datum_Area
+
+3mm_Congestion:
+  - Time IR: Diastolic_Width, Fall_Time
+  - Shape & Stats IR: IPAR, RWI, Variance
+  - Intensity Red&IR: AC_Component_Ratio, Amplitude_Ratio, PI_Ratio
+  - Intensity IR: AC_Component, Amplitude, PI
+  - Area IR: AUC, D_AUC, End_Datum_Area, Max_Start_Datum_Diff, S_AUC, Start_Datum_Area
+
+9mm_Congestion:
+  - Intensity IR: AC_Component, Amplitude
+  - Time IR: Diastolic_Width, Fall_Time
+
+15mm_Congestion:
+  - Intensity IR: AC_Component, Amplitude, PI
+  - Area IR: D_AUC, Max_Start_Datum_Diff, Start_Datum_Area
+

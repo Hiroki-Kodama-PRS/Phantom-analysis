@@ -1,0 +1,69 @@
+[2026-01-25 13:02:42] STARTING DEBUG ANALYSIS V1 (AREA FEATURES)
+[2026-01-25 13:02:42] Successfully processed Red in Normal: 30 pulses
+[2026-01-25 13:02:42] Successfully processed IR in Normal: 30 pulses
+[2026-01-25 13:02:43] Successfully processed Red in Ischaemia: 30 pulses
+[2026-01-25 13:02:43] Successfully processed IR in Ischaemia: 30 pulses
+[2026-01-25 13:02:43] Successfully processed Red in Congestion: 31 pulses
+[2026-01-25 13:02:43] Successfully processed IR in Congestion: 31 pulses
+[2026-01-25 13:02:43] Feature CSV saved: diagnostic_performance_debug_v1/pulse_level_features_debug.csv
+[2026-01-25 13:02:43] 
+--- Statistics for Red ---
+[2026-01-25 13:02:43]   Amplitude (Normal): Mean=0.0030, Std=0.0002, Median=0.0030, N=30
+[2026-01-25 13:02:43]   Amplitude (Ischaemia): Mean=0.0017, Std=0.0001, Median=0.0017, N=30
+[2026-01-25 13:02:43]   Amplitude (Congestion): Mean=0.0028, Std=0.0002, Median=0.0028, N=31
+[2026-01-25 13:02:43]   AUC (Normal): Mean=3.1917, Std=0.2246, Median=3.1507, N=30
+[2026-01-25 13:02:43]   AUC (Ischaemia): Mean=1.7814, Std=0.1597, Median=1.7954, N=30
+[2026-01-25 13:02:43]   AUC (Congestion): Mean=2.9915, Std=0.3741, Median=2.9738, N=31
+[2026-01-25 13:02:43]   S_AUC (Normal): Mean=0.7002, Std=0.1985, Median=0.6171, N=30
+[2026-01-25 13:02:43]   S_AUC (Ischaemia): Mean=0.4176, Std=0.1605, Median=0.3469, N=30
+[2026-01-25 13:02:43]   S_AUC (Congestion): Mean=0.6702, Std=0.2390, Median=0.5873, N=31
+[2026-01-25 13:02:43]   D_AUC (Normal): Mean=2.4915, Std=0.2834, Median=2.4932, N=30
+[2026-01-25 13:02:43]   D_AUC (Ischaemia): Mean=1.3638, Std=0.1940, Median=1.3923, N=30
+[2026-01-25 13:02:43]   D_AUC (Congestion): Mean=2.3214, Std=0.3741, Median=2.3977, N=31
+[2026-01-25 13:02:43]   AUC_Ratio (Normal): Mean=0.2926, Std=0.1283, Median=0.2456, N=30
+[2026-01-25 13:02:43]   AUC_Ratio (Ischaemia): Mean=0.3253, Std=0.1776, Median=0.2363, N=30
+[2026-01-25 13:02:43]   AUC_Ratio (Congestion): Mean=0.3045, Std=0.1503, Median=0.2362, N=31
+[2026-01-25 13:02:43]   Start_Datum_Area (Normal): Mean=0.8422, Std=0.0898, Median=0.8507, N=30
+[2026-01-25 13:02:43]   Start_Datum_Area (Ischaemia): Mean=0.4855, Std=0.0649, Median=0.4908, N=30
+[2026-01-25 13:02:43]   Start_Datum_Area (Congestion): Mean=0.7809, Std=0.0953, Median=0.7842, N=31
+[2026-01-25 13:02:43]   End_Datum_Area (Normal): Mean=0.2570, Std=0.0625, Median=0.2586, N=30
+[2026-01-25 13:02:43]   End_Datum_Area (Ischaemia): Mean=0.1427, Std=0.0396, Median=0.1294, N=30
+[2026-01-25 13:02:43]   End_Datum_Area (Congestion): Mean=0.2444, Std=0.0599, Median=0.2343, N=31
+[2026-01-25 13:02:43]   Datum_Area_Ratio (Normal): Mean=3.4860, Std=0.9796, Median=3.2663, N=30
+[2026-01-25 13:02:43]   Datum_Area_Ratio (Ischaemia): Mean=3.7114, Std=1.3502, Median=3.4042, N=30
+[2026-01-25 13:02:43]   Datum_Area_Ratio (Congestion): Mean=3.3405, Std=0.7631, Median=3.2425, N=31
+[2026-01-25 13:02:43]   Max_Start_Datum_Diff (Normal): Mean=0.0030, Std=0.0002, Median=0.0030, N=30
+[2026-01-25 13:02:43]   Max_Start_Datum_Diff (Ischaemia): Mean=0.0017, Std=0.0001, Median=0.0017, N=30
+[2026-01-25 13:02:43]   Max_Start_Datum_Diff (Congestion): Mean=0.0028, Std=0.0002, Median=0.0028, N=31
+[2026-01-25 13:02:43] Saved visualization: diagnostic_performance_debug_v1/boxplots_debug_Red.png
+[2026-01-25 13:02:44] 
+--- Statistics for IR ---
+[2026-01-25 13:02:44]   Amplitude (Normal): Mean=0.0047, Std=0.0001, Median=0.0047, N=30
+[2026-01-25 13:02:44]   Amplitude (Ischaemia): Mean=0.0030, Std=0.0001, Median=0.0030, N=30
+[2026-01-25 13:02:44]   Amplitude (Congestion): Mean=0.0029, Std=0.0002, Median=0.0029, N=31
+[2026-01-25 13:02:44]   AUC (Normal): Mean=4.7955, Std=0.1165, Median=4.8158, N=30
+[2026-01-25 13:02:44]   AUC (Ischaemia): Mean=3.0635, Std=0.3268, Median=3.1282, N=30
+[2026-01-25 13:02:44]   AUC (Congestion): Mean=3.0260, Std=0.3224, Median=3.0671, N=31
+[2026-01-25 13:02:44]   S_AUC (Normal): Mean=0.9390, Std=0.0291, Median=0.9449, N=30
+[2026-01-25 13:02:44]   S_AUC (Ischaemia): Mean=0.5767, Std=0.0339, Median=0.5838, N=30
+[2026-01-25 13:02:44]   S_AUC (Congestion): Mean=0.6228, Std=0.0455, Median=0.6353, N=31
+[2026-01-25 13:02:44]   D_AUC (Normal): Mean=3.8565, Std=0.0918, Median=3.8678, N=30
+[2026-01-25 13:02:44]   D_AUC (Ischaemia): Mean=2.4868, Std=0.2957, Median=2.5418, N=30
+[2026-01-25 13:02:44]   D_AUC (Congestion): Mean=2.4032, Std=0.2843, Median=2.4292, N=31
+[2026-01-25 13:02:44]   AUC_Ratio (Normal): Mean=0.2435, Std=0.0045, Median=0.2441, N=30
+[2026-01-25 13:02:44]   AUC_Ratio (Ischaemia): Mean=0.2367, Std=0.0409, Median=0.2284, N=30
+[2026-01-25 13:02:44]   AUC_Ratio (Congestion): Mean=0.2635, Std=0.0396, Median=0.2557, N=31
+[2026-01-25 13:02:44]   Start_Datum_Area (Normal): Mean=1.3372, Std=0.0248, Median=1.3400, N=30
+[2026-01-25 13:02:44]   Start_Datum_Area (Ischaemia): Mean=0.8614, Std=0.1036, Median=0.8795, N=30
+[2026-01-25 13:02:44]   Start_Datum_Area (Congestion): Mean=0.7783, Std=0.0911, Median=0.7931, N=31
+[2026-01-25 13:02:44]   End_Datum_Area (Normal): Mean=0.3549, Std=0.0187, Median=0.3513, N=30
+[2026-01-25 13:02:44]   End_Datum_Area (Ischaemia): Mean=0.2217, Std=0.0292, Median=0.2259, N=30
+[2026-01-25 13:02:44]   End_Datum_Area (Congestion): Mean=0.2151, Std=0.0300, Median=0.2155, N=31
+[2026-01-25 13:02:44]   Datum_Area_Ratio (Normal): Mean=3.7798, Std=0.2279, Median=3.8248, N=30
+[2026-01-25 13:02:44]   Datum_Area_Ratio (Ischaemia): Mean=3.8977, Std=0.2457, Median=3.9196, N=30
+[2026-01-25 13:02:44]   Datum_Area_Ratio (Congestion): Mean=3.6438, Std=0.2548, Median=3.6601, N=31
+[2026-01-25 13:02:44]   Max_Start_Datum_Diff (Normal): Mean=0.0047, Std=0.0001, Median=0.0047, N=30
+[2026-01-25 13:02:44]   Max_Start_Datum_Diff (Ischaemia): Mean=0.0030, Std=0.0001, Median=0.0030, N=30
+[2026-01-25 13:02:44]   Max_Start_Datum_Diff (Congestion): Mean=0.0029, Std=0.0002, Median=0.0029, N=31
+[2026-01-25 13:02:44] Saved visualization: diagnostic_performance_debug_v1/boxplots_debug_IR.png
+[2026-01-25 13:02:44] ANALYSIS COMPLETE

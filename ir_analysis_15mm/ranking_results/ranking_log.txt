@@ -1,0 +1,22 @@
+[2026-01-26 13:13:46] === RANKING ANALYSIS START (15mm IR-only) ===
+[2026-01-26 13:13:46] Loaded 92 pulses with 31 features
+[2026-01-26 13:13:46] 
+--- Comparison: Normal vs Ischaemia ---
+[2026-01-26 13:14:08] Saved: ir_analysis_15mm/ranking_results/ranking_table_Ischaemia.csv
+[2026-01-26 13:14:08] Top 5 features:
+[2026-01-26 13:14:08]   1. PI: AUC=0.9903
+[2026-01-26 13:14:08]   2. Amplitude: AUC=0.9903
+[2026-01-26 13:14:08]   27. DNP: AUC=0.9731
+[2026-01-26 13:14:08]   10. Max_Start_Datum_Diff: AUC=0.9677
+[2026-01-26 13:14:08]   4. S_AUC: AUC=0.9602
+[2026-01-26 13:14:08] 
+--- Comparison: Normal vs Congestion ---
+[2026-01-26 13:14:18] Saved: ir_analysis_15mm/ranking_results/ranking_table_Congestion.csv
+[2026-01-26 13:14:18] Top 5 features:
+[2026-01-26 13:14:18]   1. PI: AUC=0.9688
+[2026-01-26 13:14:18]   2. Amplitude: AUC=0.9688
+[2026-01-26 13:14:18]   10. Max_Start_Datum_Diff: AUC=0.9563
+[2026-01-26 13:14:18]   3. AUC: AUC=0.9396
+[2026-01-26 13:14:18]   27. DNP: AUC=0.9334
+[2026-01-26 13:14:18] 
+=== RANKING ANALYSIS COMPLETE ===

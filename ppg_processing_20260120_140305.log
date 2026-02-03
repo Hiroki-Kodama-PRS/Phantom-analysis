@@ -1,0 +1,519 @@
+2026-01-20 14:03:05,623 - INFO - ================================================================================
+2026-01-20 14:03:05,625 - INFO - PPG Signal Quality Enhancement Pipeline Started
+2026-01-20 14:03:05,626 - INFO - ================================================================================
+2026-01-20 14:03:05,627 - INFO - 
+--- Processing: 3mm_adjusted_data1.csv ---
+2026-01-20 14:03:05,810 - INFO - Successfully loaded 3mm_adjusted_data1.csv
+2026-01-20 14:03:05,859 - INFO -   Channel: Red - Raw signal length: 60000
+2026-01-20 14:03:05,926 - INFO -     Raw SNR: 7.20 dB
+2026-01-20 14:03:05,927 - INFO - Starting preprocessing for signal of length 60000
+2026-01-20 14:03:06,607 - WARNING - Standard deviation is zero, returning original signal
+2026-01-20 14:03:06,617 - WARNING - Noise power is zero, SNR set to infinity
+2026-01-20 14:03:06,626 - INFO -     Processed SNR: inf dB
+2026-01-20 14:03:06,628 - INFO -     SNR Improvement: inf dB
+2026-01-20 14:03:06,630 - INFO -     ✓ Successfully processed Red
+2026-01-20 14:03:06,636 - INFO -   Channel: IR - Raw signal length: 60000
+2026-01-20 14:03:06,670 - INFO -     Raw SNR: 10.35 dB
+2026-01-20 14:03:06,673 - INFO - Starting preprocessing for signal of length 60000
+2026-01-20 14:03:07,206 - WARNING - Standard deviation is zero, returning original signal
+2026-01-20 14:03:07,351 - WARNING - Noise power is zero, SNR set to infinity
+2026-01-20 14:03:07,399 - INFO -     Processed SNR: inf dB
+2026-01-20 14:03:07,400 - INFO -     SNR Improvement: inf dB
+2026-01-20 14:03:07,403 - INFO -     ✓ Successfully processed IR
+2026-01-20 14:03:07,413 - INFO - 
+--- Processing: 3mm_adjusted_data2.csv ---
+2026-01-20 14:03:08,031 - INFO - Successfully loaded 3mm_adjusted_data2.csv
+2026-01-20 14:03:08,039 - INFO -   Channel: Red - Raw signal length: 60000
+2026-01-20 14:03:08,071 - INFO -     Raw SNR: 2.40 dB
+2026-01-20 14:03:08,073 - INFO - Starting preprocessing for signal of length 60000
+2026-01-20 14:03:08,314 - WARNING - Standard deviation is zero, returning original signal
+2026-01-20 14:03:08,332 - WARNING - Noise power is zero, SNR set to infinity
+2026-01-20 14:03:08,392 - INFO -     Processed SNR: inf dB
+2026-01-20 14:03:08,398 - INFO -     SNR Improvement: inf dB
+2026-01-20 14:03:08,399 - INFO -     ✓ Successfully processed Red
+2026-01-20 14:03:08,401 - INFO -   Channel: IR - Raw signal length: 60000
+2026-01-20 14:03:08,414 - INFO -     Raw SNR: 6.80 dB
+2026-01-20 14:03:08,415 - INFO - Starting preprocessing for signal of length 60000
+2026-01-20 14:03:08,601 - WARNING - Standard deviation is zero, returning original signal
+2026-01-20 14:03:08,606 - WARNING - Noise power is zero, SNR set to infinity
+2026-01-20 14:03:08,609 - INFO -     Processed SNR: inf dB
+2026-01-20 14:03:08,609 - INFO -     SNR Improvement: inf dB
+2026-01-20 14:03:08,610 - INFO -     ✓ Successfully processed IR
+2026-01-20 14:03:08,611 - INFO - 
+--- Processing: 3mm_adjusted_data3.csv ---
+2026-01-20 14:03:08,712 - INFO - Successfully loaded 3mm_adjusted_data3.csv
+2026-01-20 14:03:08,713 - INFO -   Channel: Red - Raw signal length: 60000
+2026-01-20 14:03:08,722 - INFO -     Raw SNR: 6.67 dB
+2026-01-20 14:03:08,722 - INFO - Starting preprocessing for signal of length 60000
+2026-01-20 14:03:08,939 - WARNING - Standard deviation is zero, returning original signal
+2026-01-20 14:03:08,957 - WARNING - Noise power is zero, SNR set to infinity
+2026-01-20 14:03:08,997 - INFO -     Processed SNR: inf dB
+2026-01-20 14:03:08,999 - INFO -     SNR Improvement: inf dB
+2026-01-20 14:03:09,000 - INFO -     ✓ Successfully processed Red
+2026-01-20 14:03:09,004 - INFO -   Channel: IR - Raw signal length: 60000
+2026-01-20 14:03:09,034 - INFO -     Raw SNR: 7.28 dB
+2026-01-20 14:03:09,039 - INFO - Starting preprocessing for signal of length 60000
+2026-01-20 14:03:09,358 - WARNING - Standard deviation is zero, returning original signal
+2026-01-20 14:03:09,370 - WARNING - Noise power is zero, SNR set to infinity
+2026-01-20 14:03:09,376 - INFO -     Processed SNR: inf dB
+2026-01-20 14:03:09,380 - INFO -     SNR Improvement: inf dB
+2026-01-20 14:03:09,398 - INFO -     ✓ Successfully processed IR
+2026-01-20 14:03:09,400 - INFO - 
+--- Processing: 9mm_adjusted_data1.csv ---
+2026-01-20 14:03:09,539 - INFO - Successfully loaded 9mm_adjusted_data1.csv
+2026-01-20 14:03:09,540 - INFO -   Channel: Red - Raw signal length: 60000
+2026-01-20 14:03:09,550 - INFO -     Raw SNR: -0.30 dB
+2026-01-20 14:03:09,552 - INFO - Starting preprocessing for signal of length 60000
+2026-01-20 14:03:09,560 - INFO - Detected 79 outliers (0.13%)
+2026-01-20 14:03:09,724 - WARNING - Standard deviation is zero, returning original signal
+2026-01-20 14:03:09,727 - WARNING - Noise power is zero, SNR set to infinity
+2026-01-20 14:03:09,730 - INFO -     Processed SNR: inf dB
+2026-01-20 14:03:09,731 - INFO -     SNR Improvement: inf dB
+2026-01-20 14:03:09,732 - INFO -     ✓ Successfully processed Red
+2026-01-20 14:03:09,733 - INFO -   Channel: IR - Raw signal length: 60000
+2026-01-20 14:03:09,742 - INFO -     Raw SNR: 5.48 dB
+2026-01-20 14:03:09,743 - INFO - Starting preprocessing for signal of length 60000
+2026-01-20 14:03:09,898 - WARNING - Standard deviation is zero, returning original signal
+2026-01-20 14:03:09,901 - WARNING - Noise power is zero, SNR set to infinity
+2026-01-20 14:03:09,903 - INFO -     Processed SNR: inf dB
+2026-01-20 14:03:09,904 - INFO -     SNR Improvement: inf dB
+2026-01-20 14:03:09,905 - INFO -     ✓ Successfully processed IR
+2026-01-20 14:03:09,905 - INFO - 
+--- Processing: 9mm_adjusted_data2.csv ---
+2026-01-20 14:03:09,971 - INFO - Successfully loaded 9mm_adjusted_data2.csv
+2026-01-20 14:03:09,972 - INFO -   Channel: Red - Raw signal length: 60000
+2026-01-20 14:03:09,976 - INFO -     Raw SNR: -4.01 dB
+2026-01-20 14:03:09,976 - INFO - Starting preprocessing for signal of length 60000
+2026-01-20 14:03:09,980 - INFO - Detected 2 outliers (0.00%)
+2026-01-20 14:03:10,073 - WARNING - Standard deviation is zero, returning original signal
+2026-01-20 14:03:10,075 - WARNING - Noise power is zero, SNR set to infinity
+2026-01-20 14:03:10,077 - INFO -     Processed SNR: inf dB
+2026-01-20 14:03:10,077 - INFO -     SNR Improvement: inf dB
+2026-01-20 14:03:10,078 - INFO -     ✓ Successfully processed Red
+2026-01-20 14:03:10,078 - INFO -   Channel: IR - Raw signal length: 60000
+2026-01-20 14:03:10,082 - INFO -     Raw SNR: 1.01 dB
+2026-01-20 14:03:10,083 - INFO - Starting preprocessing for signal of length 60000
+2026-01-20 14:03:10,181 - WARNING - Standard deviation is zero, returning original signal
+2026-01-20 14:03:10,183 - WARNING - Noise power is zero, SNR set to infinity
+2026-01-20 14:03:10,185 - INFO -     Processed SNR: inf dB
+2026-01-20 14:03:10,186 - INFO -     SNR Improvement: inf dB
+2026-01-20 14:03:10,186 - INFO -     ✓ Successfully processed IR
+2026-01-20 14:03:10,187 - INFO - 
+--- Processing: 9mm_adjusted_data3.csv ---
+2026-01-20 14:03:10,229 - INFO - Successfully loaded 9mm_adjusted_data3.csv
+2026-01-20 14:03:10,230 - INFO -   Channel: Red - Raw signal length: 60000
+2026-01-20 14:03:10,234 - INFO -     Raw SNR: -0.18 dB
+2026-01-20 14:03:10,234 - INFO - Starting preprocessing for signal of length 60000
+2026-01-20 14:03:10,329 - WARNING - Standard deviation is zero, returning original signal
+2026-01-20 14:03:10,331 - WARNING - Noise power is zero, SNR set to infinity
+2026-01-20 14:03:10,333 - INFO -     Processed SNR: inf dB
+2026-01-20 14:03:10,333 - INFO -     SNR Improvement: inf dB
+2026-01-20 14:03:10,334 - INFO -     ✓ Successfully processed Red
+2026-01-20 14:03:10,334 - INFO -   Channel: IR - Raw signal length: 60000
+2026-01-20 14:03:10,338 - INFO -     Raw SNR: 4.98 dB
+2026-01-20 14:03:10,339 - INFO - Starting preprocessing for signal of length 60000
+2026-01-20 14:03:10,432 - WARNING - Standard deviation is zero, returning original signal
+2026-01-20 14:03:10,435 - WARNING - Noise power is zero, SNR set to infinity
+2026-01-20 14:03:10,436 - INFO -     Processed SNR: inf dB
+2026-01-20 14:03:10,437 - INFO -     SNR Improvement: inf dB
+2026-01-20 14:03:10,437 - INFO -     ✓ Successfully processed IR
+2026-01-20 14:03:10,437 - INFO - 
+--- Processing: 15mm_adjusted_data1.csv ---
+2026-01-20 14:03:10,494 - INFO - Successfully loaded 15mm_adjusted_data1.csv
+2026-01-20 14:03:10,495 - INFO -   Channel: Red - Raw signal length: 60000
+2026-01-20 14:03:10,499 - INFO -     Raw SNR: -2.87 dB
+2026-01-20 14:03:10,499 - INFO - Starting preprocessing for signal of length 60000
+2026-01-20 14:03:10,503 - INFO - Detected 11 outliers (0.02%)
+2026-01-20 14:03:10,596 - WARNING - Standard deviation is zero, returning original signal
+2026-01-20 14:03:10,598 - WARNING - Noise power is zero, SNR set to infinity
+2026-01-20 14:03:10,600 - INFO -     Processed SNR: inf dB
+2026-01-20 14:03:10,600 - INFO -     SNR Improvement: inf dB
+2026-01-20 14:03:10,600 - INFO -     ✓ Successfully processed Red
+2026-01-20 14:03:10,601 - INFO -   Channel: IR - Raw signal length: 60000
+2026-01-20 14:03:10,605 - INFO -     Raw SNR: -0.37 dB
+2026-01-20 14:03:10,605 - INFO - Starting preprocessing for signal of length 60000
+2026-01-20 14:03:10,700 - WARNING - Standard deviation is zero, returning original signal
+2026-01-20 14:03:10,702 - WARNING - Noise power is zero, SNR set to infinity
+2026-01-20 14:03:10,704 - INFO -     Processed SNR: inf dB
+2026-01-20 14:03:10,704 - INFO -     SNR Improvement: inf dB
+2026-01-20 14:03:10,704 - INFO -     ✓ Successfully processed IR
+2026-01-20 14:03:10,705 - INFO - 
+--- Processing: 15mm_adjusted_data2.csv ---
+2026-01-20 14:03:10,756 - INFO - Successfully loaded 15mm_adjusted_data2.csv
+2026-01-20 14:03:10,757 - INFO -   Channel: Red - Raw signal length: 60000
+2026-01-20 14:03:10,761 - INFO -     Raw SNR: -5.98 dB
+2026-01-20 14:03:10,762 - INFO - Starting preprocessing for signal of length 60000
+2026-01-20 14:03:10,909 - WARNING - Standard deviation is zero, returning original signal
+2026-01-20 14:03:10,911 - WARNING - Noise power is zero, SNR set to infinity
+2026-01-20 14:03:10,913 - INFO -     Processed SNR: inf dB
+2026-01-20 14:03:10,913 - INFO -     SNR Improvement: inf dB
+2026-01-20 14:03:10,914 - INFO -     ✓ Successfully processed Red
+2026-01-20 14:03:10,914 - INFO -   Channel: IR - Raw signal length: 60000
+2026-01-20 14:03:10,917 - INFO -     Raw SNR: -5.96 dB
+2026-01-20 14:03:10,918 - INFO - Starting preprocessing for signal of length 60000
+2026-01-20 14:03:11,027 - WARNING - Standard deviation is zero, returning original signal
+2026-01-20 14:03:11,030 - WARNING - Noise power is zero, SNR set to infinity
+2026-01-20 14:03:11,032 - INFO -     Processed SNR: inf dB
+2026-01-20 14:03:11,032 - INFO -     SNR Improvement: inf dB
+2026-01-20 14:03:11,032 - INFO -     ✓ Successfully processed IR
+2026-01-20 14:03:11,033 - INFO - 
+--- Processing: 15mm_adjusted_data3.csv ---
+2026-01-20 14:03:11,089 - INFO - Successfully loaded 15mm_adjusted_data3.csv
+2026-01-20 14:03:11,091 - INFO -   Channel: Red - Raw signal length: 60000
+2026-01-20 14:03:11,097 - INFO -     Raw SNR: -4.40 dB
+2026-01-20 14:03:11,097 - INFO - Starting preprocessing for signal of length 60000
+2026-01-20 14:03:11,101 - INFO - Detected 4 outliers (0.01%)
+2026-01-20 14:03:11,205 - WARNING - Standard deviation is zero, returning original signal
+2026-01-20 14:03:11,208 - WARNING - Noise power is zero, SNR set to infinity
+2026-01-20 14:03:11,209 - INFO -     Processed SNR: inf dB
+2026-01-20 14:03:11,210 - INFO -     SNR Improvement: inf dB
+2026-01-20 14:03:11,210 - INFO -     ✓ Successfully processed Red
+2026-01-20 14:03:11,211 - INFO -   Channel: IR - Raw signal length: 60000
+2026-01-20 14:03:11,215 - INFO -     Raw SNR: -2.10 dB
+2026-01-20 14:03:11,215 - INFO - Starting preprocessing for signal of length 60000
+2026-01-20 14:03:11,312 - WARNING - Standard deviation is zero, returning original signal
+2026-01-20 14:03:11,314 - WARNING - Noise power is zero, SNR set to infinity
+2026-01-20 14:03:11,316 - INFO -     Processed SNR: inf dB
+2026-01-20 14:03:11,317 - INFO -     SNR Improvement: inf dB
+2026-01-20 14:03:11,317 - INFO -     ✓ Successfully processed IR
+2026-01-20 14:03:11,318 - INFO - 
+--- Processing: 21mm_adjusted_data1.csv ---
+2026-01-20 14:03:11,371 - INFO - Successfully loaded 21mm_adjusted_data1.csv
+2026-01-20 14:03:11,372 - INFO -   Channel: Red - Raw signal length: 60000
+2026-01-20 14:03:11,376 - INFO -     Raw SNR: -5.16 dB
+2026-01-20 14:03:11,376 - INFO - Starting preprocessing for signal of length 60000
+2026-01-20 14:03:11,379 - INFO - Detected 641 outliers (1.07%)
+2026-01-20 14:03:11,472 - WARNING - Standard deviation is zero, returning original signal
+2026-01-20 14:03:11,474 - WARNING - Noise power is zero, SNR set to infinity
+2026-01-20 14:03:11,476 - INFO -     Processed SNR: inf dB
+2026-01-20 14:03:11,477 - INFO -     SNR Improvement: inf dB
+2026-01-20 14:03:11,477 - INFO -     ✓ Successfully processed Red
+2026-01-20 14:03:11,478 - INFO -   Channel: IR - Raw signal length: 60000
+2026-01-20 14:03:11,481 - INFO -     Raw SNR: -5.67 dB
+2026-01-20 14:03:11,481 - INFO - Starting preprocessing for signal of length 60000
+2026-01-20 14:03:11,576 - WARNING - Standard deviation is zero, returning original signal
+2026-01-20 14:03:11,578 - WARNING - Noise power is zero, SNR set to infinity
+2026-01-20 14:03:11,580 - INFO -     Processed SNR: inf dB
+2026-01-20 14:03:11,580 - INFO -     SNR Improvement: inf dB
+2026-01-20 14:03:11,580 - INFO -     ✓ Successfully processed IR
+2026-01-20 14:03:11,581 - INFO - 
+--- Processing: 21mm_adjusted_data2.csv ---
+2026-01-20 14:03:11,630 - INFO - Successfully loaded 21mm_adjusted_data2.csv
+2026-01-20 14:03:11,631 - INFO -   Channel: Red - Raw signal length: 60000
+2026-01-20 14:03:11,635 - INFO -     Raw SNR: -6.31 dB
+2026-01-20 14:03:11,635 - INFO - Starting preprocessing for signal of length 60000
+2026-01-20 14:03:11,731 - WARNING - Standard deviation is zero, returning original signal
+2026-01-20 14:03:11,734 - WARNING - Noise power is zero, SNR set to infinity
+2026-01-20 14:03:11,736 - INFO -     Processed SNR: inf dB
+2026-01-20 14:03:11,737 - INFO -     SNR Improvement: inf dB
+2026-01-20 14:03:11,737 - INFO -     ✓ Successfully processed Red
+2026-01-20 14:03:11,738 - INFO -   Channel: IR - Raw signal length: 60000
+2026-01-20 14:03:11,742 - INFO -     Raw SNR: -8.81 dB
+2026-01-20 14:03:11,742 - INFO - Starting preprocessing for signal of length 60000
+2026-01-20 14:03:11,837 - WARNING - Standard deviation is zero, returning original signal
+2026-01-20 14:03:11,840 - WARNING - Noise power is zero, SNR set to infinity
+2026-01-20 14:03:11,842 - INFO -     Processed SNR: inf dB
+2026-01-20 14:03:11,842 - INFO -     SNR Improvement: inf dB
+2026-01-20 14:03:11,842 - INFO -     ✓ Successfully processed IR
+2026-01-20 14:03:11,843 - INFO - 
+--- Processing: 21mm_adjusted_data3.csv ---
+2026-01-20 14:03:11,892 - INFO - Successfully loaded 21mm_adjusted_data3.csv
+2026-01-20 14:03:11,893 - INFO -   Channel: Red - Raw signal length: 60000
+2026-01-20 14:03:11,898 - INFO -     Raw SNR: -5.21 dB
+2026-01-20 14:03:11,898 - INFO - Starting preprocessing for signal of length 60000
+2026-01-20 14:03:11,994 - WARNING - Standard deviation is zero, returning original signal
+2026-01-20 14:03:11,996 - WARNING - Noise power is zero, SNR set to infinity
+2026-01-20 14:03:11,997 - INFO -     Processed SNR: inf dB
+2026-01-20 14:03:11,998 - INFO -     SNR Improvement: inf dB
+2026-01-20 14:03:11,998 - INFO -     ✓ Successfully processed Red
+2026-01-20 14:03:11,998 - INFO -   Channel: IR - Raw signal length: 60000
+2026-01-20 14:03:12,002 - INFO -     Raw SNR: -5.83 dB
+2026-01-20 14:03:12,003 - INFO - Starting preprocessing for signal of length 60000
+2026-01-20 14:03:12,097 - WARNING - Standard deviation is zero, returning original signal
+2026-01-20 14:03:12,100 - WARNING - Noise power is zero, SNR set to infinity
+2026-01-20 14:03:12,102 - INFO -     Processed SNR: inf dB
+2026-01-20 14:03:12,102 - INFO -     SNR Improvement: inf dB
+2026-01-20 14:03:12,103 - INFO -     ✓ Successfully processed IR
+2026-01-20 14:03:12,110 - INFO - 
+✅ 指標計算が完了し、'Signal_Quality_Enhanced_Summary.csv' に保存されました。
+2026-01-20 14:03:12,110 - INFO - 
+================================================================================
+2026-01-20 14:03:12,111 - INFO - SUMMARY STATISTICS
+2026-01-20 14:03:12,111 - INFO - ================================================================================
+2026-01-20 14:03:12,119 - INFO - 
+Raw Signal Quality:
+2026-01-20 14:03:12,120 - INFO -   Mean SNR: -0.46 ± 5.58 dB
+2026-01-20 14:03:12,121 - INFO -   Mean PI: 0.04 ± 0.02 %
+2026-01-20 14:03:12,121 - INFO -   Mean Kurtosis: -0.44 ± 0.30
+2026-01-20 14:03:12,122 - INFO - 
+Processed Signal Quality:
+2026-01-20 14:03:12,126 - INFO -   Mean SNR: inf ± nan dB
+2026-01-20 14:03:12,127 - INFO -   Mean PI: nan ± nan %
+2026-01-20 14:03:12,127 - INFO -   Mean Kurtosis: nan ± nan
+2026-01-20 14:03:12,133 - INFO - 
+================================================================================
+2026-01-20 14:03:12,133 - INFO - PPG Signal Quality Enhancement Pipeline Completed
+2026-01-20 14:03:12,134 - INFO - ================================================================================
+2026-01-20 14:06:58,264 - INFO - ================================================================================
+2026-01-20 14:06:58,267 - INFO - PPG Signal Quality Assessment & Enhancement Pipeline
+2026-01-20 14:06:58,268 - INFO - 前処理 + 品質評価の統合処理
+2026-01-20 14:06:58,269 - INFO - ================================================================================
+2026-01-20 14:06:58,270 - INFO - PPGPreprocessor initialized with fs=2000.0 Hz
+2026-01-20 14:06:58,271 - INFO - --------------------------------------------------------------------------------
+2026-01-20 14:06:58,272 - INFO - Processing: 3mm_adjusted_data1.csv (Depth: 3mm, State: Normal)
+2026-01-20 14:06:58,274 - INFO - --------------------------------------------------------------------------------
+2026-01-20 14:06:58,472 - INFO - Loaded: 3mm_adjusted_data1.csv (61200 rows)
+2026-01-20 14:06:58,474 - INFO -   Channel: Red
+2026-01-20 14:06:58,681 - INFO -     Raw SNR (Welch): 15.33 dB
+2026-01-20 14:06:58,684 - INFO -     Raw PI: 0.0573 %
+2026-01-20 14:06:58,784 - INFO -     Processed SNR (Welch): 20.73 dB
+2026-01-20 14:06:58,785 - INFO -     Processed PI: 61.3398 %
+2026-01-20 14:06:58,786 - INFO -     ✓ SNR Improvement: +5.39 dB
+2026-01-20 14:06:58,787 - INFO -     Artifacts removed: 0 (0.00%)
+2026-01-20 14:06:58,803 - INFO -   Channel: IR
+2026-01-20 14:06:58,834 - INFO -     Raw SNR (Welch): 18.78 dB
+2026-01-20 14:06:58,835 - INFO -     Raw PI: 0.0992 %
+2026-01-20 14:06:58,934 - INFO -     Processed SNR (Welch): 21.46 dB
+2026-01-20 14:06:58,937 - INFO -     Processed PI: 62.9843 %
+2026-01-20 14:06:58,946 - INFO -     ✓ SNR Improvement: +2.68 dB
+2026-01-20 14:06:58,951 - INFO -     Artifacts removed: 0 (0.00%)
+2026-01-20 14:07:00,397 - INFO - ✓ Saved: 3mm_processed_data1.csv
+2026-01-20 14:07:00,430 - INFO - --------------------------------------------------------------------------------
+2026-01-20 14:07:00,435 - INFO - Processing: 3mm_adjusted_data2.csv (Depth: 3mm, State: Ischaemia)
+2026-01-20 14:07:00,436 - INFO - --------------------------------------------------------------------------------
+2026-01-20 14:07:00,607 - INFO - Loaded: 3mm_adjusted_data2.csv (61200 rows)
+2026-01-20 14:07:00,612 - INFO -   Channel: Red
+2026-01-20 14:07:00,654 - INFO -     Raw SNR (Welch): 11.26 dB
+2026-01-20 14:07:00,656 - INFO -     Raw PI: 0.0346 %
+2026-01-20 14:07:00,721 - INFO -     Processed SNR (Welch): 17.30 dB
+2026-01-20 14:07:00,722 - INFO -     Processed PI: 62.0772 %
+2026-01-20 14:07:00,723 - INFO -     ✓ SNR Improvement: +6.04 dB
+2026-01-20 14:07:00,725 - INFO -     Artifacts removed: 0 (0.00%)
+2026-01-20 14:07:00,727 - INFO -   Channel: IR
+2026-01-20 14:07:00,745 - INFO -     Raw SNR (Welch): 17.36 dB
+2026-01-20 14:07:00,747 - INFO -     Raw PI: 0.0729 %
+2026-01-20 14:07:00,819 - INFO -     Processed SNR (Welch): 20.62 dB
+2026-01-20 14:07:00,820 - INFO -     Processed PI: 62.2100 %
+2026-01-20 14:07:00,821 - INFO -     ✓ SNR Improvement: +3.26 dB
+2026-01-20 14:07:00,822 - INFO -     Artifacts removed: 0 (0.00%)
+2026-01-20 14:07:02,316 - INFO - ✓ Saved: 3mm_processed_data2.csv
+2026-01-20 14:07:02,321 - INFO - --------------------------------------------------------------------------------
+2026-01-20 14:07:02,323 - INFO - Processing: 3mm_adjusted_data3.csv (Depth: 3mm, State: Congestion)
+2026-01-20 14:07:02,325 - INFO - --------------------------------------------------------------------------------
+2026-01-20 14:07:02,449 - INFO - Loaded: 3mm_adjusted_data3.csv (61600 rows)
+2026-01-20 14:07:02,452 - INFO -   Channel: Red
+2026-01-20 14:07:02,478 - INFO -     Raw SNR (Welch): 15.15 dB
+2026-01-20 14:07:02,479 - INFO -     Raw PI: 0.0833 %
+2026-01-20 14:07:02,535 - INFO -     Processed SNR (Welch): 20.51 dB
+2026-01-20 14:07:02,536 - INFO -     Processed PI: 60.1188 %
+2026-01-20 14:07:02,537 - INFO -     ✓ SNR Improvement: +5.35 dB
+2026-01-20 14:07:02,538 - INFO -     Artifacts removed: 0 (0.00%)
+2026-01-20 14:07:02,541 - INFO -   Channel: IR
+2026-01-20 14:07:02,575 - INFO -     Raw SNR (Welch): 19.59 dB
+2026-01-20 14:07:02,576 - INFO -     Raw PI: 0.0741 %
+2026-01-20 14:07:02,622 - INFO -     Processed SNR (Welch): 22.75 dB
+2026-01-20 14:07:02,623 - INFO -     Processed PI: 62.8051 %
+2026-01-20 14:07:02,624 - INFO -     ✓ SNR Improvement: +3.17 dB
+2026-01-20 14:07:02,625 - INFO -     Artifacts removed: 0 (0.00%)
+2026-01-20 14:07:04,646 - INFO - ✓ Saved: 3mm_processed_data3.csv
+2026-01-20 14:07:04,651 - INFO - --------------------------------------------------------------------------------
+2026-01-20 14:07:04,651 - INFO - Processing: 9mm_adjusted_data1.csv (Depth: 9mm, State: Normal)
+2026-01-20 14:07:04,652 - INFO - --------------------------------------------------------------------------------
+2026-01-20 14:07:04,731 - INFO - Loaded: 9mm_adjusted_data1.csv (61600 rows)
+2026-01-20 14:07:04,733 - INFO -   Channel: Red
+2026-01-20 14:07:04,758 - INFO -     Raw SNR (Welch): 6.70 dB
+2026-01-20 14:07:04,759 - INFO -     Raw PI: 0.0246 %
+2026-01-20 14:07:04,803 - INFO -     Processed SNR (Welch): 15.04 dB
+2026-01-20 14:07:04,804 - INFO -     Processed PI: 57.2611 %
+2026-01-20 14:07:04,805 - INFO -     ✓ SNR Improvement: +8.33 dB
+2026-01-20 14:07:04,810 - INFO -     Artifacts removed: 0 (0.00%)
+2026-01-20 14:07:04,812 - INFO -   Channel: IR
+2026-01-20 14:07:04,837 - INFO -     Raw SNR (Welch): 17.93 dB
+2026-01-20 14:07:04,838 - INFO -     Raw PI: 0.0406 %
+2026-01-20 14:07:04,879 - INFO -     Processed SNR (Welch): 21.43 dB
+2026-01-20 14:07:04,879 - INFO -     Processed PI: 63.6421 %
+2026-01-20 14:07:04,880 - INFO -     ✓ SNR Improvement: +3.50 dB
+2026-01-20 14:07:04,881 - INFO -     Artifacts removed: 0 (0.00%)
+2026-01-20 14:07:06,040 - INFO - ✓ Saved: 9mm_processed_data1.csv
+2026-01-20 14:07:06,041 - INFO - --------------------------------------------------------------------------------
+2026-01-20 14:07:06,042 - INFO - Processing: 9mm_adjusted_data2.csv (Depth: 9mm, State: Ischaemia)
+2026-01-20 14:07:06,042 - INFO - --------------------------------------------------------------------------------
+2026-01-20 14:07:06,124 - INFO - Loaded: 9mm_adjusted_data2.csv (61201 rows)
+2026-01-20 14:07:06,126 - INFO -   Channel: Red
+2026-01-20 14:07:06,167 - INFO -     Raw SNR (Welch): 3.71 dB
+2026-01-20 14:07:06,169 - INFO -     Raw PI: 0.0194 %
+2026-01-20 14:07:06,233 - INFO -     Processed SNR (Welch): 13.02 dB
+2026-01-20 14:07:06,234 - INFO -     Processed PI: 59.0303 %
+2026-01-20 14:07:06,235 - INFO -     ✓ SNR Improvement: +9.31 dB
+2026-01-20 14:07:06,236 - INFO -     Artifacts removed: 0 (0.00%)
+2026-01-20 14:07:06,237 - INFO -   Channel: IR
+2026-01-20 14:07:06,265 - INFO -     Raw SNR (Welch): 14.92 dB
+2026-01-20 14:07:06,266 - INFO -     Raw PI: 0.0281 %
+2026-01-20 14:07:06,329 - INFO -     Processed SNR (Welch): 19.71 dB
+2026-01-20 14:07:06,331 - INFO -     Processed PI: 64.0709 %
+2026-01-20 14:07:06,332 - INFO -     ✓ SNR Improvement: +4.79 dB
+2026-01-20 14:07:06,333 - INFO -     Artifacts removed: 0 (0.00%)
+2026-01-20 14:07:07,747 - INFO - ✓ Saved: 9mm_processed_data2.csv
+2026-01-20 14:07:07,764 - INFO - --------------------------------------------------------------------------------
+2026-01-20 14:07:07,765 - INFO - Processing: 9mm_adjusted_data3.csv (Depth: 9mm, State: Congestion)
+2026-01-20 14:07:07,765 - INFO - --------------------------------------------------------------------------------
+2026-01-20 14:07:07,840 - INFO - Loaded: 9mm_adjusted_data3.csv (61600 rows)
+2026-01-20 14:07:07,841 - INFO -   Channel: Red
+2026-01-20 14:07:07,856 - INFO -     Raw SNR (Welch): 7.91 dB
+2026-01-20 14:07:07,856 - INFO -     Raw PI: 0.0251 %
+2026-01-20 14:07:07,891 - INFO -     Processed SNR (Welch): 15.93 dB
+2026-01-20 14:07:07,892 - INFO -     Processed PI: 57.7480 %
+2026-01-20 14:07:07,892 - INFO -     ✓ SNR Improvement: +8.02 dB
+2026-01-20 14:07:07,893 - INFO -     Artifacts removed: 0 (0.00%)
+2026-01-20 14:07:07,894 - INFO -   Channel: IR
+2026-01-20 14:07:07,904 - INFO -     Raw SNR (Welch): 17.96 dB
+2026-01-20 14:07:07,906 - INFO -     Raw PI: 0.0397 %
+2026-01-20 14:07:07,942 - INFO -     Processed SNR (Welch): 21.56 dB
+2026-01-20 14:07:07,942 - INFO -     Processed PI: 64.0407 %
+2026-01-20 14:07:07,943 - INFO -     ✓ SNR Improvement: +3.60 dB
+2026-01-20 14:07:07,943 - INFO -     Artifacts removed: 0 (0.00%)
+2026-01-20 14:07:08,769 - INFO - ✓ Saved: 9mm_processed_data3.csv
+2026-01-20 14:07:08,770 - INFO - --------------------------------------------------------------------------------
+2026-01-20 14:07:08,771 - INFO - Processing: 15mm_adjusted_data1.csv (Depth: 15mm, State: Normal)
+2026-01-20 14:07:08,771 - INFO - --------------------------------------------------------------------------------
+2026-01-20 14:07:08,887 - INFO - Loaded: 15mm_adjusted_data1.csv (61600 rows)
+2026-01-20 14:07:08,888 - INFO -   Channel: Red
+2026-01-20 14:07:08,901 - INFO -     Raw SNR (Welch): 4.36 dB
+2026-01-20 14:07:08,901 - INFO -     Raw PI: 0.0212 %
+2026-01-20 14:07:08,959 - INFO -     Processed SNR (Welch): 12.97 dB
+2026-01-20 14:07:08,960 - INFO -     Processed PI: 60.6749 %
+2026-01-20 14:07:08,961 - INFO -     ✓ SNR Improvement: +8.61 dB
+2026-01-20 14:07:08,962 - INFO -     Artifacts removed: 0 (0.00%)
+2026-01-20 14:07:08,963 - INFO -   Channel: IR
+2026-01-20 14:07:08,979 - INFO -     Raw SNR (Welch): 15.44 dB
+2026-01-20 14:07:08,980 - INFO -     Raw PI: 0.0262 %
+2026-01-20 14:07:09,027 - INFO -     Processed SNR (Welch): 20.96 dB
+2026-01-20 14:07:09,027 - INFO -     Processed PI: 62.1640 %
+2026-01-20 14:07:09,028 - INFO -     ✓ SNR Improvement: +5.52 dB
+2026-01-20 14:07:09,029 - INFO -     Artifacts removed: 0 (0.00%)
+2026-01-20 14:07:11,102 - INFO - ✓ Saved: 15mm_processed_data1.csv
+2026-01-20 14:07:11,105 - INFO - --------------------------------------------------------------------------------
+2026-01-20 14:07:11,106 - INFO - Processing: 15mm_adjusted_data2.csv (Depth: 15mm, State: Ischaemia)
+2026-01-20 14:07:11,106 - INFO - --------------------------------------------------------------------------------
+2026-01-20 14:07:11,174 - INFO - Loaded: 15mm_adjusted_data2.csv (61200 rows)
+2026-01-20 14:07:11,175 - INFO -   Channel: Red
+2026-01-20 14:07:11,184 - INFO -     Raw SNR (Welch): 1.33 dB
+2026-01-20 14:07:11,185 - INFO -     Raw PI: 0.0197 %
+2026-01-20 14:07:11,212 - INFO -     Processed SNR (Welch): 10.71 dB
+2026-01-20 14:07:11,212 - INFO -     Processed PI: 55.7236 %
+2026-01-20 14:07:11,213 - INFO -     ✓ SNR Improvement: +9.37 dB
+2026-01-20 14:07:11,213 - INFO -     Artifacts removed: 88 (0.14%)
+2026-01-20 14:07:11,219 - INFO -   Channel: IR
+2026-01-20 14:07:11,226 - INFO -     Raw SNR (Welch): 11.00 dB
+2026-01-20 14:07:11,227 - INFO -     Raw PI: 0.0213 %
+2026-01-20 14:07:11,258 - INFO -     Processed SNR (Welch): 18.74 dB
+2026-01-20 14:07:11,258 - INFO -     Processed PI: 63.0392 %
+2026-01-20 14:07:11,259 - INFO -     ✓ SNR Improvement: +7.73 dB
+2026-01-20 14:07:11,259 - INFO -     Artifacts removed: 0 (0.00%)
+2026-01-20 14:07:11,953 - INFO - ✓ Saved: 15mm_processed_data2.csv
+2026-01-20 14:07:11,953 - INFO - --------------------------------------------------------------------------------
+2026-01-20 14:07:11,953 - INFO - Processing: 15mm_adjusted_data3.csv (Depth: 15mm, State: Congestion)
+2026-01-20 14:07:11,954 - INFO - --------------------------------------------------------------------------------
+2026-01-20 14:07:12,003 - INFO - Loaded: 15mm_adjusted_data3.csv (61200 rows)
+2026-01-20 14:07:12,003 - INFO -   Channel: Red
+2026-01-20 14:07:12,010 - INFO -     Raw SNR (Welch): 1.51 dB
+2026-01-20 14:07:12,011 - INFO -     Raw PI: 0.0240 %
+2026-01-20 14:07:12,037 - INFO -     Processed SNR (Welch): 9.87 dB
+2026-01-20 14:07:12,037 - INFO -     Processed PI: 58.9645 %
+2026-01-20 14:07:12,037 - INFO -     ✓ SNR Improvement: +8.36 dB
+2026-01-20 14:07:12,038 - INFO -     Artifacts removed: 0 (0.00%)
+2026-01-20 14:07:12,039 - INFO -   Channel: IR
+2026-01-20 14:07:12,046 - INFO -     Raw SNR (Welch): 14.71 dB
+2026-01-20 14:07:12,046 - INFO -     Raw PI: 0.0272 %
+2026-01-20 14:07:12,072 - INFO -     Processed SNR (Welch): 20.66 dB
+2026-01-20 14:07:12,074 - INFO -     Processed PI: 62.2284 %
+2026-01-20 14:07:12,074 - INFO -     ✓ SNR Improvement: +5.94 dB
+2026-01-20 14:07:12,075 - INFO -     Artifacts removed: 0 (0.00%)
+2026-01-20 14:07:12,708 - INFO - ✓ Saved: 15mm_processed_data3.csv
+2026-01-20 14:07:12,709 - INFO - --------------------------------------------------------------------------------
+2026-01-20 14:07:12,709 - INFO - Processing: 21mm_adjusted_data1.csv (Depth: 21mm, State: Normal)
+2026-01-20 14:07:12,709 - INFO - --------------------------------------------------------------------------------
+2026-01-20 14:07:12,760 - INFO - Loaded: 21mm_adjusted_data1.csv (60800 rows)
+2026-01-20 14:07:12,761 - INFO -   Channel: Red
+2026-01-20 14:07:12,770 - INFO -     Raw SNR (Welch): 3.42 dB
+2026-01-20 14:07:12,771 - INFO -     Raw PI: 0.0201 %
+2026-01-20 14:07:12,800 - INFO -     Processed SNR (Welch): 12.78 dB
+2026-01-20 14:07:12,800 - INFO -     Processed PI: 58.3241 %
+2026-01-20 14:07:12,801 - INFO -     ✓ SNR Improvement: +9.36 dB
+2026-01-20 14:07:12,801 - INFO -     Artifacts removed: 0 (0.00%)
+2026-01-20 14:07:12,802 - INFO -   Channel: IR
+2026-01-20 14:07:12,810 - INFO -     Raw SNR (Welch): 11.17 dB
+2026-01-20 14:07:12,810 - INFO -     Raw PI: 0.0238 %
+2026-01-20 14:07:12,836 - INFO -     Processed SNR (Welch): 19.99 dB
+2026-01-20 14:07:12,836 - INFO -     Processed PI: 62.3998 %
+2026-01-20 14:07:12,837 - INFO -     ✓ SNR Improvement: +8.82 dB
+2026-01-20 14:07:12,837 - INFO -     Artifacts removed: 0 (0.00%)
+2026-01-20 14:07:13,463 - INFO - ✓ Saved: 21mm_processed_data1.csv
+2026-01-20 14:07:13,464 - INFO - --------------------------------------------------------------------------------
+2026-01-20 14:07:13,465 - INFO - Processing: 21mm_adjusted_data2.csv (Depth: 21mm, State: Ischaemia)
+2026-01-20 14:07:13,465 - INFO - --------------------------------------------------------------------------------
+2026-01-20 14:07:13,513 - INFO - Loaded: 21mm_adjusted_data2.csv (60800 rows)
+2026-01-20 14:07:13,514 - INFO -   Channel: Red
+2026-01-20 14:07:13,521 - INFO -     Raw SNR (Welch): 1.78 dB
+2026-01-20 14:07:13,522 - INFO -     Raw PI: 0.0233 %
+2026-01-20 14:07:13,546 - INFO -     Processed SNR (Welch): 11.01 dB
+2026-01-20 14:07:13,547 - INFO -     Processed PI: 60.2626 %
+2026-01-20 14:07:13,547 - INFO -     ✓ SNR Improvement: +9.23 dB
+2026-01-20 14:07:13,548 - INFO -     Artifacts removed: 119 (0.20%)
+2026-01-20 14:07:13,549 - INFO -   Channel: IR
+2026-01-20 14:07:13,556 - INFO -     Raw SNR (Welch): 6.01 dB
+2026-01-20 14:07:13,557 - INFO -     Raw PI: 0.0316 %
+2026-01-20 14:07:13,582 - INFO -     Processed SNR (Welch): 14.19 dB
+2026-01-20 14:07:13,583 - INFO -     Processed PI: 60.0524 %
+2026-01-20 14:07:13,583 - INFO -     ✓ SNR Improvement: +8.17 dB
+2026-01-20 14:07:13,584 - INFO -     Artifacts removed: 0 (0.00%)
+2026-01-20 14:07:14,257 - INFO - ✓ Saved: 21mm_processed_data2.csv
+2026-01-20 14:07:14,257 - INFO - --------------------------------------------------------------------------------
+2026-01-20 14:07:14,258 - INFO - Processing: 21mm_adjusted_data3.csv (Depth: 21mm, State: Congestion)
+2026-01-20 14:07:14,258 - INFO - --------------------------------------------------------------------------------
+2026-01-20 14:07:14,306 - INFO - Loaded: 21mm_adjusted_data3.csv (60800 rows)
+2026-01-20 14:07:14,307 - INFO -   Channel: Red
+2026-01-20 14:07:14,314 - INFO -     Raw SNR (Welch): 3.20 dB
+2026-01-20 14:07:14,315 - INFO -     Raw PI: 0.0230 %
+2026-01-20 14:07:14,340 - INFO -     Processed SNR (Welch): 11.97 dB
+2026-01-20 14:07:14,341 - INFO -     Processed PI: 57.4298 %
+2026-01-20 14:07:14,341 - INFO -     ✓ SNR Improvement: +8.77 dB
+2026-01-20 14:07:14,342 - INFO -     Artifacts removed: 0 (0.00%)
+2026-01-20 14:07:14,343 - INFO -   Channel: IR
+2026-01-20 14:07:14,351 - INFO -     Raw SNR (Welch): 12.75 dB
+2026-01-20 14:07:14,352 - INFO -     Raw PI: 0.0217 %
+2026-01-20 14:07:14,376 - INFO -     Processed SNR (Welch): 20.90 dB
+2026-01-20 14:07:14,376 - INFO -     Processed PI: 64.8424 %
+2026-01-20 14:07:14,376 - INFO -     ✓ SNR Improvement: +8.15 dB
+2026-01-20 14:07:14,377 - INFO -     Artifacts removed: 0 (0.00%)
+2026-01-20 14:07:15,063 - INFO - ✓ Saved: 21mm_processed_data3.csv
+2026-01-20 14:07:15,068 - INFO - 
+✅ Quality assessment saved: PPG_Quality_Assessment_Summary.csv
+2026-01-20 14:07:15,068 - INFO - 
+================================================================================
+2026-01-20 14:07:15,069 - INFO - QUALITY ASSESSMENT SUMMARY
+2026-01-20 14:07:15,069 - INFO - ================================================================================
+2026-01-20 14:07:15,074 - INFO - 
+Raw Signal Quality:
+2026-01-20 14:07:15,075 - INFO -   SNR (Welch): 10.56 ± 6.23 dB
+2026-01-20 14:07:15,076 - INFO -   SNR Range: [1.33, 19.59] dB
+2026-01-20 14:07:15,077 - INFO -   PI: 0.0367 ± 0.0229 %
+2026-01-20 14:07:15,079 - INFO - 
+Processed Signal Quality:
+2026-01-20 14:07:15,079 - INFO -   SNR (Welch): 17.28 ± 4.22 dB
+2026-01-20 14:07:15,080 - INFO -   SNR Range: [9.87, 22.75] dB
+2026-01-20 14:07:15,081 - INFO -   PI: 60.9764 ± 2.4845 %
+2026-01-20 14:07:15,082 - INFO - 
+SNR Improvement Statistics:
+2026-01-20 14:07:15,083 - INFO -   Mean: 6.73 dB
+2026-01-20 14:07:15,084 - INFO -   Median: 7.87 dB
+2026-01-20 14:07:15,084 - INFO -   Range: [2.68, 9.37] dB
+2026-01-20 14:07:15,085 - INFO - 
+================================================================================
+2026-01-20 14:07:15,085 - INFO - PROCESSING SUMMARY
+2026-01-20 14:07:15,085 - INFO - ================================================================================
+2026-01-20 14:07:15,086 - INFO - Total files: 12
+2026-01-20 14:07:15,086 - INFO - Successful: 12
+2026-01-20 14:07:15,087 - INFO - Success rate: 100.0%
+2026-01-20 14:07:15,087 - INFO - Log file: ppg_quality_assessment_20260120_140658.log
+2026-01-20 14:07:15,088 - INFO - ================================================================================

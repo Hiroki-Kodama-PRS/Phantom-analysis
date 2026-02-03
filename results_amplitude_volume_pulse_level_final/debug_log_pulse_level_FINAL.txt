@@ -1,0 +1,44 @@
+[11:31:58] ================================================================================
+[11:31:58] Amplitude/Volume Feature Analysis - PULSE-LEVEL VERSION (FINAL)
+[11:31:58] ================================================================================
+[11:31:58] Target Depth: 3 mm
+[11:31:58] States: ['Normal', 'Ischaemia', 'Congestion']
+[11:31:58] Channels: ['Red', 'IR']
+[11:31:58] Known BPM: {'Normal': 60.8, 'Ischaemia': 62.7, 'Congestion': 62.3}
+[11:31:58] 
+[11:31:58] Processing: 3mm_data1.csv (Normal)
+[11:31:58]   Loaded 61200 samples, 9 columns
+[11:31:58]   Channel: Red
+[11:31:58]   Using known BPM: 60.8 for Normal
+[11:31:58]   ⚠️ WARNING: Only 0 peaks detected
+[11:31:58]   ✓ Extracted 0 pulses
+[11:31:58]   Channel: IR
+[11:31:58]   Using known BPM: 60.8 for Normal
+[11:31:58]   ⚠️ WARNING: Only 0 peaks detected
+[11:31:58]   ✓ Extracted 0 pulses
+[11:31:58] Processing: 3mm_data2.csv (Ischaemia)
+[11:31:58]   Loaded 61200 samples, 9 columns
+[11:31:58]   Channel: Red
+[11:31:58]   Using known BPM: 62.7 for Ischaemia
+[11:31:58]   ⚠️ WARNING: Only 0 peaks detected
+[11:31:58]   ✓ Extracted 0 pulses
+[11:31:58]   Channel: IR
+[11:31:58]   Using known BPM: 62.7 for Ischaemia
+[11:31:58]   ⚠️ WARNING: Only 0 peaks detected
+[11:31:58]   ✓ Extracted 0 pulses
+[11:31:58] Processing: 3mm_data3.csv (Congestion)
+[11:31:58]   Loaded 61600 samples, 9 columns
+[11:31:58]   Channel: Red
+[11:31:58]   Using known BPM: 62.3 for Congestion
+[11:31:58]   ⚠️ WARNING: Only 0 peaks detected
+[11:31:58]   ✓ Extracted 0 pulses
+[11:31:58]   Channel: IR
+[11:31:58]   Using known BPM: 62.3 for Congestion
+[11:31:58]   ⚠️ WARNING: Only 0 peaks detected
+[11:31:58]   ✓ Extracted 0 pulses
+[11:31:58] 
+❌ No features extracted!
+[11:31:58] 
+================================================================================
+[11:31:58] FEATURE EXTRACTION COMPLETE
+[11:31:58] ================================================================================

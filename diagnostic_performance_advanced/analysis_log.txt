@@ -1,0 +1,92 @@
+[2026-01-25 12:50:41] START ADVANCED ANALYSIS
+[2026-01-25 12:50:41] Processed Red in Normal: 30 pulses
+[2026-01-25 12:50:41] Processed IR in Normal: 30 pulses
+[2026-01-25 12:50:41] Processed Red in Ischaemia: 30 pulses
+[2026-01-25 12:50:41] Processed IR in Ischaemia: 30 pulses
+[2026-01-25 12:50:41] Processed Red in Congestion: 31 pulses
+[2026-01-25 12:50:41] Processed IR in Congestion: 31 pulses
+[2026-01-25 12:50:42] ANALYSIS COMPLETE. CHECK OUTPUT DIRECTORY.
+[2026-01-25 12:52:27] START ADVANCED ANALYSIS
+[2026-01-25 12:52:28] Processed Red - Normal: 30 pulses
+[2026-01-25 12:52:28] Processed IR - Normal: 30 pulses
+[2026-01-25 12:52:28] Processed Red - Ischaemia: 30 pulses
+[2026-01-25 12:52:28] Processed IR - Ischaemia: 30 pulses
+[2026-01-25 12:52:28] Processed Red - Congestion: 31 pulses
+[2026-01-25 12:52:28] Processed IR - Congestion: 31 pulses
+[2026-01-25 12:52:29] ANALYSIS COMPLETE
+[2026-01-25 12:56:05] ADVANCED PPG ANALYSIS START
+[2026-01-25 12:56:07] --- Statistics for Red ---
+[2026-01-25 12:56:07]   PI (Normal): Mean=0.1122, Std=0.0084, Median=0.1116, N=30
+[2026-01-25 12:56:07]   PI (Ischaemia): Mean=0.0666, Std=0.0043, Median=0.0655, N=30
+[2026-01-25 12:56:07]   PI (Congestion): Mean=0.1060, Std=0.0085, Median=0.1035, N=31
+[2026-01-25 12:56:07]   Crest_Time (Normal): Mean=0.2061, Std=0.0477, Median=0.1948, N=30
+[2026-01-25 12:56:07]   Crest_Time (Ischaemia): Mean=0.2118, Std=0.0597, Median=0.2288, N=30
+[2026-01-25 12:56:07]   Crest_Time (Congestion): Mean=0.1996, Std=0.0496, Median=0.1885, N=31
+[2026-01-25 12:56:07]   Decay_Time (Normal): Mean=0.7582, Std=0.0589, Median=0.7900, N=30
+[2026-01-25 12:56:07]   Decay_Time (Ischaemia): Mean=0.7602, Std=0.0757, Median=0.7668, N=30
+[2026-01-25 12:56:07]   Decay_Time (Congestion): Mean=0.7528, Std=0.0649, Median=0.7840, N=31
+[2026-01-25 12:56:07]   Pulse_Width (Normal): Mean=0.9643, Std=0.0369, Median=0.9612, N=30
+[2026-01-25 12:56:07]   Pulse_Width (Ischaemia): Mean=0.9720, Std=0.0648, Median=0.9752, N=30
+[2026-01-25 12:56:07]   Pulse_Width (Congestion): Mean=0.9524, Std=0.0514, Median=0.9585, N=31
+[2026-01-25 12:56:07]   PW50 (Normal): Mean=0.5524, Std=0.0426, Median=0.5480, N=30
+[2026-01-25 12:56:07]   PW50 (Ischaemia): Mean=0.5789, Std=0.0748, Median=0.5577, N=30
+[2026-01-25 12:56:07]   PW50 (Congestion): Mean=0.5545, Std=0.0484, Median=0.5420, N=31
+[2026-01-25 12:56:07]   Systolic_Width (Normal): Mean=0.2061, Std=0.0477, Median=0.1948, N=30
+[2026-01-25 12:56:07]   Systolic_Width (Ischaemia): Mean=0.2118, Std=0.0597, Median=0.2288, N=30
+[2026-01-25 12:56:07]   Systolic_Width (Congestion): Mean=0.1996, Std=0.0496, Median=0.1885, N=31
+[2026-01-25 12:56:07]   Diastolic_Width (Normal): Mean=0.7582, Std=0.0589, Median=0.7900, N=30
+[2026-01-25 12:56:07]   Diastolic_Width (Ischaemia): Mean=0.7602, Std=0.0757, Median=0.7668, N=30
+[2026-01-25 12:56:07]   Diastolic_Width (Congestion): Mean=0.7528, Std=0.0649, Median=0.7840, N=31
+[2026-01-25 12:56:07]   Delta_T (Normal): Mean=0.0532, Std=0.0360, Median=0.0688, N=30
+[2026-01-25 12:56:07]   Delta_T (Ischaemia): Mean=0.0505, Std=0.0246, Median=0.0602, N=30
+[2026-01-25 12:56:07]   Delta_T (Congestion): Mean=0.0696, Std=0.0286, Median=0.0740, N=31
+[2026-01-25 12:56:07]   Upslope (Normal): Mean=0.0000, Std=0.0000, Median=0.0000, N=30
+[2026-01-25 12:56:07]   Upslope (Ischaemia): Mean=0.0000, Std=0.0000, Median=0.0000, N=30
+[2026-01-25 12:56:07]   Upslope (Congestion): Mean=0.0000, Std=0.0000, Median=0.0000, N=31
+[2026-01-25 12:56:07]   Downslope (Normal): Mean=-0.0000, Std=0.0000, Median=-0.0000, N=30
+[2026-01-25 12:56:07]   Downslope (Ischaemia): Mean=-0.0000, Std=0.0000, Median=-0.0000, N=30
+[2026-01-25 12:56:07]   Downslope (Congestion): Mean=-0.0000, Std=0.0000, Median=-0.0000, N=31
+[2026-01-25 12:56:07]   DNP (Normal): Mean=0.2431, Std=0.2809, Median=0.1154, N=30
+[2026-01-25 12:56:07]   DNP (Ischaemia): Mean=0.2977, Std=0.3018, Median=0.2049, N=30
+[2026-01-25 12:56:07]   DNP (Congestion): Mean=0.2852, Std=0.3180, Median=0.0711, N=31
+[2026-01-25 12:56:07]   RWI (Normal): Mean=1.0000, Std=0.0000, Median=1.0000, N=30
+[2026-01-25 12:56:07]   RWI (Ischaemia): Mean=1.0000, Std=0.0000, Median=1.0000, N=30
+[2026-01-25 12:56:07]   RWI (Congestion): Mean=1.0000, Std=0.0000, Median=1.0000, N=31
+[2026-01-25 12:56:07] --- Statistics for IR ---
+[2026-01-25 12:56:07]   PI (Normal): Mean=0.2409, Std=0.0034, Median=0.2411, N=30
+[2026-01-25 12:56:07]   PI (Ischaemia): Mean=0.1522, Std=0.0037, Median=0.1527, N=30
+[2026-01-25 12:56:07]   PI (Congestion): Mean=0.1510, Std=0.0071, Median=0.1511, N=31
+[2026-01-25 12:56:07]   Crest_Time (Normal): Mean=0.1631, Std=0.0037, Median=0.1630, N=30
+[2026-01-25 12:56:07]   Crest_Time (Ischaemia): Mean=0.1513, Std=0.0052, Median=0.1500, N=30
+[2026-01-25 12:56:07]   Crest_Time (Congestion): Mean=0.1865, Std=0.0340, Median=0.1745, N=31
+[2026-01-25 12:56:07]   Decay_Time (Normal): Mean=0.8012, Std=0.0032, Median=0.8010, N=30
+[2026-01-25 12:56:07]   Decay_Time (Ischaemia): Mean=0.8248, Std=0.0049, Median=0.8247, N=30
+[2026-01-25 12:56:07]   Decay_Time (Congestion): Mean=0.7639, Std=0.0596, Median=0.7865, N=31
+[2026-01-25 12:56:07]   Pulse_Width (Normal): Mean=0.9643, Std=0.0032, Median=0.9643, N=30
+[2026-01-25 12:56:07]   Pulse_Width (Ischaemia): Mean=0.9761, Std=0.0043, Median=0.9763, N=30
+[2026-01-25 12:56:07]   Pulse_Width (Congestion): Mean=0.9504, Std=0.0551, Median=0.9600, N=31
+[2026-01-25 12:56:07]   PW50 (Normal): Mean=0.5229, Std=0.0136, Median=0.5192, N=30
+[2026-01-25 12:56:07]   PW50 (Ischaemia): Mean=0.5500, Std=0.0597, Median=0.5388, N=30
+[2026-01-25 12:56:07]   PW50 (Congestion): Mean=0.5320, Std=0.0269, Median=0.5340, N=31
+[2026-01-25 12:56:07]   Systolic_Width (Normal): Mean=0.1631, Std=0.0037, Median=0.1630, N=30
+[2026-01-25 12:56:07]   Systolic_Width (Ischaemia): Mean=0.1513, Std=0.0052, Median=0.1500, N=30
+[2026-01-25 12:56:07]   Systolic_Width (Congestion): Mean=0.1865, Std=0.0340, Median=0.1745, N=31
+[2026-01-25 12:56:07]   Diastolic_Width (Normal): Mean=0.8012, Std=0.0032, Median=0.8010, N=30
+[2026-01-25 12:56:07]   Diastolic_Width (Ischaemia): Mean=0.8248, Std=0.0049, Median=0.8247, N=30
+[2026-01-25 12:56:07]   Diastolic_Width (Congestion): Mean=0.7639, Std=0.0596, Median=0.7865, N=31
+[2026-01-25 12:56:07]   Delta_T (Normal): Mean=0.0634, Std=0.0317, Median=0.0783, N=30
+[2026-01-25 12:56:07]   Delta_T (Ischaemia): Mean=0.0386, Std=0.0361, Median=0.0660, N=30
+[2026-01-25 12:56:07]   Delta_T (Congestion): Mean=0.0156, Std=0.0314, Median=0.0005, N=31
+[2026-01-25 12:56:07]   Upslope (Normal): Mean=0.0000, Std=0.0000, Median=0.0000, N=30
+[2026-01-25 12:56:07]   Upslope (Ischaemia): Mean=0.0000, Std=0.0000, Median=0.0000, N=30
+[2026-01-25 12:56:07]   Upslope (Congestion): Mean=0.0000, Std=0.0000, Median=0.0000, N=31
+[2026-01-25 12:56:07]   Downslope (Normal): Mean=-0.0000, Std=0.0000, Median=-0.0000, N=30
+[2026-01-25 12:56:07]   Downslope (Ischaemia): Mean=-0.0000, Std=0.0000, Median=-0.0000, N=30
+[2026-01-25 12:56:07]   Downslope (Congestion): Mean=-0.0000, Std=0.0000, Median=-0.0000, N=31
+[2026-01-25 12:56:07]   DNP (Normal): Mean=0.0106, Std=0.0283, Median=0.0014, N=30
+[2026-01-25 12:56:07]   DNP (Ischaemia): Mean=0.0253, Std=0.0813, Median=0.0048, N=30
+[2026-01-25 12:56:07]   DNP (Congestion): Mean=0.0367, Std=0.1633, Median=0.0014, N=31
+[2026-01-25 12:56:07]   RWI (Normal): Mean=1.0000, Std=0.0000, Median=1.0000, N=30
+[2026-01-25 12:56:07]   RWI (Ischaemia): Mean=1.0000, Std=0.0000, Median=1.0000, N=30
+[2026-01-25 12:56:07]   RWI (Congestion): Mean=1.0000, Std=0.0000, Median=1.0000, N=31
+[2026-01-25 12:56:08] ADVANCED ANALYSIS COMPLETE

@@ -1,0 +1,11 @@
+Feature,Comparison,N_Normal,N_Disease,AUC,CI_Lower,CI_Upper,Optimal_Threshold,Sensitivity,Specificity,PPV,NPV,Accuracy,F1_Score,Youden_J,LR_Positive,LR_Negative,TP,TN,FP,FN,Is_Inverse,Depth,Source,Category,Clean_Feature,Display_Name
+AC_Component,Ischaemia,30,30,1.0,1.0,1.0,0.002025,1.0,1.0,1.0,1.0,1.0,1.0,1.0,,0.0,30,30,0,0,True,3,Red,Intensity,AC_Component,AC_Component
+AC_Component,Ischaemia,30,30,1.0,1.0,1.0,0.003083,1.0,1.0,1.0,1.0,1.0,1.0,1.0,,0.0,30,30,0,0,True,3,IR,Intensity,AC_Component,AC_Component
+Start_Datum_Area,Ischaemia,30,30,1.0,1.0,1.0,0.907333,1.0,1.0,1.0,1.0,1.0,1.0,1.0,,0.0,30,30,0,0,True,3,IR,Area,Start_Datum_Area,Start_Datum_Area
+S_AUC,Ischaemia,30,30,1.0,1.0,1.0,0.6172,1.0,1.0,1.0,1.0,1.0,1.0,1.0,,0.0,30,30,0,0,True,3,IR,Area,S_AUC,S_AUC
+PI,Ischaemia,30,30,1.0,1.0,1.0,0.168464,1.0,1.0,1.0,1.0,1.0,1.0,1.0,,0.0,30,30,0,0,True,3,IR,Intensity,PI,PI
+Max_Start_Datum_Diff,Ischaemia,30,30,1.0,1.0,1.0,0.003045,1.0,1.0,1.0,1.0,1.0,1.0,1.0,,0.0,30,30,0,0,True,3,IR,Area,Max_Start_Datum_Diff,Max_Start_Datum_Diff
+Fall_Time,Ischaemia,30,30,1.0,1.0,1.0,0.775,1.0,1.0,1.0,1.0,1.0,1.0,1.0,,0.0,30,30,0,0,False,3,IR,Time,Fall_Time,Fall_Time
+AUC,Ischaemia,30,30,1.0,1.0,1.0,1.97018,1.0,1.0,1.0,1.0,1.0,1.0,1.0,,0.0,30,30,0,0,True,3,Red,Area,AUC,AUC
+Diastolic_Width,Ischaemia,30,30,1.0,1.0,1.0,0.5425,1.0,1.0,1.0,1.0,1.0,1.0,1.0,,0.0,30,30,0,0,False,3,IR,Time,Diastolic_Width,Diastolic_Width
+D_AUC,Ischaemia,30,30,1.0,1.0,1.0,2.610092,1.0,1.0,1.0,1.0,1.0,1.0,1.0,,0.0,30,30,0,0,True,3,IR,Area,D_AUC,D_AUC

@@ -1,0 +1,8 @@
+[2026-01-26 13:13:23] === IR-ONLY ANALYSIS START (15mm) ===
+[2026-01-26 13:13:25]   Normal - IR: Extracted 31 pulses
+[2026-01-26 13:13:26]   Ischaemia - IR: Extracted 30 pulses
+[2026-01-26 13:13:26]   Congestion - IR: Extracted 31 pulses
+[2026-01-26 13:13:26] Saved: ir_analysis_15mm/master_ir_features.csv
+[2026-01-26 13:13:26] Total pulses: 92
+[2026-01-26 13:13:26] Total features: 31
+[2026-01-26 13:13:26] === IR-ONLY ANALYSIS COMPLETE ===

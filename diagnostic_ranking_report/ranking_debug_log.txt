@@ -1,0 +1,17 @@
+[2026-01-25 14:12:20] === RANKING ANALYSIS WITH DEBUG LOG START ===
+[2026-01-25 14:12:20] Loaded 91 pulses and 43 features.
+[2026-01-25 14:12:20] 
+Processing Comparison: Normal vs Ischaemia
+[2026-01-25 14:12:30] Top 3 Features for Ischaemia:
+[2026-01-25 14:12:30]   #4: Red_PI (AUC=1.0000)
+[2026-01-25 14:12:30]   #5: Red_Amplitude (AUC=1.0000)
+[2026-01-25 14:12:30]   #6: Red_AUC (AUC=1.0000)
+[2026-01-25 14:12:30] 
+Processing Comparison: Normal vs Congestion
+[2026-01-25 14:12:38] Top 3 Features for Congestion:
+[2026-01-25 14:12:38]   #1: Combined_PI_Ratio (AUC=1.0000)
+[2026-01-25 14:12:38]   #2: Combined_Amp_Ratio (AUC=1.0000)
+[2026-01-25 14:12:38]   #3: Combined_Delta_A_Ratio (AUC=1.0000)
+[2026-01-25 14:12:38] 
+=== RANKING ANALYSIS COMPLETE ===
+[2026-01-25 14:12:38] Results saved in: diagnostic_ranking_report

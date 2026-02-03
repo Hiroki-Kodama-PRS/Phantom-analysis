@@ -1,0 +1,79 @@
+================================================================================
+PPG Feature-Pressure Correlation Analysis
+================================================================================
+
+[1] Loading data...
+✓ Loaded pulse features: 144 pulses
+✓ Loaded pressure data for Normal: 61200 samples
+✓ Loaded pressure data for Ischaemia: 61200 samples
+✓ Loaded pressure data for Congestion: 61600 samples
+
+[2] Integrating pressure data with pulses...
+✓ Integrated 144 pulse-pressure records
+✓ Saved integrated data: pressure_correlation_analysis/integrated_pulse_pressure_data.csv
+
+[3] Computing correlations...
+✓ Computed correlations: 36 overall, 108 state-specific
+✓ Saved correlation results
+
+[4] Generating visualizations...
+
+  Channel: Red
+  ✓ Saved scatter plot: scatter_Amplitude_p2_mmhg_Red.png
+  ✓ Saved scatter plot: scatter_Amplitude_p1_mmhg_Red.png
+  ✓ Saved scatter plot: scatter_AUC_p2_mmhg_Red.png
+  ✓ Saved scatter plot: scatter_AUC_p1_mmhg_Red.png
+  ✓ Saved scatter plot: scatter_S_AUC_p2_mmhg_Red.png
+  ✓ Saved scatter plot: scatter_S_AUC_p1_mmhg_Red.png
+  ✓ Saved scatter plot: scatter_D_AUC_p2_mmhg_Red.png
+  ✓ Saved scatter plot: scatter_D_AUC_p1_mmhg_Red.png
+  ✓ Saved scatter plot: scatter_AUC_Ratio_p2_mmhg_Red.png
+  ✓ Saved scatter plot: scatter_AUC_Ratio_p1_mmhg_Red.png
+  ✓ Saved scatter plot: scatter_Start_Datum_Area_p2_mmhg_Red.png
+  ✓ Saved scatter plot: scatter_Start_Datum_Area_p1_mmhg_Red.png
+  ✓ Saved scatter plot: scatter_End_Datum_Area_p2_mmhg_Red.png
+  ✓ Saved scatter plot: scatter_End_Datum_Area_p1_mmhg_Red.png
+  ✓ Saved scatter plot: scatter_Datum_Area_Ratio_p2_mmhg_Red.png
+  ✓ Saved scatter plot: scatter_Datum_Area_Ratio_p1_mmhg_Red.png
+  ✓ Saved scatter plot: scatter_Max_Start_Datum_Diff_p2_mmhg_Red.png
+  ✓ Saved scatter plot: scatter_Max_Start_Datum_Diff_p1_mmhg_Red.png
+  ✓ Saved heatmap: heatmap_p2_mmhg_Red.png
+  ✓ Saved heatmap: heatmap_p1_mmhg_Red.png
+  ✓ Saved correlation matrix: correlation_matrix_Red.png
+
+  Channel: IR
+  ✓ Saved scatter plot: scatter_Amplitude_p2_mmhg_IR.png
+  ✓ Saved scatter plot: scatter_Amplitude_p1_mmhg_IR.png
+  ✓ Saved scatter plot: scatter_AUC_p2_mmhg_IR.png
+  ✓ Saved scatter plot: scatter_AUC_p1_mmhg_IR.png
+  ✓ Saved scatter plot: scatter_S_AUC_p2_mmhg_IR.png
+  ✓ Saved scatter plot: scatter_S_AUC_p1_mmhg_IR.png
+  ✓ Saved scatter plot: scatter_D_AUC_p2_mmhg_IR.png
+  ✓ Saved scatter plot: scatter_D_AUC_p1_mmhg_IR.png
+  ✓ Saved scatter plot: scatter_AUC_Ratio_p2_mmhg_IR.png
+  ✓ Saved scatter plot: scatter_AUC_Ratio_p1_mmhg_IR.png
+  ✓ Saved scatter plot: scatter_Start_Datum_Area_p2_mmhg_IR.png
+  ✓ Saved scatter plot: scatter_Start_Datum_Area_p1_mmhg_IR.png
+  ✓ Saved scatter plot: scatter_End_Datum_Area_p2_mmhg_IR.png
+  ✓ Saved scatter plot: scatter_End_Datum_Area_p1_mmhg_IR.png
+  ✓ Saved scatter plot: scatter_Datum_Area_Ratio_p2_mmhg_IR.png
+  ✓ Saved scatter plot: scatter_Datum_Area_Ratio_p1_mmhg_IR.png
+  ✓ Saved scatter plot: scatter_Max_Start_Datum_Diff_p2_mmhg_IR.png
+  ✓ Saved scatter plot: scatter_Max_Start_Datum_Diff_p1_mmhg_IR.png
+  ✓ Saved heatmap: heatmap_p2_mmhg_IR.png
+  ✓ Saved heatmap: heatmap_p1_mmhg_IR.png
+  ✓ Saved correlation matrix: correlation_matrix_IR.png
+
+[5] Summary of strong correlations (|r| ≥ 0.7, p < 0.05)...
+
+Found 5 strong correlations:
+  IR-Congestion: Max_Start_Datum_Diff vs p1_mmhg (r=-0.876, p=0.0000)
+  IR-Congestion: Amplitude vs p1_mmhg (r=-0.876, p=0.0000)
+  IR-Congestion: AUC vs p1_mmhg (r=-0.854, p=0.0000)
+  IR-Congestion: Start_Datum_Area vs p1_mmhg (r=-0.854, p=0.0000)
+  IR-Congestion: D_AUC vs p1_mmhg (r=-0.843, p=0.0000)
+
+================================================================================
+Analysis complete!
+Results saved to: pressure_correlation_analysis
+================================================================================

@@ -1,0 +1,49 @@
+﻿Category,Abbreviation,Definition
+Combined,PI_Ratio,Red PI divided by IR PI
+Combined,Amplitude_Ratio,Red amplitude divided by IR amplitude
+Combined,Delta_A_Ratio,Red absorbance change divided by IR absorbance change
+Intensity,Amplitude,Peak-to-trough PPG amplitude
+Intensity,PI,"AC divided by DC, expressed as percentage"
+Intensity,Max_Start_Datum_Diff,Maximum vertical distance from onset to peak
+Intensity,Max_End_Datum_Diff,Maximum vertical distance from end baseline to trough
+Intensity,Median_Start_Datum_Diff,Median vertical distance from onset baseline to signal
+Intensity,Median_End_Datum_Diff,Median vertical distance from end baseline to signal
+Area,AUC,Total area under PPG curve per cycle
+Area,S_AUC,Area from onset to dicrotic notch
+Area,D_AUC,Area from dicrotic notch to next onset
+Area,Start_Datum_Area,Area from onset baseline to systolic peak
+Area,End_Datum_Area,Area from dicrotic notch baseline to pulse end
+Time,Rise_Time,Duration from onset to systolic peak
+Time,Decay_Time,Duration from systolic peak to next onset
+Time,Pulse_Width,Total duration from onset to next onset
+Time,PW50,Duration at 50% of peak amplitude
+Time,Delta_T,Interval between VPG zero-crossings
+Time,Systolic_Width,Duration from onset to dicrotic notch
+Time,Diastolic_Width,Duration from dicrotic notch to next onset
+Time,Rise_Decay_Time_Ratio,Rise time divided by decay time
+Slope,Upslope,Maximum positive gradient during systolic rise
+Slope,Downslope,Maximum negative gradient during diastolic fall
+Slope,Onset_End_Slope,Average gradient from onset to next onset
+Slope,Upslope_Length,Arc length of systolic upstroke curve
+Slope,Downslope_Length,Arc length of diastolic downstroke curve
+Slope,Slope_Ratio,Upslope divided by downslope magnitude
+Slope,Length_Height_Ratio,Total arc length divided by pulse amplitude
+Slope,Slope_Length_Ratio,Upslope length divided by downslope length
+Slope,Upslope_Length_Ratio,Upslope arc length divided by total length
+Slope,Downslope_Length_Ratio,Downslope arc length divided by total length
+SDPPG,SDPPG_b_a,Early systolic negative peak divided by positive peak
+SDPPG,SDPPG_c_a,Late systolic re-increasing peak divided by early positive peak
+SDPPG,SDPPG_d_a,Late systolic re-decreasing peak divided by early positive peak
+SDPPG,SDPPG_e_a,Early diastolic positive peak divided by early systolic peak
+SDPPG,DNP,Dicrotic notch depth in second derivative
+Shape & Stats,AUC_Ratio,Systolic area divided by diastolic area
+Shape & Stats,Datum_Area_Ratio,Start datum area divided by end datum area
+Shape & Stats,Width_Ratio,Systolic width divided by diastolic width
+Shape & Stats,Skewness,Third statistical moment quantifying asymmetry
+Shape & Stats,Kurtosis,Fourth statistical moment quantifying peakedness
+Shape & Stats,Variance,Second statistical moment quantifying variability
+Shape & Stats,RWI,Diastolic peak divided by systolic peak
+Shape & Stats,IPAR,Area ratio at inflection point
+Shape & Stats,SNR,Signal-to-noise ratio in frequency domain
+Shape & Stats,ZCR,Zero-crossing rate of first derivative
+Shape & Stats,PIR,Pulse interval regularity measure

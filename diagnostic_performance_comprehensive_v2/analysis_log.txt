@@ -1,0 +1,142 @@
+[2026-01-25 13:20:10] COMPREHENSIVE ANALYSIS START
+[2026-01-25 13:20:11] 
+--- Statistics for Red Channel ---
+[2026-01-25 13:20:11]   Red_Datum_Area_Ratio (Normal): Mean=-0.5394, Median=-0.6210, N=30
+[2026-01-25 13:20:11]   Red_Datum_Area_Ratio (Ischaemia): Mean=-1.3091, Median=-1.3190, N=30
+[2026-01-25 13:20:11]   Red_Datum_Area_Ratio (Congestion): Mean=-0.5497, Median=-0.6164, N=31
+[2026-01-25 13:20:11]   Red_Rise_Decay_Ratio (Normal): Mean=0.2776, Median=0.2536, N=30
+[2026-01-25 13:20:11]   Red_Rise_Decay_Ratio (Ischaemia): Mean=0.2867, Median=0.2901, N=30
+[2026-01-25 13:20:11]   Red_Rise_Decay_Ratio (Congestion): Mean=0.2711, Median=0.2426, N=31
+[2026-01-25 13:20:11]   Red_Skewness (Normal): Mean=-0.2283, Median=-0.2362, N=30
+[2026-01-25 13:20:11]   Red_Skewness (Ischaemia): Mean=-0.1744, Median=-0.1901, N=30
+[2026-01-25 13:20:11]   Red_Skewness (Congestion): Mean=-0.2756, Median=-0.2940, N=31
+[2026-01-25 13:20:11]   Red_Kurtosis (Normal): Mean=-1.2565, Median=-1.2880, N=30
+[2026-01-25 13:20:11]   Red_Kurtosis (Ischaemia): Mean=-1.1567, Median=-1.1623, N=30
+[2026-01-25 13:20:11]   Red_Kurtosis (Congestion): Mean=-1.2166, Median=-1.2701, N=31
+[2026-01-25 13:20:11]   Red_Variance (Normal): Mean=0.0950, Median=0.0944, N=30
+[2026-01-25 13:20:11]   Red_Variance (Ischaemia): Mean=0.0854, Median=0.0842, N=30
+[2026-01-25 13:20:11]   Red_Variance (Congestion): Mean=0.0961, Median=0.0960, N=31
+[2026-01-25 13:20:11]   Red_b_a (Normal): Mean=-0.8768, Median=-0.9290, N=30
+[2026-01-25 13:20:11]   Red_b_a (Ischaemia): Mean=-0.8872, Median=-0.9001, N=30
+[2026-01-25 13:20:11]   Red_b_a (Congestion): Mean=-0.8742, Median=-0.9453, N=31
+[2026-01-25 13:20:11]   Red_c_a (Normal): Mean=0.3821, Median=0.3478, N=30
+[2026-01-25 13:20:11]   Red_c_a (Ischaemia): Mean=0.5394, Median=0.5235, N=30
+[2026-01-25 13:20:11]   Red_c_a (Congestion): Mean=0.3550, Median=0.3163, N=31
+[2026-01-25 13:20:11]   Red_d_a (Normal): Mean=-0.3936, Median=-0.3698, N=30
+[2026-01-25 13:20:11]   Red_d_a (Ischaemia): Mean=-0.5347, Median=-0.4701, N=30
+[2026-01-25 13:20:11]   Red_d_a (Congestion): Mean=-0.3812, Median=-0.3596, N=31
+[2026-01-25 13:20:11]   Red_e_a (Normal): Mean=0.4020, Median=0.3637, N=30
+[2026-01-25 13:20:11]   Red_e_a (Ischaemia): Mean=0.5312, Median=0.4737, N=30
+[2026-01-25 13:20:11]   Red_e_a (Congestion): Mean=0.4436, Median=0.4240, N=31
+[2026-01-25 13:20:12] 
+--- Statistics for IR Channel ---
+[2026-01-25 13:20:12]   IR_Datum_Area_Ratio (Normal): Mean=-0.4891, Median=-0.4771, N=30
+[2026-01-25 13:20:12]   IR_Datum_Area_Ratio (Ischaemia): Mean=-0.5345, Median=-0.6345, N=30
+[2026-01-25 13:20:12]   IR_Datum_Area_Ratio (Congestion): Mean=-0.5437, Median=-0.4446, N=31
+[2026-01-25 13:20:12]   IR_Rise_Decay_Ratio (Normal): Mean=0.2036, Median=0.2035, N=30
+[2026-01-25 13:20:12]   IR_Rise_Decay_Ratio (Ischaemia): Mean=0.1835, Median=0.1819, N=30
+[2026-01-25 13:20:12]   IR_Rise_Decay_Ratio (Congestion): Mean=0.2475, Median=0.2220, N=31
+[2026-01-25 13:20:12]   IR_Skewness (Normal): Mean=-0.1385, Median=-0.1339, N=30
+[2026-01-25 13:20:12]   IR_Skewness (Ischaemia): Mean=-0.1606, Median=-0.1653, N=30
+[2026-01-25 13:20:12]   IR_Skewness (Congestion): Mean=-0.2133, Median=-0.1960, N=31
+[2026-01-25 13:20:12]   IR_Kurtosis (Normal): Mean=-1.3358, Median=-1.3549, N=30
+[2026-01-25 13:20:12]   IR_Kurtosis (Ischaemia): Mean=-1.2911, Median=-1.3593, N=30
+[2026-01-25 13:20:12]   IR_Kurtosis (Congestion): Mean=-1.3751, Median=-1.4206, N=31
+[2026-01-25 13:20:12]   IR_Variance (Normal): Mean=0.1011, Median=0.1025, N=30
+[2026-01-25 13:20:12]   IR_Variance (Ischaemia): Mean=0.0989, Median=0.1008, N=30
+[2026-01-25 13:20:12]   IR_Variance (Congestion): Mean=0.1141, Median=0.1164, N=31
+[2026-01-25 13:20:12]   IR_b_a (Normal): Mean=-1.0046, Median=-0.9946, N=30
+[2026-01-25 13:20:12]   IR_b_a (Ischaemia): Mean=-0.9943, Median=-0.9836, N=30
+[2026-01-25 13:20:12]   IR_b_a (Congestion): Mean=-0.9889, Median=-0.9837, N=31
+[2026-01-25 13:20:12]   IR_c_a (Normal): Mean=0.2146, Median=0.2146, N=30
+[2026-01-25 13:20:12]   IR_c_a (Ischaemia): Mean=0.2700, Median=0.2636, N=30
+[2026-01-25 13:20:12]   IR_c_a (Congestion): Mean=0.3006, Median=0.3038, N=31
+[2026-01-25 13:20:12]   IR_d_a (Normal): Mean=-0.2076, Median=-0.2050, N=30
+[2026-01-25 13:20:12]   IR_d_a (Ischaemia): Mean=-0.2557, Median=-0.2546, N=30
+[2026-01-25 13:20:12]   IR_d_a (Congestion): Mean=-0.3393, Median=-0.3254, N=31
+[2026-01-25 13:20:12]   IR_e_a (Normal): Mean=0.1689, Median=0.1667, N=30
+[2026-01-25 13:20:12]   IR_e_a (Ischaemia): Mean=0.2166, Median=0.2081, N=30
+[2026-01-25 13:20:12]   IR_e_a (Congestion): Mean=0.2759, Median=0.2750, N=31
+[2026-01-25 13:20:12] 
+--- Statistics for Combined Ratios ---
+[2026-01-25 13:20:12]   PI_Ratio (Normal): Mean=0.4658, Median=0.4595, N=30
+[2026-01-25 13:20:12]   PI_Ratio (Ischaemia): Mean=0.4377, Median=0.4331, N=30
+[2026-01-25 13:20:12]   PI_Ratio (Congestion): Mean=0.7045, Median=0.6774, N=31
+[2026-01-25 13:20:12]   Amplitude_Ratio (Normal): Mean=0.6710, Median=0.6621, N=30
+[2026-01-25 13:20:12]   Amplitude_Ratio (Ischaemia): Mean=0.6306, Median=0.6241, N=30
+[2026-01-25 13:20:12]   Amplitude_Ratio (Congestion): Mean=1.0327, Median=0.9931, N=31
+[2026-01-25 13:20:12]   Delta_A_Ratio (Normal): Mean=0.4655, Median=0.4592, N=30
+[2026-01-25 13:20:12]   Delta_A_Ratio (Ischaemia): Mean=0.4375, Median=0.4329, N=30
+[2026-01-25 13:20:12]   Delta_A_Ratio (Congestion): Mean=0.7044, Median=0.6773, N=31
+[2026-01-25 13:20:12] COMPREHENSIVE ANALYSIS COMPLETE
+[2026-01-25 14:02:11] COMPREHENSIVE ANALYSIS START
+[2026-01-25 14:02:12] 
+--- Statistics for Red Channel ---
+[2026-01-25 14:02:12]   Red_Datum_Area_Ratio (Normal): Mean=-0.5394, Median=-0.6210, N=30
+[2026-01-25 14:02:12]   Red_Datum_Area_Ratio (Ischaemia): Mean=-1.3091, Median=-1.3190, N=30
+[2026-01-25 14:02:12]   Red_Datum_Area_Ratio (Congestion): Mean=-0.5497, Median=-0.6164, N=31
+[2026-01-25 14:02:12]   Red_Rise_Decay_Ratio (Normal): Mean=0.2776, Median=0.2536, N=30
+[2026-01-25 14:02:12]   Red_Rise_Decay_Ratio (Ischaemia): Mean=0.2867, Median=0.2901, N=30
+[2026-01-25 14:02:12]   Red_Rise_Decay_Ratio (Congestion): Mean=0.2711, Median=0.2426, N=31
+[2026-01-25 14:02:12]   Red_Skewness (Normal): Mean=-0.2283, Median=-0.2362, N=30
+[2026-01-25 14:02:12]   Red_Skewness (Ischaemia): Mean=-0.1744, Median=-0.1901, N=30
+[2026-01-25 14:02:12]   Red_Skewness (Congestion): Mean=-0.2756, Median=-0.2940, N=31
+[2026-01-25 14:02:12]   Red_Kurtosis (Normal): Mean=-1.2565, Median=-1.2880, N=30
+[2026-01-25 14:02:12]   Red_Kurtosis (Ischaemia): Mean=-1.1567, Median=-1.1623, N=30
+[2026-01-25 14:02:12]   Red_Kurtosis (Congestion): Mean=-1.2166, Median=-1.2701, N=31
+[2026-01-25 14:02:12]   Red_Variance (Normal): Mean=0.0950, Median=0.0944, N=30
+[2026-01-25 14:02:12]   Red_Variance (Ischaemia): Mean=0.0854, Median=0.0842, N=30
+[2026-01-25 14:02:12]   Red_Variance (Congestion): Mean=0.0961, Median=0.0960, N=31
+[2026-01-25 14:02:12]   Red_b_a (Normal): Mean=-0.8768, Median=-0.9290, N=30
+[2026-01-25 14:02:12]   Red_b_a (Ischaemia): Mean=-0.8872, Median=-0.9001, N=30
+[2026-01-25 14:02:12]   Red_b_a (Congestion): Mean=-0.8742, Median=-0.9453, N=31
+[2026-01-25 14:02:12]   Red_c_a (Normal): Mean=0.3821, Median=0.3478, N=30
+[2026-01-25 14:02:12]   Red_c_a (Ischaemia): Mean=0.5394, Median=0.5235, N=30
+[2026-01-25 14:02:12]   Red_c_a (Congestion): Mean=0.3550, Median=0.3163, N=31
+[2026-01-25 14:02:12]   Red_d_a (Normal): Mean=-0.3936, Median=-0.3698, N=30
+[2026-01-25 14:02:12]   Red_d_a (Ischaemia): Mean=-0.5347, Median=-0.4701, N=30
+[2026-01-25 14:02:12]   Red_d_a (Congestion): Mean=-0.3812, Median=-0.3596, N=31
+[2026-01-25 14:02:12]   Red_e_a (Normal): Mean=0.4020, Median=0.3637, N=30
+[2026-01-25 14:02:12]   Red_e_a (Ischaemia): Mean=0.5312, Median=0.4737, N=30
+[2026-01-25 14:02:12]   Red_e_a (Congestion): Mean=0.4436, Median=0.4240, N=31
+[2026-01-25 14:02:12] 
+--- Statistics for IR Channel ---
+[2026-01-25 14:02:12]   IR_Datum_Area_Ratio (Normal): Mean=-0.4891, Median=-0.4771, N=30
+[2026-01-25 14:02:12]   IR_Datum_Area_Ratio (Ischaemia): Mean=-0.5345, Median=-0.6345, N=30
+[2026-01-25 14:02:12]   IR_Datum_Area_Ratio (Congestion): Mean=-0.5437, Median=-0.4446, N=31
+[2026-01-25 14:02:12]   IR_Rise_Decay_Ratio (Normal): Mean=0.2036, Median=0.2035, N=30
+[2026-01-25 14:02:12]   IR_Rise_Decay_Ratio (Ischaemia): Mean=0.1835, Median=0.1819, N=30
+[2026-01-25 14:02:12]   IR_Rise_Decay_Ratio (Congestion): Mean=0.2475, Median=0.2220, N=31
+[2026-01-25 14:02:12]   IR_Skewness (Normal): Mean=-0.1385, Median=-0.1339, N=30
+[2026-01-25 14:02:12]   IR_Skewness (Ischaemia): Mean=-0.1606, Median=-0.1653, N=30
+[2026-01-25 14:02:12]   IR_Skewness (Congestion): Mean=-0.2133, Median=-0.1960, N=31
+[2026-01-25 14:02:12]   IR_Kurtosis (Normal): Mean=-1.3358, Median=-1.3549, N=30
+[2026-01-25 14:02:12]   IR_Kurtosis (Ischaemia): Mean=-1.2911, Median=-1.3593, N=30
+[2026-01-25 14:02:12]   IR_Kurtosis (Congestion): Mean=-1.3751, Median=-1.4206, N=31
+[2026-01-25 14:02:12]   IR_Variance (Normal): Mean=0.1011, Median=0.1025, N=30
+[2026-01-25 14:02:12]   IR_Variance (Ischaemia): Mean=0.0989, Median=0.1008, N=30
+[2026-01-25 14:02:12]   IR_Variance (Congestion): Mean=0.1141, Median=0.1164, N=31
+[2026-01-25 14:02:12]   IR_b_a (Normal): Mean=-1.0046, Median=-0.9946, N=30
+[2026-01-25 14:02:12]   IR_b_a (Ischaemia): Mean=-0.9943, Median=-0.9836, N=30
+[2026-01-25 14:02:12]   IR_b_a (Congestion): Mean=-0.9889, Median=-0.9837, N=31
+[2026-01-25 14:02:12]   IR_c_a (Normal): Mean=0.2146, Median=0.2146, N=30
+[2026-01-25 14:02:12]   IR_c_a (Ischaemia): Mean=0.2700, Median=0.2636, N=30
+[2026-01-25 14:02:12]   IR_c_a (Congestion): Mean=0.3006, Median=0.3038, N=31
+[2026-01-25 14:02:12]   IR_d_a (Normal): Mean=-0.2076, Median=-0.2050, N=30
+[2026-01-25 14:02:12]   IR_d_a (Ischaemia): Mean=-0.2557, Median=-0.2546, N=30
+[2026-01-25 14:02:12]   IR_d_a (Congestion): Mean=-0.3393, Median=-0.3254, N=31
+[2026-01-25 14:02:12]   IR_e_a (Normal): Mean=0.1689, Median=0.1667, N=30
+[2026-01-25 14:02:12]   IR_e_a (Ischaemia): Mean=0.2166, Median=0.2081, N=30
+[2026-01-25 14:02:12]   IR_e_a (Congestion): Mean=0.2759, Median=0.2750, N=31
+[2026-01-25 14:02:13] 
+--- Statistics for Combined Ratios ---
+[2026-01-25 14:02:13]   PI_Ratio (Normal): Mean=0.4658, Median=0.4595, N=30
+[2026-01-25 14:02:13]   PI_Ratio (Ischaemia): Mean=0.4377, Median=0.4331, N=30
+[2026-01-25 14:02:13]   PI_Ratio (Congestion): Mean=0.7045, Median=0.6774, N=31
+[2026-01-25 14:02:13]   Amplitude_Ratio (Normal): Mean=0.6710, Median=0.6621, N=30
+[2026-01-25 14:02:13]   Amplitude_Ratio (Ischaemia): Mean=0.6306, Median=0.6241, N=30
+[2026-01-25 14:02:13]   Amplitude_Ratio (Congestion): Mean=1.0327, Median=0.9931, N=31
+[2026-01-25 14:02:13]   Delta_A_Ratio (Normal): Mean=0.4655, Median=0.4592, N=30
+[2026-01-25 14:02:13]   Delta_A_Ratio (Ischaemia): Mean=0.4375, Median=0.4329, N=30
+[2026-01-25 14:02:13]   Delta_A_Ratio (Congestion): Mean=0.7044, Median=0.6773, N=31
+[2026-01-25 14:02:13] COMPREHENSIVE ANALYSIS COMPLETE

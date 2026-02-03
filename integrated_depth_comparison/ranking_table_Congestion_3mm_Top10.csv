@@ -1,0 +1,11 @@
+Feature,Comparison,N_Normal,N_Disease,AUC,CI_Lower,CI_Upper,Optimal_Threshold,Sensitivity,Specificity,PPV,NPV,Accuracy,F1_Score,Youden_J,LR_Positive,LR_Negative,TP,TN,FP,FN,Is_Inverse,Depth,Source,Category,Clean_Feature,Display_Name
+Diastolic_Width,Congestion,30,30,1.0,1.0,1.0,0.532,1.0,1.0,1.0,1.0,1.0,1.0,1.0,,0.0,30,30,0,0,True,3,IR,Time,Diastolic_Width,Diastolic_Width
+AC_Component,Congestion,30,30,1.0,1.0,1.0,0.003162,1.0,1.0,1.0,1.0,1.0,1.0,1.0,,0.0,30,30,0,0,True,3,IR,Intensity,AC_Component,AC_Component
+Amplitude,Congestion,30,30,1.0,1.0,1.0,0.003162,1.0,1.0,1.0,1.0,1.0,1.0,1.0,,0.0,30,30,0,0,True,3,IR,Intensity,Amplitude,Amplitude
+DNP,Congestion,30,30,1.0,1.0,1.0,0.808035,1.0,1.0,1.0,1.0,1.0,1.0,1.0,,0.0,30,30,0,0,False,3,IR,SDPPG,DNP,DNP
+D_AUC,Congestion,30,30,1.0,1.0,1.0,2.703574,1.0,1.0,1.0,1.0,1.0,1.0,1.0,,0.0,30,30,0,0,True,3,IR,Area,D_AUC,D_AUC
+End_Datum_Area,Congestion,30,30,1.0,1.0,1.0,0.261499,1.0,1.0,1.0,1.0,1.0,1.0,1.0,,0.0,30,30,0,0,True,3,IR,Area,End_Datum_Area,End_Datum_Area
+Fall_Time,Congestion,30,30,1.0,1.0,1.0,0.76,1.0,1.0,1.0,1.0,1.0,1.0,1.0,,0.0,30,30,0,0,True,3,IR,Time,Fall_Time,Fall_Time
+IPAR,Congestion,30,30,1.0,1.0,1.0,0.54998,1.0,1.0,1.0,1.0,1.0,1.0,1.0,,0.0,30,30,0,0,True,3,IR,Shape & Stats,IPAR,IPAR
+Max_Start_Datum_Diff,Congestion,30,30,1.0,1.0,1.0,0.003064,1.0,1.0,1.0,1.0,1.0,1.0,1.0,,0.0,30,30,0,0,True,3,IR,Area,Max_Start_Datum_Diff,Max_Start_Datum_Diff
+PI,Congestion,30,30,1.0,1.0,1.0,0.178797,1.0,1.0,1.0,1.0,1.0,1.0,1.0,,0.0,30,30,0,0,True,3,IR,Intensity,PI,PI

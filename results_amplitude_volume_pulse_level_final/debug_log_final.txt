@@ -1,0 +1,249 @@
+[2026-01-22 10:44:14] ================================================================================
+[2026-01-22 10:44:14] Amplitude/Volume Feature Analysis - FINAL VERSION (AUC_Ratio Excluded)
+[2026-01-22 10:44:14] ================================================================================
+[2026-01-22 10:44:14] Key changes: AUC_Ratio removed; S_AUC and D_AUC reported individually
+[2026-01-22 10:44:14] Total features: 8 (Amplitude, AUC, S_AUC, D_AUC, Start/End_Datum_Area, Datum_Area_Ratio, Max_Start_Datum_Diff)
+[2026-01-22 10:44:14] ================================================================================
+[2026-01-22 10:44:14] 
+Target Depth: 3 mm
+[2026-01-22 10:44:14] States: ['Normal', 'Ischaemia', 'Congestion']
+[2026-01-22 10:44:14] Channels: ['Red', 'IR']
+[2026-01-22 10:44:14] 
+============================================================
+[2026-01-22 10:44:14] Processing: 3mm_data1.csv (Normal)
+[2026-01-22 10:44:15]   Loaded: 61200 samples, 9 columns
+[2026-01-22 10:44:15]   Processing channel: Red
+[2026-01-22 10:44:15]   Detected 30 valid pulses (BPM: 62.0)
+[2026-01-22 10:44:15]     ✓ Extracted 30 pulse records
+[2026-01-22 10:44:15]   Processing channel: IR
+[2026-01-22 10:44:15]   Detected 30 valid pulses (BPM: 62.0)
+[2026-01-22 10:44:15]     ✓ Extracted 30 pulse records
+[2026-01-22 10:44:15] 
+============================================================
+[2026-01-22 10:44:15] Processing: 3mm_data2.csv (Ischaemia)
+[2026-01-22 10:44:15]   Loaded: 61200 samples, 9 columns
+[2026-01-22 10:44:15]   Processing channel: Red
+[2026-01-22 10:44:15]   Detected 30 valid pulses (BPM: 62.0)
+[2026-01-22 10:44:15]     ✓ Extracted 30 pulse records
+[2026-01-22 10:44:15]   Processing channel: IR
+[2026-01-22 10:44:15]   Detected 30 valid pulses (BPM: 62.0)
+[2026-01-22 10:44:15]     ✓ Extracted 30 pulse records
+[2026-01-22 10:44:15] 
+============================================================
+[2026-01-22 10:44:15] Processing: 3mm_data3.csv (Congestion)
+[2026-01-22 10:44:15]   Loaded: 61600 samples, 9 columns
+[2026-01-22 10:44:15]   Processing channel: Red
+[2026-01-22 10:44:15]   Detected 30 valid pulses (BPM: 62.0)
+[2026-01-22 10:44:15]     ✓ Extracted 30 pulse records
+[2026-01-22 10:44:15]   Processing channel: IR
+[2026-01-22 10:44:15]   Detected 30 valid pulses (BPM: 62.0)
+[2026-01-22 10:44:15]     ✓ Extracted 30 pulse records
+[2026-01-22 10:44:15] 
+✓ Features saved: results_amplitude_volume_pulse_level_final/amplitude_volume_features_final.csv
+[2026-01-22 10:44:15]   Total pulse records: 180
+[2026-01-22 10:44:15]   Records per state:
+[2026-01-22 10:44:15]     Normal: 60 pulses
+[2026-01-22 10:44:15]     Ischaemia: 60 pulses
+[2026-01-22 10:44:15]     Congestion: 60 pulses
+[2026-01-22 10:44:15] 
+================================================================================
+[2026-01-22 10:44:15] DESCRIPTIVE STATISTICS (Mean ± SD per state)
+[2026-01-22 10:44:15] ================================================================================
+[2026-01-22 10:44:15] 
+Red Channel:
+[2026-01-22 10:44:15]   Normal | Amplitude: 0.003105 ± 0.000266 (n=30)
+[2026-01-22 10:44:15]   Normal | AUC: 3.18 ± 0.45 (n=30)
+[2026-01-22 10:44:15]   Normal | S_AUC: 1.10 ± 1.49 (n=30)
+[2026-01-22 10:44:15]   Normal | D_AUC: 2.08 ± 1.64 (n=30)
+[2026-01-22 10:44:15]   Normal | Start_Datum_Area: 1.28 ± 0.14 (n=30)
+[2026-01-22 10:44:15]   Normal | End_Datum_Area: 0.70 ± 0.20 (n=30)
+[2026-01-22 10:44:15]   Normal | Datum_Area_Ratio: 1.93 ± 0.33 (n=30)
+[2026-01-22 10:44:15]   Normal | Max_Start_Datum_Diff: 0.003036 ± 0.000257 (n=30)
+[2026-01-22 10:44:15]   Ischaemia | Amplitude: 0.001815 ± 0.000158 (n=30)
+[2026-01-22 10:44:15]   Ischaemia | AUC: 1.79 ± 0.29 (n=30)
+[2026-01-22 10:44:15]   Ischaemia | S_AUC: 0.87 ± 0.97 (n=30)
+[2026-01-22 10:44:15]   Ischaemia | D_AUC: 0.92 ± 0.90 (n=30)
+[2026-01-22 10:44:15]   Ischaemia | Start_Datum_Area: 0.73 ± 0.08 (n=30)
+[2026-01-22 10:44:15]   Ischaemia | End_Datum_Area: 0.42 ± 0.15 (n=30)
+[2026-01-22 10:44:15]   Ischaemia | Datum_Area_Ratio: 1.87 ± 0.44 (n=30)
+[2026-01-22 10:44:15]   Ischaemia | Max_Start_Datum_Diff: 0.001758 ± 0.000149 (n=30)
+[2026-01-22 10:44:15]   Congestion | Amplitude: 0.002917 ± 0.000209 (n=30)
+[2026-01-22 10:44:15]   Congestion | AUC: 3.03 ± 0.47 (n=30)
+[2026-01-22 10:44:15]   Congestion | S_AUC: 1.52 ± 1.57 (n=30)
+[2026-01-22 10:44:15]   Congestion | D_AUC: 1.51 ± 1.58 (n=30)
+[2026-01-22 10:44:15]   Congestion | Start_Datum_Area: 1.22 ± 0.14 (n=30)
+[2026-01-22 10:44:15]   Congestion | End_Datum_Area: 0.67 ± 0.24 (n=30)
+[2026-01-22 10:44:15]   Congestion | Datum_Area_Ratio: 1.95 ± 0.38 (n=30)
+[2026-01-22 10:44:15]   Congestion | Max_Start_Datum_Diff: 0.002851 ± 0.000225 (n=30)
+[2026-01-22 10:44:15] 
+IR Channel:
+[2026-01-22 10:44:15]   Normal | Amplitude: 0.004719 ± 0.000209 (n=30)
+[2026-01-22 10:44:15]   Normal | AUC: 4.77 ± 0.24 (n=30)
+[2026-01-22 10:44:15]   Normal | S_AUC: 2.25 ± 2.44 (n=30)
+[2026-01-22 10:44:15]   Normal | D_AUC: 2.52 ± 2.40 (n=30)
+[2026-01-22 10:44:15]   Normal | Start_Datum_Area: 2.00 ± 0.11 (n=30)
+[2026-01-22 10:44:15]   Normal | End_Datum_Area: 0.93 ± 0.06 (n=30)
+[2026-01-22 10:44:15]   Normal | Datum_Area_Ratio: 2.15 ± 0.06 (n=30)
+[2026-01-22 10:44:15]   Normal | Max_Start_Datum_Diff: 0.004699 ± 0.000205 (n=30)
+[2026-01-22 10:44:15]   Ischaemia | Amplitude: 0.003013 ± 0.000070 (n=30)
+[2026-01-22 10:44:15]   Ischaemia | AUC: 3.08 ± 0.20 (n=30)
+[2026-01-22 10:44:15]   Ischaemia | S_AUC: 1.25 ± 1.56 (n=30)
+[2026-01-22 10:44:15]   Ischaemia | D_AUC: 1.83 ± 1.53 (n=30)
+[2026-01-22 10:44:15]   Ischaemia | Start_Datum_Area: 1.29 ± 0.08 (n=30)
+[2026-01-22 10:44:15]   Ischaemia | End_Datum_Area: 0.58 ± 0.02 (n=30)
+[2026-01-22 10:44:15]   Ischaemia | Datum_Area_Ratio: 2.21 ± 0.12 (n=30)
+[2026-01-22 10:44:15]   Ischaemia | Max_Start_Datum_Diff: 0.003000 ± 0.000075 (n=30)
+[2026-01-22 10:44:15]   Congestion | Amplitude: 0.002939 ± 0.000115 (n=30)
+[2026-01-22 10:44:15]   Congestion | AUC: 3.08 ± 0.12 (n=30)
+[2026-01-22 10:44:15]   Congestion | S_AUC: 1.64 ± 1.56 (n=30)
+[2026-01-22 10:44:15]   Congestion | D_AUC: 1.44 ± 1.57 (n=30)
+[2026-01-22 10:44:15]   Congestion | Start_Datum_Area: 1.30 ± 0.06 (n=30)
+[2026-01-22 10:44:15]   Congestion | End_Datum_Area: 0.63 ± 0.03 (n=30)
+[2026-01-22 10:44:15]   Congestion | Datum_Area_Ratio: 2.07 ± 0.08 (n=30)
+[2026-01-22 10:44:15]   Congestion | Max_Start_Datum_Diff: 0.002913 ± 0.000140 (n=30)
+[2026-01-22 10:44:15] 
+✓ Descriptive stats saved: results_amplitude_volume_pulse_level_final/descriptive_statistics_final.csv
+[2026-01-22 10:44:15] 
+================================================================================
+[2026-01-22 10:44:15] STATISTICAL ANALYSIS (Kruskal-Wallis + Post-hoc Mann-Whitney U)
+[2026-01-22 10:44:15] ================================================================================
+[2026-01-22 10:44:15] 
+Red Channel:
+[2026-01-22 10:44:15]   Amplitude: H=63.607, p=0.0000
+[2026-01-22 10:44:15]     Normal vs Ischaemia: p_adj=0.0000 *** (r=-1.000)
+[2026-01-22 10:44:15]     Normal vs Congestion: p_adj=0.0062 *** (r=-0.464)
+[2026-01-22 10:44:15]     Ischaemia vs Congestion: p_adj=0.0000 *** (r=1.000)
+[2026-01-22 10:44:15]   AUC: H=58.226, p=0.0000
+[2026-01-22 10:44:15]     Normal vs Ischaemia: p_adj=0.0000 *** (r=-0.982)
+[2026-01-22 10:44:15]     Ischaemia vs Congestion: p_adj=0.0000 *** (r=0.982)
+[2026-01-22 10:44:15]   S_AUC: H=3.221, p=0.1998
+[2026-01-22 10:44:15]   D_AUC: H=9.884, p=0.0071
+[2026-01-22 10:44:15]     Normal vs Ischaemia: p_adj=0.0081 *** (r=-0.436)
+[2026-01-22 10:44:15]   Start_Datum_Area: H=61.509, p=0.0000
+[2026-01-22 10:44:15]     Normal vs Ischaemia: p_adj=0.0000 *** (r=-1.000)
+[2026-01-22 10:44:15]     Ischaemia vs Congestion: p_adj=0.0000 *** (r=1.000)
+[2026-01-22 10:44:15]   End_Datum_Area: H=33.222, p=0.0000
+[2026-01-22 10:44:15]     Normal vs Ischaemia: p_adj=0.0000 *** (r=-0.749)
+[2026-01-22 10:44:15]     Ischaemia vs Congestion: p_adj=0.0000 *** (r=0.704)
+[2026-01-22 10:44:15]   Datum_Area_Ratio: H=0.690, p=0.7083
+[2026-01-22 10:44:15]   Max_Start_Datum_Diff: H=63.374, p=0.0000
+[2026-01-22 10:44:15]     Normal vs Ischaemia: p_adj=0.0000 *** (r=-0.998)
+[2026-01-22 10:44:15]     Normal vs Congestion: p_adj=0.0068 *** (r=-0.460)
+[2026-01-22 10:44:15]     Ischaemia vs Congestion: p_adj=0.0000 *** (r=1.000)
+[2026-01-22 10:44:15] 
+IR Channel:
+[2026-01-22 10:44:15]   Amplitude: H=62.756, p=0.0000
+[2026-01-22 10:44:15]     Normal vs Ischaemia: p_adj=0.0000 *** (r=-1.000)
+[2026-01-22 10:44:15]     Normal vs Congestion: p_adj=0.0000 *** (r=-1.000)
+[2026-01-22 10:44:15]     Ischaemia vs Congestion: p_adj=0.0175 *** (r=-0.416)
+[2026-01-22 10:44:15]   AUC: H=60.241, p=0.0000
+[2026-01-22 10:44:15]     Normal vs Ischaemia: p_adj=0.0000 *** (r=-1.000)
+[2026-01-22 10:44:15]     Normal vs Congestion: p_adj=0.0000 *** (r=-1.000)
+[2026-01-22 10:44:15]   S_AUC: H=3.530, p=0.1712
+[2026-01-22 10:44:15]   D_AUC: H=6.093, p=0.0475
+[2026-01-22 10:44:15]   Start_Datum_Area: H=59.460, p=0.0000
+[2026-01-22 10:44:15]     Normal vs Ischaemia: p_adj=0.0000 *** (r=-1.000)
+[2026-01-22 10:44:15]     Normal vs Congestion: p_adj=0.0000 *** (r=-1.000)
+[2026-01-22 10:44:15]   End_Datum_Area: H=72.429, p=0.0000
+[2026-01-22 10:44:15]     Normal vs Ischaemia: p_adj=0.0000 *** (r=-0.998)
+[2026-01-22 10:44:15]     Normal vs Congestion: p_adj=0.0000 *** (r=-0.956)
+[2026-01-22 10:44:15]     Ischaemia vs Congestion: p_adj=0.0000 *** (r=0.873)
+[2026-01-22 10:44:15]   Datum_Area_Ratio: H=49.036, p=0.0000
+[2026-01-22 10:44:15]     Normal vs Ischaemia: p_adj=0.0000 *** (r=0.718)
+[2026-01-22 10:44:15]     Normal vs Congestion: p_adj=0.0000 *** (r=-0.733)
+[2026-01-22 10:44:15]     Ischaemia vs Congestion: p_adj=0.0000 *** (r=-0.849)
+[2026-01-22 10:44:15]   Max_Start_Datum_Diff: H=63.248, p=0.0000
+[2026-01-22 10:44:15]     Normal vs Ischaemia: p_adj=0.0000 *** (r=-1.000)
+[2026-01-22 10:44:15]     Normal vs Congestion: p_adj=0.0000 *** (r=-1.000)
+[2026-01-22 10:44:15]     Ischaemia vs Congestion: p_adj=0.0095 *** (r=-0.444)
+[2026-01-22 10:44:15] 
+✓ Statistics saved: results_amplitude_volume_pulse_level_final/statistics_final.csv
+[2026-01-22 10:44:15] 
+================================================================================
+[2026-01-22 10:44:15] ROC ANALYSIS (Pairwise comparisons)
+[2026-01-22 10:44:15] ================================================================================
+[2026-01-22 10:44:15] 
+Red Channel:
+[2026-01-22 10:44:15]   Amplitude | Normal vs Ischaemia: AUC=0.000
+[2026-01-22 10:44:15]   Amplitude | Normal vs Congestion: AUC=0.268
+[2026-01-22 10:44:15]   Amplitude | Ischaemia vs Congestion: AUC=1.000
+[2026-01-22 10:44:15]   AUC | Normal vs Ischaemia: AUC=0.009
+[2026-01-22 10:44:15]   AUC | Normal vs Congestion: AUC=0.389
+[2026-01-22 10:44:15]   AUC | Ischaemia vs Congestion: AUC=0.991
+[2026-01-22 10:44:15]   S_AUC | Normal vs Ischaemia: AUC=0.469
+[2026-01-22 10:44:15]   S_AUC | Normal vs Congestion: AUC=0.572
+[2026-01-22 10:44:15]   S_AUC | Ischaemia vs Congestion: AUC=0.629
+[2026-01-22 10:44:15]   D_AUC | Normal vs Ischaemia: AUC=0.282
+[2026-01-22 10:44:15]   D_AUC | Normal vs Congestion: AUC=0.376
+[2026-01-22 10:44:15]   D_AUC | Ischaemia vs Congestion: AUC=0.616
+[2026-01-22 10:44:15]   Start_Datum_Area | Normal vs Ischaemia: AUC=0.000
+[2026-01-22 10:44:15]   Start_Datum_Area | Normal vs Congestion: AUC=0.334
+[2026-01-22 10:44:15]   Start_Datum_Area | Ischaemia vs Congestion: AUC=1.000
+[2026-01-22 10:44:15]   End_Datum_Area | Normal vs Ischaemia: AUC=0.126
+[2026-01-22 10:44:15]   End_Datum_Area | Normal vs Congestion: AUC=0.357
+[2026-01-22 10:44:15]   End_Datum_Area | Ischaemia vs Congestion: AUC=0.852
+[2026-01-22 10:44:15]   Datum_Area_Ratio | Normal vs Ischaemia: AUC=0.490
+[2026-01-22 10:44:15]   Datum_Area_Ratio | Normal vs Congestion: AUC=0.561
+[2026-01-22 10:44:15]   Datum_Area_Ratio | Ischaemia vs Congestion: AUC=0.547
+[2026-01-22 10:44:15]   Max_Start_Datum_Diff | Normal vs Ischaemia: AUC=0.001
+[2026-01-22 10:44:15]   Max_Start_Datum_Diff | Normal vs Congestion: AUC=0.270
+[2026-01-22 10:44:15]   Max_Start_Datum_Diff | Ischaemia vs Congestion: AUC=1.000
+[2026-01-22 10:44:15] 
+IR Channel:
+[2026-01-22 10:44:15]   Amplitude | Normal vs Ischaemia: AUC=0.000
+[2026-01-22 10:44:15]   Amplitude | Normal vs Congestion: AUC=0.000
+[2026-01-22 10:44:15]   Amplitude | Ischaemia vs Congestion: AUC=0.292
+[2026-01-22 10:44:15]   AUC | Normal vs Ischaemia: AUC=0.000
+[2026-01-22 10:44:15]   AUC | Normal vs Congestion: AUC=0.000
+[2026-01-22 10:44:15]   AUC | Ischaemia vs Congestion: AUC=0.393
+[2026-01-22 10:44:15]   S_AUC | Normal vs Ischaemia: AUC=0.373
+[2026-01-22 10:44:15]   S_AUC | Normal vs Congestion: AUC=0.409
+[2026-01-22 10:44:15]   S_AUC | Ischaemia vs Congestion: AUC=0.530
+[2026-01-22 10:44:15]   D_AUC | Normal vs Ischaemia: AUC=0.373
+[2026-01-22 10:44:15]   D_AUC | Normal vs Congestion: AUC=0.342
+[2026-01-22 10:44:15]   D_AUC | Ischaemia vs Congestion: AUC=0.423
+[2026-01-22 10:44:15]   Start_Datum_Area | Normal vs Ischaemia: AUC=0.000
+[2026-01-22 10:44:15]   Start_Datum_Area | Normal vs Congestion: AUC=0.000
+[2026-01-22 10:44:15]   Start_Datum_Area | Ischaemia vs Congestion: AUC=0.461
+[2026-01-22 10:44:15]   End_Datum_Area | Normal vs Ischaemia: AUC=0.001
+[2026-01-22 10:44:15]   End_Datum_Area | Normal vs Congestion: AUC=0.022
+[2026-01-22 10:44:15]   End_Datum_Area | Ischaemia vs Congestion: AUC=0.937
+[2026-01-22 10:44:15]   Datum_Area_Ratio | Normal vs Ischaemia: AUC=0.859
+[2026-01-22 10:44:15]   Datum_Area_Ratio | Normal vs Congestion: AUC=0.133
+[2026-01-22 10:44:15]   Datum_Area_Ratio | Ischaemia vs Congestion: AUC=0.076
+[2026-01-22 10:44:15]   Max_Start_Datum_Diff | Normal vs Ischaemia: AUC=0.000
+[2026-01-22 10:44:15]   Max_Start_Datum_Diff | Normal vs Congestion: AUC=0.000
+[2026-01-22 10:44:15]   Max_Start_Datum_Diff | Ischaemia vs Congestion: AUC=0.278
+[2026-01-22 10:44:15] 
+✓ ROC results saved: results_amplitude_volume_pulse_level_final/ROC_final.csv
+[2026-01-22 10:44:15] 
+================================================================================
+[2026-01-22 10:44:15] TOP DISCRIMINATIVE FEATURES (AUC)
+[2026-01-22 10:44:15] ================================================================================
+[2026-01-22 10:44:15] Red | Start_Datum_Area | Ischaemia vs Congestion: AUC=1.000 (Sens=1.00, Spec=1.00)
+[2026-01-22 10:44:15] Red | Amplitude | Ischaemia vs Congestion: AUC=1.000 (Sens=1.00, Spec=1.00)
+[2026-01-22 10:44:15] Red | Max_Start_Datum_Diff | Ischaemia vs Congestion: AUC=1.000 (Sens=1.00, Spec=1.00)
+[2026-01-22 10:44:15] Red | AUC | Ischaemia vs Congestion: AUC=0.991 (Sens=0.90, Spec=1.00)
+[2026-01-22 10:44:15] IR | End_Datum_Area | Ischaemia vs Congestion: AUC=0.937 (Sens=0.83, Spec=0.97)
+[2026-01-22 10:44:15] IR | Datum_Area_Ratio | Normal vs Ischaemia: AUC=0.859 (Sens=0.80, Spec=0.93)
+[2026-01-22 10:44:15] Red | End_Datum_Area | Ischaemia vs Congestion: AUC=0.852 (Sens=1.00, Spec=0.77)
+[2026-01-22 10:44:15] Red | S_AUC | Ischaemia vs Congestion: AUC=0.629 (Sens=0.43, Spec=1.00)
+[2026-01-22 10:44:15] Red | D_AUC | Ischaemia vs Congestion: AUC=0.616 (Sens=0.47, Spec=1.00)
+[2026-01-22 10:44:15] Red | S_AUC | Normal vs Congestion: AUC=0.572 (Sens=0.50, Spec=0.67)
+[2026-01-22 10:44:15] 
+================================================================================
+[2026-01-22 10:44:15] GENERATING VISUALIZATIONS
+[2026-01-22 10:44:15] ================================================================================
+[2026-01-22 10:44:17]   ✓ Saved: results_amplitude_volume_pulse_level_final/boxplots_Red_final.png
+[2026-01-22 10:44:19]   ✓ Saved: results_amplitude_volume_pulse_level_final/boxplots_IR_final.png
+[2026-01-22 10:44:19] 
+================================================================================
+[2026-01-22 10:44:19] ANALYSIS COMPLETE - FINAL VERSION
+[2026-01-22 10:44:19] ================================================================================
+[2026-01-22 10:44:19] 
+Output directory: results_amplitude_volume_pulse_level_final
+[2026-01-22 10:44:19] Summary:
+[2026-01-22 10:44:19]   - Total features analyzed: 8 (AUC_Ratio excluded)
+[2026-01-22 10:44:19]   - S_AUC and D_AUC: Reported individually
+[2026-01-22 10:44:19]   - Total pulse records: 180
+[2026-01-22 10:44:19]   - Significant features: 29

@@ -1,0 +1,190 @@
+[2026-01-30 12:39:29] ================================================================================
+[2026-01-30 12:39:29] DIAGNOSTIC PERFORMANCE ANALYSIS (ROBUST VERSION)
+[2026-01-30 12:39:29] ================================================================================
+[2026-01-30 12:39:29] ✓ Loaded: multi_depth_master_features/master_pulse_features.csv
+[2026-01-30 12:39:29]   Total rows: 279
+[2026-01-30 12:39:29]   Total columns: 84
+[2026-01-30 12:39:29] 
+Data Distribution:
+[2026-01-30 12:39:29]   3mm - Congestion  : 31 pulses
+[2026-01-30 12:39:29]   3mm - Ischaemia   : 30 pulses
+[2026-01-30 12:39:29]   3mm - Normal      : 30 pulses
+[2026-01-30 12:39:29]   9mm - Congestion  : 32 pulses
+[2026-01-30 12:39:29]   9mm - Ischaemia   : 32 pulses
+[2026-01-30 12:39:29]   9mm - Normal      : 32 pulses
+[2026-01-30 12:39:29]   15mm - Congestion  : 31 pulses
+[2026-01-30 12:39:29]   15mm - Ischaemia   : 30 pulses
+[2026-01-30 12:39:29]   15mm - Normal      : 31 pulses
+[2026-01-30 12:39:29] 
+✓ Total features to analyze: 81
+[2026-01-30 12:39:29] 
+================================================================================
+[2026-01-30 12:39:29] Analyzing: Normal vs Ischaemia
+[2026-01-30 12:39:29] ================================================================================
+[2026-01-30 12:39:29] 
+Depth: 3mm
+[2026-01-30 12:39:29] --------------------------------------------------------------------------------
+[2026-01-30 12:39:29]   Available features with data: 81
+[2026-01-30 12:39:34]   Progress: 10/81
+[2026-01-30 12:39:39]   Progress: 20/81
+[2026-01-30 12:39:45]   Progress: 30/81
+[2026-01-30 12:39:50]   Progress: 40/81
+[2026-01-30 12:39:55]   Progress: 50/81
+[2026-01-30 12:40:01]   Progress: 60/81
+[2026-01-30 12:40:06]   Progress: 70/81
+[2026-01-30 12:40:11]   Progress: 80/81
+[2026-01-30 12:40:12]   ✓ Successfully processed: 80/81
+[2026-01-30 12:40:12] 
+Depth: 9mm
+[2026-01-30 12:40:12] --------------------------------------------------------------------------------
+[2026-01-30 12:40:12]   Available features with data: 39
+[2026-01-30 12:40:12]   Progress: 10/39
+[2026-01-30 12:40:12]   Progress: 20/39
+[2026-01-30 12:40:12]   Progress: 30/39
+[2026-01-30 12:40:12]   ✓ Successfully processed: 39/39
+[2026-01-30 12:40:12] 
+Depth: 15mm
+[2026-01-30 12:40:12] --------------------------------------------------------------------------------
+[2026-01-30 12:40:12]   Available features with data: 39
+[2026-01-30 12:40:12]   Progress: 10/39
+[2026-01-30 12:40:12]   Progress: 20/39
+[2026-01-30 12:40:12]   Progress: 30/39
+[2026-01-30 12:40:12]   ✓ Successfully processed: 39/39
+[2026-01-30 12:40:12] 
+================================================================================
+[2026-01-30 12:40:12] Analyzing: Normal vs Congestion
+[2026-01-30 12:40:12] ================================================================================
+[2026-01-30 12:40:12] 
+Depth: 3mm
+[2026-01-30 12:40:12] --------------------------------------------------------------------------------
+[2026-01-30 12:40:12]   Available features with data: 81
+[2026-01-30 12:40:12]   Progress: 10/81
+[2026-01-30 12:40:12]   Progress: 20/81
+[2026-01-30 12:40:12]   Progress: 30/81
+[2026-01-30 12:40:12]   Progress: 40/81
+[2026-01-30 12:40:12]   Progress: 50/81
+[2026-01-30 12:40:12]   Progress: 60/81
+[2026-01-30 12:40:12]   Progress: 70/81
+[2026-01-30 12:40:12]   Progress: 80/81
+[2026-01-30 12:40:12]   ✓ Successfully processed: 81/81
+[2026-01-30 12:40:12] 
+Depth: 9mm
+[2026-01-30 12:40:12] --------------------------------------------------------------------------------
+[2026-01-30 12:40:12]   Available features with data: 39
+[2026-01-30 12:40:12]   Progress: 10/39
+[2026-01-30 12:40:13]   Progress: 20/39
+[2026-01-30 12:40:13]   Progress: 30/39
+[2026-01-30 12:40:13]   ✓ Successfully processed: 39/39
+[2026-01-30 12:40:13] 
+Depth: 15mm
+[2026-01-30 12:40:13] --------------------------------------------------------------------------------
+[2026-01-30 12:40:13]   Available features with data: 39
+[2026-01-30 12:40:13]   Progress: 10/39
+[2026-01-30 12:40:13]   Progress: 20/39
+[2026-01-30 12:40:13]   Progress: 30/39
+[2026-01-30 12:40:13]   ✓ Successfully processed: 39/39
+[2026-01-30 12:40:13] 
+================================================================================
+[2026-01-30 12:40:13] RESULTS SUMMARY
+[2026-01-30 12:40:13] ================================================================================
+[2026-01-30 12:40:13] ✓ Output file: diagnostic_performance_results/diagnostic_performance_all.csv
+[2026-01-30 12:40:13] ✓ Total successful analyses: 317
+[2026-01-30 12:40:13] ✓ Total failed analyses: 1
+[2026-01-30 12:40:13] ✓ Success rate: 99.7%
+[2026-01-30 12:40:13] 
+================================================================================
+[2026-01-30 12:40:13] TOP 10 FEATURES BY AUC
+[2026-01-30 12:40:13] ================================================================================
+[2026-01-30 12:40:13] 
+Ischaemia (Normal vs Ischaemia):
+[2026-01-30 12:40:13] --------------------------------------------------------------------------------
+[2026-01-30 12:40:13] 
+  Depth 3mm (Top 10):
+[2026-01-30 12:40:13]     IR_Fall_Time                                  | AUC: 1.0000 (1.0000-1.0000) | Sens: 1.000 | Spec: 1.000
+[2026-01-30 12:40:13]     IR_Upslope                                    | AUC: 0.9867 (0.9630-1.0000) | Sens: 0.967 | Spec: 0.933
+[2026-01-30 12:40:13]     IR_Pulse_Width                                | AUC: 0.9822 (0.9497-1.0000) | Sens: 0.933 | Spec: 0.967
+[2026-01-30 12:40:13]     IR_Diastolic_Width                            | AUC: 0.9817 (0.9505-1.0000) | Sens: 0.900 | Spec: 0.967
+[2026-01-30 12:40:13]     IR_Systolic_Width                             | AUC: 0.9794 (0.9429-1.0000) | Sens: 0.933 | Spec: 0.967
+[2026-01-30 12:40:13]     IR_Downslope_Length                           | AUC: 0.9211 (0.8203-0.9919) | Sens: 0.867 | Spec: 1.000
+[2026-01-30 12:40:13]     IR_SDPPG_e_a                                  | AUC: 0.9167 (0.8350-0.9733) | Sens: 0.800 | Spec: 0.900
+[2026-01-30 12:40:13]     Red_Length_Height_Ratio                       | AUC: 0.9078 (0.8240-0.9766) | Sens: 0.800 | Spec: 0.967
+[2026-01-30 12:40:13]     IR_PW50                                       | AUC: 0.8889 (0.7840-0.9689) | Sens: 0.967 | Spec: 0.833
+[2026-01-30 12:40:13]     IR_Downslope_Length_Ratio                     | AUC: 0.8867 (0.7778-0.9688) | Sens: 0.833 | Spec: 0.933
+[2026-01-30 12:40:13] 
+  Depth 9mm (Top 10):
+[2026-01-30 12:40:13]     IR_Fall_Time                                  | AUC: 0.9355 (nan-nan) | Sens: 0.938 | Spec: 0.969
+[2026-01-30 12:40:13]     IR_Upslope                                    | AUC: 0.9131 (nan-nan) | Sens: 0.812 | Spec: 0.969
+[2026-01-30 12:40:13]     IR_SDPPG_c_a                                  | AUC: 0.9121 (nan-nan) | Sens: 0.812 | Spec: 0.969
+[2026-01-30 12:40:13]     IR_Downslope_Length                           | AUC: 0.9082 (nan-nan) | Sens: 0.906 | Spec: 0.938
+[2026-01-30 12:40:13]     IR_Downslope_Length_Ratio                     | AUC: 0.9043 (nan-nan) | Sens: 0.875 | Spec: 0.938
+[2026-01-30 12:40:13]     IR_SDPPG_e_a                                  | AUC: 0.8887 (nan-nan) | Sens: 0.844 | Spec: 0.875
+[2026-01-30 12:40:13]     IR_Length_Height_Ratio                        | AUC: 0.8760 (nan-nan) | Sens: 0.750 | Spec: 0.969
+[2026-01-30 12:40:13]     IR_IPAR                                       | AUC: 0.8467 (nan-nan) | Sens: 0.781 | Spec: 0.906
+[2026-01-30 12:40:13]     IR_Datum_Area_Ratio                           | AUC: 0.6641 (nan-nan) | Sens: 0.344 | Spec: 0.969
+[2026-01-30 12:40:13]     IR_Width_Ratio                                | AUC: 0.6382 (nan-nan) | Sens: 0.719 | Spec: 0.531
+[2026-01-30 12:40:13] 
+  Depth 15mm (Top 10):
+[2026-01-30 12:40:13]     IR_Downslope_Length                           | AUC: 0.9720 (nan-nan) | Sens: 0.900 | Spec: 0.935
+[2026-01-30 12:40:13]     IR_Length_Height_Ratio                        | AUC: 0.9581 (nan-nan) | Sens: 0.900 | Spec: 0.935
+[2026-01-30 12:40:13]     IR_Downslope_Length_Ratio                     | AUC: 0.9247 (nan-nan) | Sens: 0.867 | Spec: 0.903
+[2026-01-30 12:40:13]     IR_SDPPG_e_a                                  | AUC: 0.8871 (nan-nan) | Sens: 0.800 | Spec: 0.839
+[2026-01-30 12:40:13]     IR_SDPPG_c_a                                  | AUC: 0.8452 (nan-nan) | Sens: 0.933 | Spec: 0.645
+[2026-01-30 12:40:13]     IR_Fall_Time                                  | AUC: 0.7747 (nan-nan) | Sens: 0.600 | Spec: 1.000
+[2026-01-30 12:40:13]     IR_Upslope                                    | AUC: 0.7656 (nan-nan) | Sens: 0.733 | Spec: 0.806
+[2026-01-30 12:40:13]     IR_Skewness                                   | AUC: 0.6774 (nan-nan) | Sens: 0.533 | Spec: 0.903
+[2026-01-30 12:40:13]     IR_Pulse_Width                                | AUC: 0.6640 (nan-nan) | Sens: 0.467 | Spec: 0.903
+[2026-01-30 12:40:13]     IR_Systolic_Width                             | AUC: 0.6634 (nan-nan) | Sens: 0.433 | Spec: 0.935
+[2026-01-30 12:40:13] 
+Congestion (Normal vs Congestion):
+[2026-01-30 12:40:13] --------------------------------------------------------------------------------
+[2026-01-30 12:40:13] 
+  Depth 3mm (Top 10):
+[2026-01-30 12:40:13]     Combined_PI_Ratio                             | AUC: 1.0000 (nan-nan) | Sens: 1.000 | Spec: 1.000
+[2026-01-30 12:40:13]     Combined_Amplitude_Ratio                      | AUC: 1.0000 (nan-nan) | Sens: 1.000 | Spec: 1.000
+[2026-01-30 12:40:13]     Combined_Delta_A_Ratio                        | AUC: 1.0000 (nan-nan) | Sens: 1.000 | Spec: 1.000
+[2026-01-30 12:40:13]     IR_DNP                                        | AUC: 0.9957 (nan-nan) | Sens: 0.935 | Spec: 1.000
+[2026-01-30 12:40:13]     IR_RWI                                        | AUC: 0.9957 (nan-nan) | Sens: 0.935 | Spec: 1.000
+[2026-01-30 12:40:13]     IR_SDPPG_e_a                                  | AUC: 0.9871 (nan-nan) | Sens: 0.903 | Spec: 1.000
+[2026-01-30 12:40:13]     IR_Rise_Decay_Time_Ratio                      | AUC: 0.9516 (nan-nan) | Sens: 0.839 | Spec: 1.000
+[2026-01-30 12:40:13]     IR_Variance                                   | AUC: 0.9366 (nan-nan) | Sens: 0.935 | Spec: 1.000
+[2026-01-30 12:40:13]     IR_Length_Height_Ratio                        | AUC: 0.9032 (nan-nan) | Sens: 0.839 | Spec: 1.000
+[2026-01-30 12:40:13]     IR_Rise_Time                                  | AUC: 0.8968 (nan-nan) | Sens: 0.871 | Spec: 0.900
+[2026-01-30 12:40:13] 
+  Depth 9mm (Top 10):
+[2026-01-30 12:40:13]     IR_Rise_Decay_Time_Ratio                      | AUC: 0.6558 (nan-nan) | Sens: 0.625 | Spec: 0.719
+[2026-01-30 12:40:13]     IR_AUC_Ratio                                  | AUC: 0.6162 (nan-nan) | Sens: 0.594 | Spec: 0.656
+[2026-01-30 12:40:13]     IR_DNP                                        | AUC: 0.6104 (nan-nan) | Sens: 0.312 | Spec: 0.938
+[2026-01-30 12:40:13]     IR_RWI                                        | AUC: 0.6094 (nan-nan) | Sens: 0.344 | Spec: 0.906
+[2026-01-30 12:40:13]     IR_Datum_Area_Ratio                           | AUC: 0.5947 (nan-nan) | Sens: 0.312 | Spec: 0.875
+[2026-01-30 12:40:13]     IR_Slope_Length_Ratio                         | AUC: 0.5859 (nan-nan) | Sens: 0.875 | Spec: 0.312
+[2026-01-30 12:40:13]     IR_Upslope_Length_Ratio                       | AUC: 0.5859 (nan-nan) | Sens: 0.875 | Spec: 0.312
+[2026-01-30 12:40:13]     IR_Rise_Time                                  | AUC: 0.5845 (nan-nan) | Sens: 0.656 | Spec: 0.594
+[2026-01-30 12:40:13]     IR_SDPPG_e_a                                  | AUC: 0.5801 (nan-nan) | Sens: 0.938 | Spec: 0.250
+[2026-01-30 12:40:13]     IR_SDPPG_c_a                                  | AUC: 0.5752 (nan-nan) | Sens: 0.281 | Spec: 0.875
+[2026-01-30 12:40:13] 
+  Depth 15mm (Top 10):
+[2026-01-30 12:40:13]     IR_SDPPG_e_a                                  | AUC: 0.7659 (nan-nan) | Sens: 0.581 | Spec: 0.935
+[2026-01-30 12:40:13]     IR_Downslope_Length                           | AUC: 0.7014 (nan-nan) | Sens: 0.774 | Spec: 0.613
+[2026-01-30 12:40:13]     IR_Downslope_Length_Ratio                     | AUC: 0.6826 (nan-nan) | Sens: 0.355 | Spec: 0.968
+[2026-01-30 12:40:13]     IR_Rise_Time                                  | AUC: 0.6681 (nan-nan) | Sens: 0.581 | Spec: 0.806
+[2026-01-30 12:40:13]     IR_Rise_Decay_Time_Ratio                      | AUC: 0.6660 (nan-nan) | Sens: 0.710 | Spec: 0.710
+[2026-01-30 12:40:13]     IR_Length_Height_Ratio                        | AUC: 0.6618 (nan-nan) | Sens: 0.419 | Spec: 0.935
+[2026-01-30 12:40:13]     IR_SDPPG_c_a                                  | AUC: 0.6368 (nan-nan) | Sens: 0.548 | Spec: 0.774
+[2026-01-30 12:40:13]     IR_AUC_Ratio                                  | AUC: 0.5640 (nan-nan) | Sens: 0.645 | Spec: 0.645
+[2026-01-30 12:40:13]     IR_Kurtosis                                   | AUC: 0.5525 (nan-nan) | Sens: 0.419 | Spec: 0.871
+[2026-01-30 12:40:13]     IR_SDPPG_b_a                                  | AUC: 0.5442 (nan-nan) | Sens: 0.355 | Spec: 0.871
+[2026-01-30 12:40:13] 
+✓ Saved Ischaemia results: diagnostic_performance_results/diagnostic_performance_Ischaemia.csv (158 features)
+[2026-01-30 12:40:13] 
+✓ Saved Congestion results: diagnostic_performance_results/diagnostic_performance_Congestion.csv (159 features)
+[2026-01-30 12:40:13] ✓ Saved ranking: diagnostic_performance_results/ranking_table_Ischaemia_3mm.csv
+[2026-01-30 12:40:13] ✓ Saved ranking: diagnostic_performance_results/ranking_table_Ischaemia_9mm.csv
+[2026-01-30 12:40:13] ✓ Saved ranking: diagnostic_performance_results/ranking_table_Ischaemia_15mm.csv
+[2026-01-30 12:40:13] ✓ Saved ranking: diagnostic_performance_results/ranking_table_Congestion_3mm.csv
+[2026-01-30 12:40:13] ✓ Saved ranking: diagnostic_performance_results/ranking_table_Congestion_9mm.csv
+[2026-01-30 12:40:13] ✓ Saved ranking: diagnostic_performance_results/ranking_table_Congestion_15mm.csv
+[2026-01-30 12:40:13] 
+================================================================================
+[2026-01-30 12:40:13] ✓ ANALYSIS COMPLETE
+[2026-01-30 12:40:13] ✓ Check diagnostic_performance_results/error_details.txt for detailed error messages
+[2026-01-30 12:40:13] ================================================================================

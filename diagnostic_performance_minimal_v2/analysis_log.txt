@@ -1,0 +1,8 @@
+[2026-01-25 12:26:30] START ANALYSIS (MINIMAL OUTPUT MODE V2)
+[2026-01-25 12:26:30] Processed Red in Normal: 30 pulses
+[2026-01-25 12:26:30] Processed IR in Normal: 30 pulses
+[2026-01-25 12:26:30] Processed Red in Ischaemia: 30 pulses
+[2026-01-25 12:26:30] Processed IR in Ischaemia: 30 pulses
+[2026-01-25 12:26:31] Processed Red in Congestion: 31 pulses
+[2026-01-25 12:26:31] Processed IR in Congestion: 31 pulses
+[2026-01-25 12:26:31] ANALYSIS COMPLETE

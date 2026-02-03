@@ -1,0 +1,25 @@
+Depth,State,Channel,SNR,PI (%)
+3,Normal,Red,15.33,0.0573
+3,Normal,IR,18.78,0.0992
+3,Ischaemia,Red,11.26,0.0346
+3,Ischaemia,IR,17.36,0.0729
+3,Congestion,Red,15.15,0.0833
+3,Congestion,IR,19.59,0.0741
+9,Normal,Red,6.7,0.0246
+9,Normal,IR,17.93,0.0406
+9,Ischaemia,Red,3.71,0.0194
+9,Ischaemia,IR,14.92,0.0281
+9,Congestion,Red,7.91,0.0251
+9,Congestion,IR,17.96,0.0397
+15,Normal,Red,4.36,0.0212
+15,Normal,IR,15.44,0.0262
+15,Ischaemia,Red,1.33,0.0197
+15,Ischaemia,IR,11.0,0.0213
+15,Congestion,Red,1.51,0.024
+15,Congestion,IR,14.71,0.0272
+21,Normal,Red,3.42,0.0201
+21,Normal,IR,11.17,0.0238
+21,Ischaemia,Red,1.78,0.0233
+21,Ischaemia,IR,6.01,0.0316
+21,Congestion,Red,3.2,0.023
+21,Congestion,IR,12.75,0.0217

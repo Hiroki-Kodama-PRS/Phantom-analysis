@@ -1,0 +1,11 @@
+Feature,Comparison,N_Normal,N_Disease,AUC,CI_Lower,CI_Upper,Optimal_Threshold,Sensitivity,Specificity,PPV,NPV,Accuracy,F1_Score,Youden_J,LR_Positive,LR_Negative,TP,TN,FP,FN,Is_Inverse,Depth,Source,Category,Clean_Feature,Display_Name
+S_AUC,Ischaemia,30,30,1.0,1.0,1.0,0.122443,1.0,1.0,1.0,1.0,1.0,1.0,1.0,,0.0,30,30,0,0,True,15,IR,Area,S_AUC,S_AUC
+End_Datum_Area,Ischaemia,30,30,0.978889,0.932473,1.0,0.057888,1.0,0.966667,0.967742,1.0,0.983333,0.983607,0.966667,30.0,0.0,30,29,1,0,True,15,IR,Area,End_Datum_Area,End_Datum_Area
+AUC,Ischaemia,30,30,0.967778,0.893502,1.0,0.641009,1.0,0.966667,0.967742,1.0,0.983333,0.983607,0.966667,30.0,0.0,30,29,1,0,True,15,IR,Area,AUC,AUC
+AC_Component,Ischaemia,30,30,0.966667,0.892857,1.0,0.00063,1.0,0.966667,0.967742,1.0,0.983333,0.983607,0.966667,30.0,0.0,30,29,1,0,True,15,IR,Intensity,AC_Component,AC_Component
+Amplitude,Ischaemia,30,30,0.966667,0.892857,1.0,0.00063,1.0,0.966667,0.967742,1.0,0.983333,0.983607,0.966667,30.0,0.0,30,29,1,0,True,15,IR,Intensity,Amplitude,Amplitude
+D_AUC,Ischaemia,30,30,0.966667,0.892857,1.0,0.535676,1.0,0.966667,0.967742,1.0,0.983333,0.983607,0.966667,30.0,0.0,30,29,1,0,True,15,IR,Area,D_AUC,D_AUC
+Max_Start_Datum_Diff,Ischaemia,30,30,0.966667,0.892857,1.0,0.00061,1.0,0.966667,0.967742,1.0,0.983333,0.983607,0.966667,30.0,0.0,30,29,1,0,True,15,IR,Area,Max_Start_Datum_Diff,Max_Start_Datum_Diff
+PI,Ischaemia,30,30,0.966667,0.892857,1.0,0.026883,1.0,0.966667,0.967742,1.0,0.983333,0.983607,0.966667,30.0,0.0,30,29,1,0,True,15,IR,Intensity,PI,PI
+Start_Datum_Area,Ischaemia,30,30,0.966667,0.892857,1.0,0.188882,1.0,0.966667,0.967742,1.0,0.983333,0.983607,0.966667,30.0,0.0,30,29,1,0,True,15,IR,Area,Start_Datum_Area,Start_Datum_Area
+Downslope_Length,Ischaemia,30,30,0.954444,0.90099,0.990004,1.328024,0.8,0.966667,0.96,0.828571,0.883333,0.872727,0.766667,24.0,0.206897,24,29,1,6,False,15,IR,Slope,Downslope_Length,Downslope_Length

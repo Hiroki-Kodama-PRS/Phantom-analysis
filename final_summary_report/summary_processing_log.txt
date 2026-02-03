@@ -1,0 +1,7 @@
+[2026-01-25 14:04:46] MASTER SUMMARY GENERATION START
+[2026-01-25 14:04:46] Compiled 30 synchronized pulses for Normal
+[2026-01-25 14:04:46] Compiled 30 synchronized pulses for Ischaemia
+[2026-01-25 14:04:46] Compiled 31 synchronized pulses for Congestion
+[2026-01-25 14:04:46] Successfully created: final_summary_report/master_pulse_features.csv
+[2026-01-25 14:04:46] Total features per pulse: 45
+[2026-01-25 14:04:46] MASTER SUMMARY GENERATION COMPLETE

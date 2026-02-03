@@ -1,0 +1,34 @@
+[2026-01-25 13:06:40] ULTIMATE PPG ANALYSIS START
+[2026-01-25 13:06:40] Feature: Red_PI
+[2026-01-25 13:06:40]   Normal: Mean=0.1118, Std=0.0082
+[2026-01-25 13:06:40]   Ischaemia: Mean=0.0656, Std=0.0043
+[2026-01-25 13:06:40]   Congestion: Mean=0.1057, Std=0.0089
+[2026-01-25 13:06:40] Feature: IR_PI
+[2026-01-25 13:06:40]   Normal: Mean=0.2409, Std=0.0034
+[2026-01-25 13:06:40]   Ischaemia: Mean=0.1522, Std=0.0037
+[2026-01-25 13:06:40]   Congestion: Mean=0.1510, Std=0.0071
+[2026-01-25 13:06:40] Feature: Red_b_a
+[2026-01-25 13:06:40]   Normal: Mean=-0.9995, Std=0.1726
+[2026-01-25 13:06:40]   Ischaemia: Mean=-0.9858, Std=0.1643
+[2026-01-25 13:06:40]   Congestion: Mean=-1.0535, Std=0.1983
+[2026-01-25 13:06:40] Feature: Red_Rise_Decay_Ratio
+[2026-01-25 13:06:40]   Normal: Mean=0.2518, Std=0.0811
+[2026-01-25 13:06:40]   Ischaemia: Mean=0.2586, Std=0.1082
+[2026-01-25 13:06:40]   Congestion: Mean=0.2495, Std=0.0786
+[2026-01-25 13:06:40] Feature: Red_PI_Ratio
+[2026-01-25 13:06:40]   Normal: Mean=0.4641, Std=0.0332
+[2026-01-25 13:06:40]   Ischaemia: Mean=0.4312, Std=0.0284
+[2026-01-25 13:06:40]   Congestion: Mean=0.7020, Std=0.0755
+[2026-01-25 13:06:40] Feature: Red_Delta_A_Ratio
+[2026-01-25 13:06:40]   Normal: Mean=0.4641, Std=0.0332
+[2026-01-25 13:06:40]   Ischaemia: Mean=0.4312, Std=0.0284
+[2026-01-25 13:06:40]   Congestion: Mean=0.7020, Std=0.0755
+[2026-01-25 13:06:40] Feature: Red_Skewness
+[2026-01-25 13:06:40]   Normal: Mean=-0.2226, Std=0.1204
+[2026-01-25 13:06:40]   Ischaemia: Mean=-0.1552, Std=0.1611
+[2026-01-25 13:06:40]   Congestion: Mean=-0.2666, Std=0.1185
+[2026-01-25 13:06:40] Feature: Red_Kurtosis
+[2026-01-25 13:06:40]   Normal: Mean=-1.2733, Std=0.1599
+[2026-01-25 13:06:40]   Ischaemia: Mean=-1.2031, Std=0.2433
+[2026-01-25 13:06:40]   Congestion: Mean=-1.2327, Std=0.3008
+[2026-01-25 13:06:41] FINAL ANALYSIS COMPLETE
